@@ -1,0 +1,47 @@
+2025-08-29 17:08:25 | INFO     | modules.recording:test_microphone:333 - 开始测试麦克风，录音2.0秒...
+2025-08-29 17:08:25 | ERROR    | modules.recording:test_microphone:365 - 麦克风测试失败: Error querying device -1
+2025-08-29 17:08:25 | INFO     | modules.audio_player:test_speaker:249 - 开始测试扬声器，播放440.0Hz正弦波2.0秒...
+2025-08-29 17:08:25 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 2.00秒
+2025-08-29 17:08:25 | ERROR    | modules.audio_player:_play_blocking:137 - 阻塞式播放失败: Error querying device -1
+2025-08-29 17:08:25 | ERROR    | modules.audio_player:test_speaker:261 - 扬声器测试失败
+2025-08-29 17:08:25 | WARNING  | modules.audio_player:stop_playing:199 - 当前没有音频在播放
+2025-08-29 17:08:25 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-08-29 17:08:25 | ERROR    | modules.recording:record_with_vad:288 - VAD录音失败: Error querying device -1
+2025-08-29 17:08:25 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-08-29 17:08:25 | ERROR    | modules.recording:record_with_vad:288 - VAD录音失败: Error querying device -1
+2025-08-29 17:08:25 | INFO     | modules.llm:_load_model:23 - 正在加载LLM模型...
+2025-08-29 17:08:25 | ERROR    | modules.llm:_load_model:58 - LLM模型加载失败: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '../model/Qwen3-4B-Instruct-2507/Qwen/Qwen3-4B-Instruct-2507'. Use `repo_type` argument if needed.
+2025-08-29 17:08:25 | INFO     | modules.tts:_load_model:25 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-29 17:14:15 | ERROR    | modules.tts:_load_model:37 - TTS模型加载失败: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL TTS.tts.configs.xtts_config.XttsConfig was not an allowed global by default. Please use `torch.serialization.add_safe_globals([TTS.tts.configs.xtts_config.XttsConfig])` or the `torch.serialization.safe_globals([TTS.tts.configs.xtts_config.XttsConfig])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.
+2025-08-29 19:28:17 | INFO     | modules.recording:test_microphone:333 - 开始测试麦克风，录音2.0秒...
+2025-08-29 19:28:17 | ERROR    | modules.recording:test_microphone:365 - 麦克风测试失败: Error querying device -1
+2025-08-29 19:28:17 | INFO     | modules.audio_player:test_speaker:249 - 开始测试扬声器，播放440.0Hz正弦波2.0秒...
+2025-08-29 19:28:17 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 2.00秒
+2025-08-29 19:28:17 | ERROR    | modules.audio_player:_play_blocking:137 - 阻塞式播放失败: Error querying device -1
+2025-08-29 19:28:17 | ERROR    | modules.audio_player:test_speaker:261 - 扬声器测试失败
+2025-08-29 19:28:17 | WARNING  | modules.audio_player:stop_playing:199 - 当前没有音频在播放
+2025-08-29 19:28:17 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-08-29 19:28:17 | ERROR    | modules.recording:record_with_vad:288 - VAD录音失败: Error querying device -1
+2025-08-29 19:28:17 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-08-29 19:28:17 | ERROR    | modules.recording:record_with_vad:288 - VAD录音失败: Error querying device -1
+2025-08-29 19:28:17 | INFO     | modules.llm:_load_model:23 - 正在加载LLM模型...
+2025-08-29 19:28:17 | ERROR    | modules.llm:_load_model:58 - LLM模型加载失败: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '../model/Qwen3-4B-Instruct-2507/Qwen/Qwen3-4B-Instruct-2507'. Use `repo_type` argument if needed.
+2025-08-29 19:28:17 | INFO     | modules.tts:_load_model:25 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-29 19:28:28 | ERROR    | modules.tts:_load_model:37 - TTS模型加载失败: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL TTS.tts.configs.xtts_config.XttsConfig was not an allowed global by default. Please use `torch.serialization.add_safe_globals([TTS.tts.configs.xtts_config.XttsConfig])` or the `torch.serialization.safe_globals([TTS.tts.configs.xtts_config.XttsConfig])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.
+2025-08-29 19:36:43 | INFO     | modules.recording:test_microphone:333 - 开始测试麦克风，录音2.0秒...
+2025-08-29 19:36:43 | ERROR    | modules.recording:test_microphone:365 - 麦克风测试失败: Error querying device -1
+2025-08-29 19:36:43 | INFO     | modules.audio_player:test_speaker:249 - 开始测试扬声器，播放440.0Hz正弦波2.0秒...
+2025-08-29 19:36:43 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 2.00秒
+2025-08-29 19:36:43 | ERROR    | modules.audio_player:_play_blocking:137 - 阻塞式播放失败: Error querying device -1
+2025-08-29 19:36:43 | ERROR    | modules.audio_player:test_speaker:261 - 扬声器测试失败
+2025-08-29 19:36:43 | WARNING  | modules.audio_player:stop_playing:199 - 当前没有音频在播放
