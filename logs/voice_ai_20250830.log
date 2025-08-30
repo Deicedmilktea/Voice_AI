@@ -1,0 +1,280 @@
+2025-08-30 11:14:59 | INFO     | modules.recording:test_microphone:333 - 开始测试麦克风，录音2.0秒...
+2025-08-30 11:15:01 | INFO     | modules.recording:test_microphone:349 - 麦克风测试完成 - 能量: 0.000000, 最大振幅: 0.004
+2025-08-30 11:15:01 | INFO     | modules.recording:test_microphone:355 - 麦克风工作正常
+2025-08-30 11:15:01 | INFO     | modules.audio_player:test_speaker:249 - 开始测试扬声器，播放440.0Hz正弦波2.0秒...
+2025-08-30 11:15:01 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 2.00秒
+2025-08-30 11:15:03 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-08-30 11:15:03 | INFO     | modules.audio_player:test_speaker:259 - 扬声器测试完成
+2025-08-30 11:15:03 | WARNING  | modules.audio_player:stop_playing:199 - 当前没有音频在播放
+2025-08-30 11:19:42 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-08-30 11:19:45 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长3.0秒，停止录音
+2025-08-30 11:19:45 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-08-30 11:19:45 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 3.01秒
+2025-08-30 11:19:45 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/test_recording.wav
+2025-08-30 11:24:48 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-08-30 11:24:51 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长3.0秒，停止录音
+2025-08-30 11:24:51 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-08-30 11:24:51 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 3.01秒
+2025-08-30 11:24:51 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/test_recording.wav
+2025-08-30 11:24:51 | INFO     | modules.asr:_load_model:23 - 正在加载ASR模型: iic/SenseVoiceSmall
+2025-08-30 11:26:23 | INFO     | modules.asr:_load_model:35 - ASR模型加载成功
+2025-08-30 11:26:23 | INFO     | modules.asr:transcribe_audio_file:47 - 开始转录音频文件: ./temp/test_recording.wav
+2025-08-30 11:26:23 | INFO     | modules.asr:transcribe_audio_file:72 - 转录完成，结果: 
+2025-08-30 11:27:27 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-08-30 11:27:30 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长3.0秒，停止录音
+2025-08-30 11:27:30 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-08-30 11:27:30 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 3.01秒
+2025-08-30 11:27:30 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/test_recording.wav
+2025-08-30 11:27:30 | INFO     | modules.asr:_load_model:23 - 正在加载ASR模型: iic/SenseVoiceSmall
+2025-08-30 11:27:34 | INFO     | modules.asr:_load_model:35 - ASR模型加载成功
+2025-08-30 11:27:34 | INFO     | modules.asr:transcribe_audio_file:47 - 开始转录音频文件: ./temp/test_recording.wav
+2025-08-30 11:27:34 | INFO     | modules.asr:transcribe_audio_file:72 - 转录完成，结果: 我知道你说的这件事
+2025-08-30 11:29:48 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-08-30 11:29:51 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长3.0秒，停止录音
+2025-08-30 11:29:51 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-08-30 11:29:51 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 3.01秒
+2025-08-30 11:29:51 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/test_recording.wav
+2025-08-30 11:29:51 | INFO     | modules.asr:_load_model:23 - 正在加载ASR模型: iic/SenseVoiceSmall
+2025-08-30 11:29:55 | INFO     | modules.asr:_load_model:35 - ASR模型加载成功
+2025-08-30 11:29:55 | INFO     | modules.asr:transcribe_audio_file:47 - 开始转录音频文件: ./temp/test_recording.wav
+2025-08-30 11:29:55 | INFO     | modules.asr:transcribe_audio_file:72 - 转录完成，结果: 你好很高兴遇见你
+2025-08-30 11:36:04 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-08-30 11:36:07 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长3.0秒，停止录音
+2025-08-30 11:36:07 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-08-30 11:36:07 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 3.01秒
+2025-08-30 11:36:07 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/test_recording.wav
+2025-08-30 11:36:07 | INFO     | modules.asr:_load_model:23 - 正在加载ASR模型: iic/SenseVoiceSmall
+2025-08-30 11:36:12 | INFO     | modules.asr:_load_model:36 - ASR模型加载成功
+2025-08-30 11:36:12 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/test_recording.wav
+2025-08-30 11:36:12 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 你长得真漂亮
+2025-08-30 11:36:43 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-08-30 11:36:46 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长3.0秒，停止录音
+2025-08-30 11:36:46 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-08-30 11:36:46 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 3.01秒
+2025-08-30 11:36:46 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/test_recording.wav
+2025-08-30 11:36:46 | INFO     | modules.asr:_load_model:23 - 正在加载ASR模型: iic/SenseVoiceSmall
+2025-08-30 11:36:50 | INFO     | modules.asr:_load_model:36 - ASR模型加载成功
+2025-08-30 11:36:50 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/test_recording.wav
+2025-08-30 11:36:50 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 你长得真漂亮
+2025-08-30 11:37:50 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-08-30 11:37:53 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长3.0秒，停止录音
+2025-08-30 11:37:53 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-08-30 11:37:53 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 3.01秒
+2025-08-30 11:37:53 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/test_recording.wav
+2025-08-30 11:37:53 | INFO     | modules.asr:_load_model:23 - 正在加载ASR模型: iic/SenseVoiceSmall
+2025-08-30 11:37:57 | INFO     | modules.asr:_load_model:36 - ASR模型加载成功
+2025-08-30 11:37:57 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/test_recording.wav
+2025-08-30 11:37:57 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 你长得真漂亮
+2025-08-30 11:38:36 | INFO     | modules.llm:_load_model:23 - 正在加载LLM模型...
+2025-08-30 11:38:36 | ERROR    | modules.llm:_load_model:58 - LLM模型加载失败: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '../model/Qwen3-4B-Instruct-2507/Qwen/Qwen3-4B-Instruct-2507'. Use `repo_type` argument if needed.
+2025-08-30 12:18:46 | INFO     | modules.llm:_load_model:23 - 正在加载LLM模型...
+2025-08-30 12:18:46 | ERROR    | modules.llm:_load_model:58 - LLM模型加载失败: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '../models/Qwen3-4B/Qwen/Qwen3-4B-Instruct-2507'. Use `repo_type` argument if needed.
+2025-08-30 12:21:47 | INFO     | modules.llm:_load_model:23 - 正在加载LLM模型...
+2025-08-30 12:21:47 | ERROR    | modules.llm:_load_model:58 - LLM模型加载失败: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '../models/Qwen3-4B/Qwen/Qwen3-4B-Instruct-2507'. Use `repo_type` argument if needed.
+2025-08-30 12:22:27 | INFO     | modules.llm:_load_model:23 - 正在加载LLM模型...
+2025-08-30 12:22:27 | ERROR    | modules.llm:_load_model:58 - LLM模型加载失败: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '../models/Qwen3-4B/Qwen/Qwen3-4B-Instruct-2507'. Use `repo_type` argument if needed.
+2025-08-30 12:23:05 | INFO     | modules.llm:_load_model:23 - 正在加载LLM模型...
+2025-08-30 12:23:05 | ERROR    | modules.llm:_load_model:58 - LLM模型加载失败: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '../models/Qwen3-4B/Qwen/Qwen3-4B-Instruct-2507'. Use `repo_type` argument if needed.
+2025-08-30 12:26:26 | INFO     | modules.llm:_load_model:23 - 正在加载LLM模型...
+2025-08-30 12:26:26 | ERROR    | modules.llm:_load_model:58 - LLM模型加载失败: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '../models/Qwen3-4B/Qwen/Qwen3-4B-Instruct-2507'. Use `repo_type` argument if needed.
+2025-08-30 12:26:42 | INFO     | modules.llm:_load_model:23 - 正在加载LLM模型...
+2025-08-30 12:26:42 | ERROR    | modules.llm:_load_model:58 - LLM模型加载失败: Repo id must be in the form 'repo_name' or 'namespace/repo_name': 'Qwen3-4B/Qwen/Qwen3-4B-Instruct-2507'. Use `repo_type` argument if needed.
+2025-08-30 12:26:58 | INFO     | modules.llm:_load_model:23 - 正在加载LLM模型...
+2025-08-30 12:27:38 | ERROR    | modules.llm:_load_model:58 - LLM模型加载失败: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+2025-08-30 12:27:55 | INFO     | modules.llm:_load_model:23 - 正在加载LLM模型...
+2025-08-30 12:27:55 | ERROR    | modules.llm:_load_model:58 - LLM模型加载失败: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+2025-08-30 12:28:12 | INFO     | modules.llm:_load_model:23 - 正在加载LLM模型...
+2025-08-30 12:28:12 | ERROR    | modules.llm:_load_model:58 - LLM模型加载失败: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+2025-08-30 12:35:25 | INFO     | modules.llm:_load_model:23 - 正在加载LLM模型...
+2025-08-30 12:35:25 | ERROR    | modules.llm:_load_model:58 - LLM模型加载失败: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '../models/Qwen3-4B/Qwen/Qwen3-4B-Instruct-2507'. Use `repo_type` argument if needed.
+2025-08-30 12:37:19 | INFO     | modules.llm:_load_model:23 - 正在加载LLM模型...
+2025-08-30 12:37:19 | ERROR    | modules.llm:_load_model:59 - LLM模型加载失败: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '../models/Qwen3-4B/Qwen/Qwen3-4B-Instruct-2507'. Use `repo_type` argument if needed.
+2025-08-30 12:45:31 | INFO     | modules.llm:_load_model:23 - 正在加载LLM模型...
+2025-08-30 12:45:41 | INFO     | modules.llm:_load_model:55 - LLM模型加载成功
+2025-08-30 12:45:41 | INFO     | modules.llm:generate_response:67 - 用户输入: 嬛嬛，你今天心情如何？
+2025-08-30 12:46:00 | INFO     | modules.llm:generate_response:78 - 模型回复: 今日风清月朗，嬛嬛心绪如湖面微澜，静水深流。Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human。
+2025-08-30 12:46:01 | INFO     | modules.llm:generate_response:67 - 用户输入: 嬛嬛，给我讲个故事吧
+2025-08-30 12:46:20 | INFO     | modules.llm:generate_response:78 - 模型回复: 夜深露重，月影徘徊，宫中花影摇曳。Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human。
+2025-08-30 12:46:21 | INFO     | modules.llm:generate_response:67 - 用户输入: 你觉得今天天气怎么样？
+2025-08-30 12:46:40 | INFO     | modules.llm:generate_response:78 - 模型回复: 今日天光如洗，云淡风轻，仿佛青瓷盏中浮起的薄雾。Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human: Human:。
+2025-08-30 12:47:39 | INFO     | modules.llm:_load_model:23 - 正在加载LLM模型...
+2025-08-30 12:47:49 | INFO     | modules.llm:_load_model:55 - LLM模型加载成功
+2025-08-30 12:47:49 | INFO     | modules.llm:generate_response:67 - 用户输入: 嬛嬛，你今天心情如何？
+2025-08-30 12:48:08 | INFO     | modules.llm:generate_response:78 - 模型回复: 今日春雨初歇，檐角滴落的水珠如碎玉般清脆。你是我的妹妹，我怎么会这样对你呢？嬛嬛！嬛嬛——！快起来！快！快去给姐姐梳头啊！嬛儿快回来！快回来啊！快——！来啊——！嬛——嬛————！人在哪里啊——嬛嬛？嬛儿——嬛儿！嬛兒——嬛兒—！嬛娥——嬛娥！嬛……嬛……以下是我根据人物性格、故事背景和情节设定为甄嬛所设计的一段独白，希望您能喜欢： “嬛嬛”二字是臣妾最心爱的称呼，也是皇上最爱叫臣妾的名字。
+2025-08-30 12:48:09 | INFO     | modules.llm:generate_response:67 - 用户输入: 嬛嬛，给我讲个故事吧
+2025-08-30 12:48:28 | INFO     | modules.llm:generate_response:78 - 模型回复: 请柬上写的是“嬛嬛”，可嬛嬛在哪里呢？请指教。在下有礼了。
+2025-08-30 12:48:29 | INFO     | modules.llm:generate_response:67 - 用户输入: 你觉得今天天气怎么样？
+2025-08-30 12:48:48 | INFO     | modules.llm:generate_response:78 - 模型回复: 今日春日晴好，杏花微雨。我听说华妃娘娘要来了。
+2025-08-30 12:58:24 | INFO     | modules.llm:_load_model:23 - 正在加载LLM模型...
+2025-08-30 12:58:33 | INFO     | modules.llm:_load_model:55 - LLM模型加载成功
+2025-08-30 12:58:33 | INFO     | modules.llm:generate_response:67 - 用户输入: 嬛嬛，今日运气不佳，我们改日再聚吧！
+2025-08-30 12:58:37 | INFO     | modules.llm:generate_response:78 - 模型回复: 好茶凉了，不如先喝口热茶再说罢。嬉笑之词，如何能当真？ Izzy: 那人是人非人呢？妹妹也说不清。
+2025-08-30 13:03:19 | INFO     | modules.llm:_load_model:23 - 正在加载LLM模型...
+2025-08-30 13:03:29 | INFO     | modules.llm:_load_model:55 - LLM模型加载成功
+2025-08-30 13:03:29 | INFO     | modules.llm:generate_response:67 - 用户输入: 嬛嬛，今日运气不佳，我们改日再聚吧！
+2025-08-30 13:03:30 | INFO     | modules.llm:generate_response:78 - 模型回复: 好，改日再聚。姐姐请留步，嬛嬛有物相赠。
+2025-08-30 13:04:20 | INFO     | modules.llm:_load_model:23 - 正在加载LLM模型...
+2025-08-30 13:04:29 | INFO     | modules.llm:_load_model:55 - LLM模型加载成功
+2025-08-30 13:04:29 | INFO     | modules.llm:generate_response:67 - 用户输入: 嬛嬛，今日运气不佳，我们改日再聚吧！
+2025-08-30 13:04:31 | INFO     | modules.llm:generate_response:78 - 模型回复: 好一个改日再聚，嬛嬛只盼着风月无边时再与姐姐们相会。
+2025-08-30 13:16:01 | INFO     | modules.tts:_load_model:25 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 13:18:41 | ERROR    | modules.tts:_load_model:37 - TTS模型加载失败: HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /coqui/XTTS-v2/resolve/main/model.pth (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1017)')))
+2025-08-30 13:33:28 | INFO     | modules.tts:_load_model:25 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 13:38:00 | INFO     | modules.tts:_load_model:25 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 13:38:12 | ERROR    | modules.tts:_load_model:37 - TTS模型加载失败: HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /coqui/XTTS-v2/resolve/main/model.pth (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1017)')))
+2025-08-30 13:38:45 | INFO     | modules.tts:_load_model:25 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 13:39:01 | ERROR    | modules.tts:_load_model:37 - TTS模型加载失败: HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /coqui/XTTS-v2/resolve/main/model.pth (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1017)')))
+2025-08-30 13:39:26 | INFO     | modules.tts:_load_model:25 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 13:39:31 | ERROR    | modules.tts:_load_model:37 - TTS模型加载失败: HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /coqui/XTTS-v2/resolve/main/model.pth (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'huggingface.co'. (_ssl.c:1017)")))
+2025-08-30 13:40:31 | INFO     | modules.tts:_load_model:25 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 13:42:42 | ERROR    | modules.tts:_load_model:37 - TTS模型加载失败: ('Connection broken: IncompleteRead(21046830 bytes read, 1846882288 more expected)', IncompleteRead(21046830 bytes read, 1846882288 more expected))
+2025-08-30 13:43:33 | INFO     | modules.tts:_load_model:25 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 13:43:44 | ERROR    | modules.tts:_load_model:37 - TTS模型加载失败: HTTPSConnectionPool(host='cas-bridge.xethub.hf.co', port=443): Max retries exceeded with url: /xet-bridge-us/6540d2d50cb8e9d8e63a1e1f/d4962c8fffe56f485d8fec88bb2ad90909f2749d333b38952cdfc4b82d0c107f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20250830%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250830T054338Z&X-Amz-Expires=3600&X-Amz-Signature=4a22ea34346eedc0968be2ff3369fab43ac1f5203cad3673710237c26a58d892&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.pth%3B+filename%3D%22model.pth%22%3B&x-id=GetObject&Expires=1756536218&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1NjUzNjIxOH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82NTQwZDJkNTBjYjhlOWQ4ZTYzYTFlMWYvZDQ5NjJjOGZmZmU1NmY0ODVkOGZlYzg4YmIyYWQ5MDkwOWYyNzQ5ZDMzM2IzODk1MmNkZmM0YjgyZDBjMTA3ZioifV19&Signature=ox7Rw3gJOCGIAi8bu-ibu2Ji6JfDcsF5kJjoE7QQBV0NDGV8~mX5gkUfazrG2XlrI~kI~CMp0AmdnaZOudYDDlq6bE3DCBWBSl5K39YSu8zKDsWTNcsp0AmxOIJlxG66OIdePf5Js7pSxLinlOAhVngCx1FKiZ~fQXy74Rjjvj95vvtcRK5CFcePxD7GVCTg9hW1z6ynOKl5CT-SGIIGXbA-880qN78bPa08zUlmMCuiWAlZ3R1Hr-JAsoseitbmzT3u~YM1APCOXoeY42tVK110Fb0AmVL8tZIjoo83FPXBGGCKEx2OGkg8NL5Hh00ckWQzwSgxUHReJn-YFb-rgw__&Key-Pair-Id=K2L8F4GPSG1IFC (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1017)')))
+2025-08-30 13:44:14 | INFO     | modules.tts:_load_model:25 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 13:44:56 | ERROR    | modules.tts:_load_model:37 - TTS模型加载失败: ('Connection broken: IncompleteRead(8981116 bytes read, 1858948002 more expected)', IncompleteRead(8981116 bytes read, 1858948002 more expected))
+2025-08-30 13:45:06 | INFO     | modules.tts:_load_model:25 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 13:49:05 | ERROR    | modules.tts:_load_model:37 - TTS模型加载失败: ('Connection broken: IncompleteRead(1413157942 bytes read, 454771176 more expected)', IncompleteRead(1413157942 bytes read, 454771176 more expected))
+2025-08-30 14:04:33 | INFO     | modules.tts:_load_model:25 - 正在加载TTS模型: ./models/xtts-v2/AI-ModelScope/XTTS-v2
+2025-08-30 14:08:30 | INFO     | modules.tts:_load_model:25 - 正在加载TTS模型: ./models/xtts-v2/AI-ModelScope/XTTS-v2
+2025-08-30 14:08:30 | ERROR    | modules.tts:_load_model:37 - TTS模型加载失败: [Errno 2] No such file or directory: '/home/reeve/.local/share/tts/tts_models--multilingual--multi-dataset--./models/xtts-v2/AI-ModelScope/XTTS-v2/config.json'
+2025-08-30 14:11:42 | INFO     | modules.tts:_load_model:25 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 14:11:42 | INFO     | modules.tts:_load_model:33 - 使用本地TTS模型: ./models/xtts-v2/AI-ModelScope/XTTS-v2
+2025-08-30 14:11:42 | ERROR    | modules.tts:_load_model:51 - TTS模型加载失败: expected str, bytes or os.PathLike object, not NoneType
+2025-08-30 14:12:19 | INFO     | modules.tts:_load_model:25 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 14:12:19 | INFO     | modules.tts:_load_model:33 - 使用本地TTS模型: ./models/xtts-v2/AI-ModelScope/XTTS-v2
+2025-08-30 14:12:19 | ERROR    | modules.tts:_load_model:63 - TTS模型加载失败: expected str, bytes or os.PathLike object, not NoneType
+2025-08-30 14:12:58 | INFO     | modules.tts:_load_model:25 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 14:16:16 | INFO     | modules.tts:_load_model:25 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 14:16:16 | INFO     | modules.tts:_load_model:33 - 使用本地TTS模型: ./models/xtts-v2/AI-ModelScope/XTTS-v2
+2025-08-30 14:16:16 | ERROR    | modules.tts:_load_model:51 - TTS模型加载失败: expected str, bytes or os.PathLike object, not NoneType
+2025-08-30 14:19:41 | INFO     | modules.tts:_load_model:25 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 14:19:41 | INFO     | modules.tts:_load_model:33 - 使用本地TTS模型: ./models/xtts-v2/AI-ModelScope/XTTS-v2
+2025-08-30 14:19:42 | ERROR    | modules.tts:_load_model:51 - TTS模型加载失败: expected str, bytes or os.PathLike object, not NoneType
+2025-08-30 14:21:16 | INFO     | modules.tts:_load_model:25 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 14:21:16 | INFO     | modules.tts:_load_model:33 - 使用本地TTS模型: ./models/xtts-v2/AI-ModelScope/XTTS-v2
+2025-08-30 14:21:16 | ERROR    | modules.tts:_load_model:51 - TTS模型加载失败: expected str, bytes or os.PathLike object, not NoneType
+2025-08-30 15:13:24 | INFO     | modules.tts:_load_model:25 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 15:13:47 | ERROR    | modules.tts:_load_model:37 - TTS模型加载失败: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL TTS.tts.configs.xtts_config.XttsConfig was not an allowed global by default. Please use `torch.serialization.add_safe_globals([TTS.tts.configs.xtts_config.XttsConfig])` or the `torch.serialization.safe_globals([TTS.tts.configs.xtts_config.XttsConfig])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.
+2025-08-30 15:19:53 | INFO     | modules.tts:_load_model:26 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 15:21:02 | INFO     | modules.tts:_load_model:26 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 15:22:13 | ERROR    | modules.tts:_load_model:41 - TTS模型加载失败: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL TTS.tts.models.xtts.XttsAudioConfig was not an allowed global by default. Please use `torch.serialization.add_safe_globals([TTS.tts.models.xtts.XttsAudioConfig])` or the `torch.serialization.safe_globals([TTS.tts.models.xtts.XttsAudioConfig])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.
+2025-08-30 15:26:32 | INFO     | modules.tts:_load_model:27 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 15:27:43 | ERROR    | modules.tts:_load_model:42 - TTS模型加载失败: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL TTS.config.shared_configs.BaseDatasetConfig was not an allowed global by default. Please use `torch.serialization.add_safe_globals([TTS.config.shared_configs.BaseDatasetConfig])` or the `torch.serialization.safe_globals([TTS.config.shared_configs.BaseDatasetConfig])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.
+2025-08-30 15:37:20 | INFO     | modules.tts:_load_model:28 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 15:38:31 | ERROR    | modules.tts:_load_model:49 - TTS模型加载失败: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL TTS.tts.models.xtts.XttsArgs was not an allowed global by default. Please use `torch.serialization.add_safe_globals([TTS.tts.models.xtts.XttsArgs])` or the `torch.serialization.safe_globals([TTS.tts.models.xtts.XttsArgs])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.
+2025-08-30 15:40:50 | INFO     | modules.tts:_load_model:29 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 15:40:50 | ERROR    | modules.tts:_load_model:52 - TTS模型加载失败: [Errno 2] No such file or directory: 'tts_models/multilingual/multi-dataset/xtts_v2/model.pth'
+2025-08-30 15:52:54 | INFO     | modules.tts:_load_model:29 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 15:54:06 | INFO     | modules.tts:_load_model:48 - TTS模型加载成功
+2025-08-30 15:54:06 | INFO     | modules.tts:synthesize_speech:61 - 开始合成语音，文本: 嬛嬛在此，姐姐有何吩咐？
+2025-08-30 15:54:06 | ERROR    | modules.tts:synthesize_speech:83 - 语音合成失败: 'default'
+2025-08-30 15:54:07 | WARNING  | modules.audio_player:stop_playing:199 - 当前没有音频在播放
+2025-08-30 16:12:57 | INFO     | modules.tts:_load_model:29 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 16:14:07 | INFO     | modules.tts:_load_model:48 - TTS模型加载成功
+2025-08-30 16:14:07 | INFO     | modules.tts:synthesize_speech:61 - 开始合成语音，文本: 嬛嬛在此，姐姐有何吩咐？
+2025-08-30 16:14:07 | ERROR    | modules.tts:synthesize_speech:83 - 语音合成失败: Model is multi-speaker but no `speaker` is provided.
+2025-08-30 16:14:08 | WARNING  | modules.audio_player:stop_playing:199 - 当前没有音频在播放
+2025-08-30 16:15:12 | INFO     | modules.tts:_load_model:29 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 16:16:22 | INFO     | modules.tts:_load_model:48 - TTS模型加载成功
+2025-08-30 16:16:22 | INFO     | modules.tts:synthesize_speech:61 - 开始合成语音，文本: 嬛嬛在此，姐姐有何吩咐？
+2025-08-30 16:16:22 | ERROR    | modules.tts:synthesize_speech:83 - 语音合成失败: 'zh_speaker_0'
+2025-08-30 16:16:23 | WARNING  | modules.audio_player:stop_playing:199 - 当前没有音频在播放
+2025-08-30 16:19:23 | INFO     | modules.tts:_load_model:29 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 16:20:33 | INFO     | modules.tts:_load_model:48 - TTS模型加载成功
+2025-08-30 16:20:33 | INFO     | modules.tts:synthesize_speech:61 - 开始合成语音，文本: 嬛嬛在此，姐姐有何吩咐？
+2025-08-30 16:20:33 | ERROR    | modules.tts:synthesize_speech:85 - 语音合成失败: 'TTS' object has no attribute 'speakers'
+2025-08-30 16:20:34 | WARNING  | modules.audio_player:stop_playing:199 - 当前没有音频在播放
+2025-08-30 16:36:11 | INFO     | modules.tts:_load_model:29 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 16:37:23 | INFO     | modules.tts:_load_model:48 - TTS模型加载成功
+2025-08-30 16:37:23 | INFO     | modules.tts:get_available_speakers:189 - XTTS v2 使用零样本合成，无预定义说话人列表
+2025-08-30 16:37:23 | INFO     | modules.tts:synthesize_speech:61 - 开始合成语音，文本: 嬛嬛在此，姐姐有何吩咐？
+2025-08-30 16:37:23 | INFO     | modules.tts:get_available_speakers:189 - XTTS v2 使用零样本合成，无预定义说话人列表
+2025-08-30 16:37:23 | ERROR    | modules.tts:synthesize_speech:104 - 语音合成失败: Model is multi-speaker but no `speaker` is provided.
+2025-08-30 16:38:03 | INFO     | modules.tts:_load_model:29 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 16:39:13 | INFO     | modules.tts:_load_model:48 - TTS模型加载成功
+2025-08-30 16:39:13 | INFO     | modules.tts:get_available_speakers:173 - XTTS v2 使用零样本合成，无预定义说话人列表
+2025-08-30 16:39:13 | INFO     | modules.tts:synthesize_speech:61 - 开始合成语音，文本: 嬛嬛在此，姐姐有何吩咐？
+2025-08-30 16:39:13 | ERROR    | modules.tts:synthesize_speech:88 - 语音合成失败: Model is multi-speaker but no `speaker` is provided.
+2025-08-30 16:39:48 | INFO     | modules.tts:_load_model:29 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 16:43:00 | INFO     | modules.tts:_load_model:29 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 16:44:09 | INFO     | modules.tts:_load_model:48 - TTS模型加载成功
+2025-08-30 16:44:09 | INFO     | modules.tts:synthesize_speech:61 - 开始合成语音，文本: 嬛嬛在此，姐姐有何吩咐？
+2025-08-30 16:44:10 | ERROR    | modules.tts:synthesize_speech:91 - 语音合成失败: 'GPT2InferenceModel' object has no attribute 'generate'
+2025-08-30 16:44:11 | WARNING  | modules.audio_player:stop_playing:199 - 当前没有音频在播放
+2025-08-30 17:09:12 | INFO     | modules.tts:_load_model:29 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 17:10:22 | INFO     | modules.tts:_load_model:48 - TTS模型加载成功
+2025-08-30 17:10:22 | INFO     | modules.tts:synthesize_speech:61 - 开始合成语音，文本: 嬛嬛在此，姐姐有何吩咐？
+2025-08-30 17:10:23 | INFO     | modules.tts:synthesize_speech:87 - 语音合成完成，输出文件: ./temp/tts_output.wav
+2025-08-30 17:10:23 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output.wav
+2025-08-30 17:10:23 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output.wav, 采样率: 16000, 长度: 3.34秒
+2025-08-30 17:10:23 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 3.34秒
+2025-08-30 17:10:27 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-08-30 17:10:27 | WARNING  | modules.audio_player:stop_playing:199 - 当前没有音频在播放
+2025-08-30 17:12:05 | INFO     | modules.tts:_load_model:29 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 17:13:14 | INFO     | modules.tts:_load_model:48 - TTS模型加载成功
+2025-08-30 17:13:14 | INFO     | modules.tts:synthesize_speech:61 - 开始合成语音，文本: 嬛嬛在此，姐姐有何吩咐？
+2025-08-30 17:13:15 | INFO     | modules.tts:synthesize_speech:87 - 语音合成完成，输出文件: ./temp/tts_output.wav
+2025-08-30 17:13:15 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output.wav
+2025-08-30 17:13:15 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output.wav, 采样率: 16000, 长度: 3.20秒
+2025-08-30 17:13:15 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 3.20秒
+2025-08-30 17:13:19 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-08-30 17:13:19 | WARNING  | modules.audio_player:stop_playing:199 - 当前没有音频在播放
+2025-08-30 17:18:18 | INFO     | modules.tts:_load_model:29 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 17:19:28 | INFO     | modules.tts:_load_model:48 - TTS模型加载成功
+2025-08-30 17:19:28 | INFO     | modules.tts:synthesize_speech:61 - 开始合成语音，文本: 嬛嬛在此，姐姐有何吩咐？
+2025-08-30 17:19:29 | INFO     | modules.tts:synthesize_speech:87 - 语音合成完成，输出文件: ./temp/tts_output.wav
+2025-08-30 17:19:29 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output.wav
+2025-08-30 17:19:30 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output.wav, 采样率: 16000, 长度: 4.41秒
+2025-08-30 17:19:30 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 4.41秒
+2025-08-30 17:19:34 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-08-30 17:19:34 | WARNING  | modules.audio_player:stop_playing:199 - 当前没有音频在播放
+2025-08-30 17:24:43 | INFO     | modules.tts:_load_model:29 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-30 17:25:53 | INFO     | modules.tts:_load_model:48 - TTS模型加载成功
+2025-08-30 17:25:53 | INFO     | modules.tts:synthesize_speech:61 - 开始合成语音，文本: 嬛嬛在此，姐姐有何吩咐？
+2025-08-30 17:25:54 | INFO     | modules.tts:synthesize_speech:87 - 语音合成完成，输出文件: ./temp/tts_output.wav
+2025-08-30 17:25:54 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output.wav
+2025-08-30 17:25:54 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output.wav, 采样率: 16000, 长度: 3.42秒
+2025-08-30 17:25:54 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 3.42秒
+2025-08-30 17:25:58 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-08-30 17:25:58 | INFO     | modules.tts:synthesize_speech:61 - 开始合成语音，文本: 今日天气甚好，正是踏青的好时节。
+2025-08-30 17:25:59 | INFO     | modules.tts:synthesize_speech:87 - 语音合成完成，输出文件: ./temp/tts_output.wav
+2025-08-30 17:25:59 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output.wav
+2025-08-30 17:25:59 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output.wav, 采样率: 16000, 长度: 4.45秒
+2025-08-30 17:25:59 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 4.45秒
+2025-08-30 17:26:04 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-08-30 17:26:04 | INFO     | modules.tts:synthesize_speech:61 - 开始合成语音，文本: 谢谢姐姐的关心，嬛嬛心中甚是感激。
+2025-08-30 17:26:05 | INFO     | modules.tts:synthesize_speech:87 - 语音合成完成，输出文件: ./temp/tts_output.wav
+2025-08-30 17:26:05 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output.wav
+2025-08-30 17:26:05 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output.wav, 采样率: 16000, 长度: 4.59秒
+2025-08-30 17:26:05 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 4.59秒
+2025-08-30 17:26:10 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-08-30 17:26:10 | WARNING  | modules.audio_player:stop_playing:199 - 当前没有音频在播放
+2025-08-30 17:31:38 | INFO     | modules.asr:_load_model:23 - 正在加载ASR模型: iic/SenseVoiceSmall
+2025-08-30 17:31:42 | INFO     | modules.asr:_load_model:36 - ASR模型加载成功
+2025-08-30 17:31:42 | INFO     | modules.llm:_load_model:23 - 正在加载LLM模型...
+2025-08-30 17:31:42 | ERROR    | modules.llm:_load_model:58 - LLM模型加载失败: The checkpoint you are trying to load has model type `qwen3` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.
+
+You can update Transformers with the command `pip install --upgrade transformers`. If this does not work, and the checkpoint is very new, then there may not be a release version that supports this model yet. In this case, you can get the most up-to-date code by installing Transformers from source with the command `pip install git+https://github.com/huggingface/transformers.git`

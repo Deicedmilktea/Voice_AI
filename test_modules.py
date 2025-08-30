@@ -134,9 +134,10 @@ def test_llm():
 
         # 测试问题
         test_questions = [
-            "嬛嬛，你今天心情如何？",
-            "嬛嬛，给我讲个故事吧",
-            "你觉得今天天气怎么样？",
+            # "嬛嬛，你今天心情如何？",
+            # "嬛嬛，给我讲个故事吧",
+            # "你觉得今天天气怎么样？",
+            "嬛嬛，今日运气不佳，我们改日再聚吧！"
         ]
 
         for i, question in enumerate(test_questions, 1):
@@ -276,8 +277,8 @@ def main():
     # 测试结果
     results = {}
 
-    # 1. 测试音频设备
-    results["audio_devices"] = test_audio_devices()
+    # # 1. 测试音频设备
+    # results["audio_devices"] = test_audio_devices()
 
     # # 2. 测试录音
     # results["recording"] = test_recording()[0]
@@ -288,8 +289,8 @@ def main():
     # # 4. 测试LLM
     # results["llm"] = test_llm()
 
-    # # 5. 测试TTS
-    # results["tts"] = test_tts()
+    # 5. 测试TTS
+    results["tts"] = test_tts()
 
     # # 6. 端到端测试
     # if all(results.values()):

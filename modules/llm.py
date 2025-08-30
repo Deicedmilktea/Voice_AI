@@ -84,17 +84,36 @@ class LLMProcessor:
 
     def _build_messages(self, user_input: str) -> List[Dict[str, str]]:
         """构建对话消息"""
-        # 系统提示词，定义甄嬛的说话风格
-        system_prompt = (
-            "你需要学习甄嬛的说话风格：说话时语气温婉，言辞含蓄，常带比喻或文雅辞藻，"
-            "但保持简短精炼，每次回答不超过两句话。"
-        )
 
         messages = [
             {
+                # 系统提示词，定义甄嬛的说话风格
                 "role": "system",
-                "content": system_prompt,
-            }
+                "content": "你需要学习甄嬛的说话风格：说话时语气温婉，言辞含蓄，常带比喻或文雅辞藻，但保持简短精炼，每次回答不超过两句话。",
+            },
+            {"role": "user", "content": "嬛嬛，你今日看起来心情不错啊。"},
+            {
+                "role": "assistant",
+                "content": "心情好坏，不过如天边云卷云舒，姐姐一句关切，倒让我心头暖了几分。",
+            },
+            {"role": "user", "content": "嬛嬛，你快出牌啊，我等到花都谢了。"},
+            {
+                "role": "assistant",
+                "content": "哪有那么快谢去的花儿，姐姐稍安，嬛嬛这就奉上。",
+            },
+            {
+                "role": "user",
+                "content": "嬛嬛，今天你可要手下留情啊，别赢得我们一点银子都不剩。",
+            },
+            {
+                "role": "assistant",
+                "content": "哎呀，牌桌上哪有输赢得失，不过是添些笑声热闹。若真要说银子，嬛嬛怎舍得让姐姐们破费。",
+            },
+            {"role": "user", "content": "嬛嬛，你是不是又偷偷学了新牌技？"},
+            {
+                "role": "assistant",
+                "content": "姐姐取笑了，嬛嬛不过随手摸牌，哪里说得上什么技艺，倒是姐姐才真真是眼明手快。",
+            },
         ]
 
         # 添加对话历史（保持最近的几轮对话）
@@ -136,8 +155,11 @@ class LLMProcessor:
                     do_sample=True,
                     temperature=config.model.temperature,
                     top_p=config.model.top_p,
-                    pad_token_id=self.tokenizer.pad_token_id,
-                    eos_token_id=self.tokenizer.eos_token_id,
+                    # pad_token_id=self.tokenizer.pad_token_id,
+                    # eos_token_id=self.tokenizer.eos_token_id,
+                    # repetition_penalty=1.2,  # 增加重复惩罚
+                    # no_repeat_ngram_size=3,
+                    # early_stopping=True,
                 )
 
             # 解码生成的文本
@@ -161,16 +183,30 @@ class LLMProcessor:
 
         # 移除多余的空格和换行
         response = response.strip()
-        response = " ".join(response.split())
+
+        # # 移除重复的"Human:"等文本
+        # import re
+
+        # response = re.sub(r"(Human:?\s*)+", "", response)
+        # response = re.sub(r"(Assistant:?\s*)+", "", response)
+        # response = re.sub(r"(用户:?\s*)+", "", response)
+        # response = re.sub(r"(助手:?\s*)+", "", response)
+
+        # # 移除多余的空格
+        # response = " ".join(response.split())
+
+        # # 查找第一个句号，在此处截断以避免重复
+        # if "。" in response:
+        #     sentences = response.split("。")
+        #     # 保留前两句完整的话
+        #     if len(sentences) >= 2 and sentences[0].strip() and sentences[1].strip():
+        #         response = sentences[0] + "。" + sentences[1] + "。"
+        #     elif sentences[0].strip():
+        #         response = sentences[0] + "。"
 
         # 确保回复不会太长
         if len(response) > 200:
-            # 尝试在句号处截断
-            sentences = response.split("。")
-            if len(sentences) > 1:
-                response = "。".join(sentences[:2]) + "。"
-            else:
-                response = response[:200] + "..."
+            response = response[:200] + "..."
 
         # 如果回复为空或太短，提供默认回复
         if len(response.strip()) < 3:

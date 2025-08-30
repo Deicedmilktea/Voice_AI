@@ -1,2 +1,4 @@
-/model
+/models/Qwen3-4B
+/models/xtts-v2
 output*
+__pycache__

@@ -6,6 +6,10 @@ from TTS.api import TTS
 from config.config import config
 from utils.logger import voice_logger
 from utils.audio_utils import AudioProcessor
+from TTS.tts.configs.xtts_config import XttsConfig
+from TTS.tts.models.xtts import XttsAudioConfig
+from TTS.config.shared_configs import BaseDatasetConfig
+from TTS.tts.models.xtts import XttsArgs
 
 
 class TTSProcessor:
@@ -23,6 +27,16 @@ class TTSProcessor:
         """加载TTS模型"""
         try:
             voice_logger.info(f"正在加载TTS模型: {self.model_name}")
+
+            # 注册允许全局类，pytorch 2.6+ 的要求:默认不允许反序列化这些自定义类
+            torch.serialization.add_safe_globals(
+                [
+                    XttsConfig,
+                    XttsAudioConfig,
+                    BaseDatasetConfig,
+                    XttsArgs,
+                ]
+            )
 
             # 加载XTTS v2模型
             self.model = TTS(
@@ -57,10 +71,18 @@ class TTSProcessor:
             self.model.tts_to_file(
                 text=text,
                 file_path=output_path,
-                speaker=self.speaker,
+                speaker_wav="./models/xtts-v2/AI-ModelScope/XTTS-v2/samples/zh-cn-sample.wav",
                 language=self.language,
                 split_sentences=True,
             )
+
+            # # 合成语音
+            # self.model.tts_to_file(
+            #     text="今日天气甚好，正是踏青的好时节。",
+            #     speaker_wav="./models/xtts-v2/AI-ModelScope/XTTS-v2/samples/zh-cn-sample.wav",
+            #     language="zh-cn",
+            #     file_path=output_path,
+            # )
 
             voice_logger.info(f"语音合成完成，输出文件: {output_path}")
             return output_path

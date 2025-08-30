@@ -30,6 +30,7 @@ class ASRProcessor:
                 vad_model="fsmn-vad",
                 vad_kwargs={"max_single_segment_time": 30000},
                 device=config.get_device(),
+                disable_update=True
             )
 
             voice_logger.info("ASR模型加载成功")

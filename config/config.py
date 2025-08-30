@@ -9,8 +9,8 @@ class ModelConfig:
     """模型配置"""
 
     # LLM配置
-    base_model_path: str = "../model/Qwen3-4B-Instruct-2507/Qwen/Qwen3-4B-Instruct-2507"
-    lora_model_path: str = "../output_max/lora_model"
+    base_model_path: str = "./models/Qwen3-4B/Qwen/Qwen3-4B-Instruct-2507"
+    lora_model_path: str = "./models/lora_model"
     max_new_tokens: int = 512
     temperature: float = 0.7
     top_p: float = 0.9
@@ -21,8 +21,8 @@ class ModelConfig:
 
     # TTS配置
     tts_model: str = "tts_models/multilingual/multi-dataset/xtts_v2"
-    tts_language: str = "zh"
-    tts_speaker: str = "default"
+    tts_language: str = "zh-cn"
+    tts_speaker: str = "zh_speaker_0"
 
 
 @dataclass
