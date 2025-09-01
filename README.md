@@ -1,152 +1,186 @@
-# 语音AI对话系统 - 甄嬛模式
+# Voice AI 对话系统 - 双环境架构
 
-一个基于FunASR、微调Qwen3和Coqui XTTS v2的完整语音AI对话系统，支持语音输入、AI生成回复和语音输出，具有甄嬛的说话风格。
+一个基于微服务架构的语音AI对话系统，通过隔离的conda环境解决XTTS与LLM的依赖冲突问题，支持甄嬛风格的角色扮演对话。
 
 ## ✨ 特色功能
 
 - 🎤 **实时语音识别**: 基于FunASR + SenseVoice，支持中文语音识别
 - 🤖 **智能对话生成**: 使用已微调的Qwen3-4B-Instruct模型，具有甄嬛的说话风格
-- 🎵 **高质量语音合成**: 基于Coqui XTTS v2，支持中文语音合成
-- 🔍 **智能语音检测**: 自动检测语音开始和结束，无需手动控制
-- 📱 **完整对话流程**: 语音输入 → 语音识别 → AI回复 → 语音输出
-- 🎛️ **模块化设计**: 各功能模块独立，便于扩展和维护
+- 🎵 **高质量语音合成**: 基于Coqui XTTS v2的独立TTS服务
+- 🔄 **微服务架构**: TTS服务与主程序隔离，解决依赖冲突
+- 🌐 **RESTful API**: TTS服务提供标准的HTTP API接口
+- 📱 **完整对话流程**: 语音输入 → 语音识别 → AI回复 → TTS API → 语音输出
 
-## 🏗️ 系统架构
+## 🏗️ 新架构设计
+
+### 双环境架构
 
 ```
-用户语音输入 → 音频录制 → 语音识别(ASR) → 大语言模型(LLM) → 语音合成(TTS) → 音频播放
+┌─────────────────────────────────────────┐
+│              主环境 (voiceai)            │
+│  ┌─────────────┐  ┌─────────────────────┐│
+│  │    ASR      │  │        LLM          ││
+│  │ SenseVoice  │  │   Qwen3-4B +        ││
+│  │             │  │   LoRA微调          ││
+│  └─────────────┘  └─────────────────────┘│
+│           │                 │             │
+│           └─────────┬───────┘             │
+│                     │                     │
+│               ┌─────────────┐             │
+│               │ TTS Client  │             │
+│               │ (HTTP API)  │             │
+│               └─────────────┘             │
+└─────────────────────┼─────────────────────┘
+                      │ HTTP请求
+                      ▼
+┌─────────────────────────────────────────┐
+│           TTS服务环境 (tts_service)      │
+│  ┌─────────────┐  ┌─────────────────────┐│
+│  │ FastAPI     │  │    XTTS v2          ││
+│  │ TTS Server  │  │   语音合成引擎       ││
+│  │             │  │                     ││
+│  └─────────────┘  └─────────────────────┘│
+└─────────────────────────────────────────┘
 ```
 
-### 核心模块
+### 系统流程
 
-1. **AudioRecorder**: 音频录制模块，支持VAD（语音活动检测）
-2. **ASRProcessor**: 语音识别模块，基于FunASR + SenseVoice
-3. **LLMProcessor**: 大语言模型模块，使用微调的Qwen3
-4. **TTSProcessor**: 语音合成模块，基于Coqui XTTS v2
-5. **AudioPlayer**: 音频播放模块
+```
+用户语音输入 → 音频录制 → 语音识别(ASR) → 大语言模型(LLM) → TTS API调用 → 语音合成 → 音频播放
+```
 
 ## 📋 环境要求
 
-- Python 3.8+
-- CUDA 11.0+ (推荐，用于GPU加速)
+- Python 3.10+
+- Conda (Anaconda 或 Miniconda)
+- CUDA 11.8+ (推荐，用于GPU加速)
 - 麦克风和扬声器设备
-- 至少8GB内存
-- 推荐16GB显存的GPU
+- 至少16GB内存
+- 推荐8GB+ 显存的GPU
 
 ## 🛠️ 安装和配置
 
 ### 1. 克隆项目
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/Deicedmilktea/Voice_AI.git
 cd Voice_AI
 ```
 
-### 2. 安装依赖
+### 2. 自动环境设置
+
+运行环境设置脚本，将自动创建两个隔离的conda环境：
 
 ```bash
+chmod +x setup_environments.sh
+./setup_environments.sh
+```
+
+这将创建：
+- `voiceai`: 主环境，运行ASR+LLM
+- `tts_service`: TTS服务环境，专门运行XTTS
+
+### 3. 手动环境设置（可选）
+
+如果自动脚本失败，可以手动创建环境：
+
+#### 3.1 创建主环境
+
+```bash
+# 创建voiceai环境
+conda create -n voiceai python=3.10 -y
+conda activate voiceai
+
+# 安装PyTorch (CPU版本)
+conda install pytorch torchvision torchaudio cpuonly -c pytorch -y
+
+# 安装其他依赖
 pip install -r requirements.txt
 ```
 
-### 3. 模型准备
+#### 3.2 创建TTS服务环境
+
+```bash
+# 创建tts_service环境
+conda create -n tts_service python=3.10 -y
+conda activate tts_service
+
+# 安装PyTorch (GPU版本)
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia -y
+
+# 安装TTS服务依赖
+cd tts_service
+pip install -r requirements.txt
+```
+
+### 4. 模型准备
 
 确保以下模型文件在正确位置：
 
-- **Qwen3基础模型**: `../model/Qwen3-4B-Instruct-2507/Qwen/Qwen3-4B-Instruct-2507`
-- **LoRA微调权重**: `../output_max/lora_model`
-- **SenseVoice模型**: 通过modelscope自动下载
-- **XTTS v2模型**: 通过TTS库自动下载
-
-### 4. 配置文件
-
-系统使用默认配置，如需自定义，可以修改 `config/config.py` 中的参数：
-
-```python
-# 音频配置
-sample_rate: int = 16000
-channels: int = 1
-chunk_size: int = 1024
-
-# LLM配置
-max_new_tokens: int = 512
-temperature: float = 0.7
-top_p: float = 0.9
-
-# 设备配置
-device: str = "auto"  # auto, cpu, cuda
-use_gpu: bool = True
-```
+- **Qwen3基础模型**: `./models/Qwen3-4B/Qwen/Qwen3-4B-Instruct-2507`
+- **LoRA微调权重**: `./models/lora_model`
+- **XTTS参考音频**: `./models/xtts-v2/AI-ModelScope/XTTS-v2/samples/zh-cn-sample.wav`
 
 ## 🚀 快速开始
 
-### 运行主程序
+### 启动系统
+
+#### 1. 启动TTS服务（终端1）
 
 ```bash
+conda activate tts_service
+cd tts_service
+python start_tts_service.py
+```
+
+TTS服务将在 `http://127.0.0.1:8888` 启动
+
+#### 2. 运行主程序（终端2）
+
+```bash
+conda activate voiceai
 python main.py
 ```
 
-### 运行测试
+### 验证安装
+
+#### 检查TTS服务
+
+访问 `http://127.0.0.1:8888/docs` 查看API文档
+
+#### 测试模块
 
 ```bash
-# 测试所有模块
+conda activate voiceai
 python test_modules.py
-
-# 测试单个模块（例如：仅测试LLM）
-python -c "from test_modules import test_llm; test_llm()"
 ```
 
 ## 📖 使用指南
 
 ### 基本对话流程
 
-1. 运行 `python main.py`
-2. 系统初始化完成后，会播放欢迎语音
-3. 看到 "🎤 请说话（按Ctrl+C退出）..." 提示时开始说话
-4. 系统自动检测语音结束，进行识别和处理
-5. AI生成回复并通过语音播放
-6. 重复步骤3-5进行连续对话
-7. 按 Ctrl+C 退出系统
+1. 确保TTS服务已启动
+2. 运行主程序 `python main.py`
+3. 系统初始化，连接TTS服务
+4. 看到提示后开始说话
+5. 系统自动识别并生成回复
+6. 通过TTS API合成语音并播放
+7. 按 Ctrl+C 退出
 
-### 系统提示
+### 系统状态监控
 
-- 🎤 录音中
-- 🔍 语音识别中
-- 🤖 AI思考中
-- 🎵 语音合成中
-- 🔊 播放回复
+- TTS服务状态: `http://127.0.0.1:8888/health`
+- 主程序会显示TTS连接状态
+- 日志文件记录详细运行信息
 
-### 示例对话
-
-```
-👤 用户: 嬛嬛，你今天心情如何？
-🎭 嬛嬛: 今日心情倒是不错，如春日暖阳般舒畅。
-
-👤 用户: 给我讲个故事吧
-🎭 嬛嬛: 从前有个书生，常在月下吟诗作对，倒也风雅。
-```
-
-## 🧪 测试功能
-
-### 音频设备测试
-
-```bash
-python -c "from test_modules import test_audio_devices; test_audio_devices()"
-```
-
-### 端到端测试
-
-```bash
-python -c "from test_modules import test_end_to_end; test_end_to_end()"
-```
-
-## 🗂️ 项目结构
+## 🗂️ 项目结构（更新）
 
 ```
 Voice_AI/
 ├── main.py                 # 主程序入口
-├── test_modules.py         # 模块测试脚本
-├── task.md                 # 开发任务清单
-├── requirements.txt        # Python依赖
+├── test_modules.py         # 测试程序入口
+├── setup_environments.sh   # 环境自动设置脚本
+├── requirements.txt        # 主环境依赖
 ├── config/                 # 配置模块
 │   ├── __init__.py
 │   └── config.py          # 系统配置
@@ -155,8 +189,18 @@ Voice_AI/
 │   ├── recording.py       # 音频录制
 │   ├── asr.py            # 语音识别
 │   ├── llm.py            # 大语言模型
-│   ├── tts.py            # 语音合成
+│   ├── tts.py            # 原TTS模块（已弃用）
+│   ├── tts_client.py     # TTS API客户端
 │   └── audio_player.py   # 音频播放
+├── tts_service/            # TTS微服务（新增）
+│   ├── app.py            # FastAPI应用
+│   ├── tts_processor.py  # TTS处理器
+│   ├── config.py         # TTS服务配置
+│   ├── logger.py         # TTS日志
+│   ├── requirements.txt  # TTS服务依赖
+│   ├── start_tts_service.py # TTS服务启动脚本
+│   └── utils/
+│       └── audio_utils.py # 音频处理工具
 ├── utils/                  # 工具模块
 │   ├── __init__.py
 │   ├── audio_utils.py    # 音频处理工具
@@ -166,150 +210,175 @@ Voice_AI/
 └── models/                 # 模型文件目录
 ```
 
+## 🔧 API接口文档
+
+### TTS服务 API
+
+TTS服务提供以下主要接口：
+
+#### 1. 语音合成（同步）
+
+```http
+POST /tts/synthesize
+Content-Type: application/json
+
+{
+    "text": "嬛嬛今日心情甚好",
+    "output_format": "wav"
+}
+```
+
+#### 2. 语音合成（异步）
+
+```http
+POST /tts/synthesize_async
+Content-Type: application/json
+
+{
+    "text": "嬛嬛今日心情甚好",
+    "output_format": "wav"
+}
+```
+
+#### 3. 获取任务状态
+
+```http
+GET /tts/status/{task_id}
+```
+
+#### 4. 健康检查
+
+```http
+GET /health
+```
+
+#### 5. 模型信息
+
+```http
+GET /tts/models/info
+```
+
+详细API文档请访问: `http://127.0.0.1:8888/docs`
+
 ## ⚙️ 配置说明
 
-### 音频配置
+### 主环境配置 (config/config.py)
 
-- `sample_rate`: 音频采样率，默认16000Hz
-- `channels`: 音频通道数，默认单声道
-- `silence_threshold`: 静音检测阈值
-- `silence_duration`: 静音持续时间（秒）
-- `record_timeout`: 最大录音时长（秒）
+```python
+# TTS客户端配置
+tts_service_url = "http://127.0.0.1:8888"
 
-### 模型配置
+# 其他配置保持不变
+```
 
-- `base_model_path`: Qwen3基础模型路径
-- `lora_model_path`: LoRA微调权重路径
-- `asr_model`: ASR模型名称
-- `tts_model`: TTS模型名称
+### TTS服务配置 (tts_service/config.py)
 
-### 系统配置
+```python
+# 服务配置
+host = "127.0.0.1"
+port = 8888
+debug = False
 
-- `device`: 计算设备（auto/cpu/cuda）
-- `use_gpu`: 是否使用GPU加速
-- `max_conversation_history`: 最大对话历史记录数
+# TTS模型配置
+tts_model = "tts_models/multilingual/multi-dataset/xtts_v2"
+tts_language = "zh-cn"
+reference_audio = "./models/xtts-v2/AI-ModelScope/XTTS-v2/samples/zh-cn-sample.wav"
+```
 
 ## 🔧 故障排除
 
-### 常见问题
+### TTS服务相关问题
 
-1. **麦克风无法录音**
-   - 检查麦克风权限
-   - 确认音频设备连接
-   - 运行音频设备测试
+1. **TTS服务启动失败**
+   ```bash
+   # 检查环境
+   conda activate tts_service
+   python -c "import TTS; print('TTS imported successfully')"
+   
+   # 检查端口占用
+   netstat -tulpn | grep 8888
+   ```
+
+2. **主程序无法连接TTS服务**
+   ```bash
+   # 检查TTS服务状态
+   curl http://127.0.0.1:8888/health
+   
+   # 检查防火墙设置
+   sudo ufw status
+   ```
+
+3. **CUDA内存不足**
+   ```bash
+   # 在tts_service/config.py中设置
+   use_gpu = False  # 使用CPU运行TTS
+   ```
+
+### 环境冲突问题
+
+1. **依赖版本冲突**
+   ```bash
+   # 重新创建环境
+   conda env remove -n voiceai -y
+   conda env remove -n tts_service -y
+   ./setup_environments.sh
+   ```
 
 2. **模型加载失败**
-   - 检查模型文件路径
-   - 确认模型文件完整性
-   - 检查GPU显存是否足够
+   ```bash
+   # 检查模型路径
+   ls -la models/
+   
+   # 重新下载模型
+   python script/download_model.py
+   ```
 
-3. **语音识别失败**
-   - 确保环境安静
-   - 检查麦克风质量
-   - 调整录音音量
+### 性能优化
 
-4. **语音合成失败**
-   - 检查网络连接（首次下载模型）
-   - 确认TTS模型下载完整
-   - 检查临时文件目录权限
+1. **TTS服务优化**
+   - 使用GPU加速TTS合成
+   - 调整音频输出质量参数
+   - 启用异步处理
 
-### 日志查看
+2. **主程序优化**
+   - 使用CPU运行ASR和LLM
+   - 调整音频缓冲区大小
+   - 优化网络请求超时设置
 
-系统日志保存在 `logs/` 目录下，文件名格式为 `voice_ai_YYYYMMDD.log`
+## 🆕 新特性
 
-```bash
-# 查看最新日志
-tail -f logs/voice_ai_$(date +%Y%m%d).log
-```
+### 相比原版的改进
 
-## 🎯 性能优化
+1. **解决依赖冲突**: XTTS与其他组件完全隔离
+2. **服务化架构**: TTS作为独立微服务运行
+3. **更好的扩展性**: 可以轻松替换或升级TTS模型
+4. **监控能力**: 提供健康检查和状态监控
+5. **API标准化**: 遵循RESTful API设计规范
 
-### GPU加速
+### 向后兼容性
 
-确保安装CUDA版本的PyTorch：
+- 主程序接口保持不变
+- 原有配置文件继续有效
+- 支持回退到原始TTS模块（如需要）
 
-```bash
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-```
+## 🔮 未来规划
 
-### 内存优化
-
-- 使用4bit量化减少显存占用
-- 限制对话历史长度
-- 定期清理临时文件
-
-### 延迟优化
-
-- 预加载所有模型
-- 使用非阻塞音频播放
-- 优化VAD参数
-
-## 🔮 扩展功能
-
-### 自定义音色
-
-1. 准备目标音色的音频样本（10-30秒）
-2. 使用 `synthesize_speech_with_reference` 方法
-3. 替换默认TTS模型
-
-### 添加新的对话风格
-
-1. 准备新的训练数据
-2. 微调Qwen3模型
-3. 更新模型路径配置
-
-### 多语言支持
-
-1. 配置多语言ASR模型
-2. 训练多语言LLM
-3. 添加多语言TTS支持
-
-## 📚 API文档
-
-### VoiceAISystem类
-
-主要的系统控制类
-
-```python
-system = VoiceAISystem()
-system.initialize()           # 初始化系统
-system.start_conversation()   # 开始对话
-system.stop()                # 停止系统
-system.get_system_info()     # 获取系统信息
-```
-
-### 各模块独立使用
-
-```python
-# 录音
-recorder = AudioRecorder()
-audio = recorder.record_with_vad()
-
-# 语音识别
-asr = ASRProcessor()
-text = asr.transcribe_audio_array(audio)
-
-# LLM对话
-llm = LLMProcessor()
-response = llm.generate_response(text)
-
-# 语音合成
-tts = TTSProcessor()
-audio_file = tts.synthesize_speech(response)
-
-# 音频播放
-player = AudioPlayer()
-player.play_audio_file(audio_file)
-```
+- [ ] 支持多TTS模型切换
+- [ ] 添加语音情感控制
+- [ ] 实现TTS服务集群
+- [ ] 添加音频流式传输
+- [ ] 支持实时语音转换
 
 ## 🤝 贡献指南
 
 欢迎提交Issue和Pull Request！
 
+### 开发环境设置
+
 1. Fork项目
-2. 创建功能分支
-3. 提交更改
-4. 创建Pull Request
+2. 运行环境设置脚本
+3. 在`voiceai`环境中开发主功能
+4. 在`tts_service`环境中开发TTS相关功能
 
 ## 📄 许可证
 
@@ -320,15 +389,18 @@ player.play_audio_file(audio_file)
 - [FunASR](https://github.com/alibaba-damo-academy/FunASR) - 语音识别框架
 - [Qwen](https://github.com/QwenLM/Qwen) - 大语言模型
 - [Coqui TTS](https://github.com/coqui-ai/TTS) - 语音合成框架
-- [SenseVoice](https://github.com/FunAudioLLM/SenseVoice) - 语音识别模型
+- [FastAPI](https://fastapi.tiangolo.com/) - 现代Web框架
 
 ## 📞 联系方式
 
 如有问题或建议，欢迎联系：
 
-- 提交Issue: [GitHub Issues](link-to-issues)
+- 提交Issue: [GitHub Issues](https://github.com/Deicedmilktea/Voice_AI/issues)
 - 邮箱: your-email@example.com
 
 ---
 
-💡 **提示**: 首次运行时模型下载可能需要较长时间，请耐心等待。
+💡 **重要提示**: 
+- 首次运行需要先启动TTS服务，再运行主程序
+- 模型下载可能需要较长时间，请耐心等待
+- 建议使用GPU环境以获得最佳性能

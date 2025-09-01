@@ -1,0 +1,20 @@
+# TTS服务依赖包
+# 核心依赖
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.5.0
+
+# TTS相关
+TTS>=0.15.0
+torch>=2.0.0
+transformers>=4.30.0,<4.50.0
+
+# 音频处理
+soundfile>=0.12.1
+scipy>=1.10.0
+
+# 日志
+loguru>=0.7.0
+
+# 可选优化
+# torch-audio>=2.0.0

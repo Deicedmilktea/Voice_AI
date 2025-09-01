@@ -1,0 +1,1968 @@
+2025-09-01 18:59:43 | WARNING  | modules.tts_client:_check_service_health:33 - TTS服务健康检查失败: 500
+2025-09-01 18:59:43 | ERROR    | modules.tts_client:_check_service_health:36 - 无法连接TTS服务: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-09-01 18:59:43 | WARNING  | modules.tts_client:_check_service_health:37 - 请确保TTS服务已启动
+2025-09-01 19:04:18 | WARNING  | modules.tts_client:_check_service_health:33 - TTS服务健康检查失败: 500
+2025-09-01 19:04:18 | WARNING  | modules.tts_client:_check_service_health:33 - TTS服务健康检查失败: 500
+2025-09-01 19:06:52 | INFO     | modules.tts_client:_check_service_health:30 - TTS服务连接成功
+2025-09-01 19:06:52 | INFO     | modules.tts_client:_check_service_health:30 - TTS服务连接成功
+2025-09-01 19:06:52 | INFO     | modules.tts_client:synthesize_speech:47 - 开始TTS合成: 嬛嬛在此，姐姐有何吩咐？...
+2025-09-01 19:06:53 | INFO     | modules.tts_client:synthesize_speech:79 - TTS合成完成: ./temp/tts_output_1756724813.wav
+2025-09-01 19:06:53 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756724813.wav
+2025-09-01 19:06:53 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756724813.wav, 采样率: 16000, 长度: 3.20秒
+2025-09-01 19:06:53 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 3.20秒
+2025-09-01 19:06:56 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 19:06:56 | INFO     | modules.tts_client:synthesize_speech:47 - 开始TTS合成: 今日天气甚好，正是踏青的好时节。...
+2025-09-01 19:06:57 | INFO     | modules.tts_client:synthesize_speech:79 - TTS合成完成: ./temp/tts_output_1756724817.wav
+2025-09-01 19:06:57 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756724817.wav
+2025-09-01 19:06:57 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756724817.wav, 采样率: 16000, 长度: 3.76秒
+2025-09-01 19:06:57 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 3.76秒
+2025-09-01 19:07:01 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 19:07:01 | INFO     | modules.tts_client:synthesize_speech:47 - 开始TTS合成: 谢谢姐姐的关心，嬛嬛心中甚是感激。...
+2025-09-01 19:07:02 | INFO     | modules.tts_client:synthesize_speech:79 - TTS合成完成: ./temp/tts_output_1756724822.wav
+2025-09-01 19:07:02 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756724822.wav
+2025-09-01 19:07:02 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756724822.wav, 采样率: 16000, 长度: 4.54秒
+2025-09-01 19:07:02 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 4.54秒
+2025-09-01 19:07:07 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 19:07:07 | INFO     | modules.tts_client:synthesize_speech_async:156 - 创建异步TTS任务: 这是异步语音合成测试...
+2025-09-01 19:07:07 | INFO     | modules.tts_client:synthesize_speech_async:179 - 异步TTS任务已创建: 62f2ee08-9c9b-4f50-ab97-e9f43de27c23
+2025-09-01 19:07:08 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756724828.wav
+2025-09-01 19:07:08 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756724828.wav, 采样率: 16000, 长度: 2.87秒
+2025-09-01 19:07:08 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 2.87秒
+2025-09-01 19:07:11 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 19:07:11 | WARNING  | modules.audio_player:stop_playing:199 - 当前没有音频在播放
+2025-09-01 19:23:34 | INFO     | modules.tts_client:_check_service_health:30 - TTS服务连接成功
+2025-09-01 19:23:34 | INFO     | modules.tts_client:_check_service_health:30 - TTS服务连接成功
+2025-09-01 19:23:34 | INFO     | modules.tts_client:synthesize_speech:47 - 开始TTS合成: 嬛嬛在此，姐姐有何吩咐？...
+2025-09-01 19:23:34 | INFO     | modules.tts_client:synthesize_speech:79 - TTS合成完成: ./temp/tts_output_1756725814.wav
+2025-09-01 19:23:34 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756725814.wav
+2025-09-01 19:23:34 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756725814.wav, 采样率: 16000, 长度: 3.29秒
+2025-09-01 19:23:34 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 3.29秒
+2025-09-01 19:23:38 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 19:23:38 | INFO     | modules.tts_client:synthesize_speech:47 - 开始TTS合成: 今日天气甚好，正是踏青的好时节。...
+2025-09-01 19:23:39 | INFO     | modules.tts_client:synthesize_speech:79 - TTS合成完成: ./temp/tts_output_1756725819.wav
+2025-09-01 19:23:39 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756725819.wav
+2025-09-01 19:23:39 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756725819.wav, 采样率: 16000, 长度: 3.52秒
+2025-09-01 19:23:39 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 3.52秒
+2025-09-01 19:23:42 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 19:23:43 | INFO     | modules.tts_client:synthesize_speech:47 - 开始TTS合成: 谢谢姐姐的关心，嬛嬛心中甚是感激。...
+2025-09-01 19:23:44 | INFO     | modules.tts_client:synthesize_speech:79 - TTS合成完成: ./temp/tts_output_1756725824.wav
+2025-09-01 19:23:44 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756725824.wav
+2025-09-01 19:23:44 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756725824.wav, 采样率: 16000, 长度: 4.45秒
+2025-09-01 19:23:44 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 4.45秒
+2025-09-01 19:23:48 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 19:23:49 | INFO     | modules.tts_client:synthesize_speech_async:156 - 创建异步TTS任务: 这是异步语音合成测试...
+2025-09-01 19:23:49 | INFO     | modules.tts_client:synthesize_speech_async:179 - 异步TTS任务已创建: 5325c09c-40fa-4a77-bf18-1610ab9d5667
+2025-09-01 19:23:49 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756725829.wav
+2025-09-01 19:23:49 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756725829.wav, 采样率: 16000, 长度: 2.50秒
+2025-09-01 19:23:49 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 2.50秒
+2025-09-01 19:23:52 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 19:23:52 | WARNING  | modules.audio_player:stop_playing:199 - 当前没有音频在播放
+2025-09-01 20:06:25 | INFO     | __main__:initialize:42 - 正在初始化语音AI对话系统...
+2025-09-01 20:06:25 | INFO     | __main__:initialize:45 - 初始化音频录制器...
+2025-09-01 20:06:25 | INFO     | __main__:initialize:49 - 初始化ASR处理器...
+2025-09-01 20:06:25 | INFO     | modules.asr:_load_model:23 - 正在加载ASR模型: iic/SenseVoiceSmall
+2025-09-01 20:06:30 | INFO     | modules.asr:_load_model:36 - ASR模型加载成功
+2025-09-01 20:06:30 | INFO     | __main__:initialize:53 - 初始化LLM处理器...
+2025-09-01 20:06:30 | INFO     | modules.llm:_load_model:23 - 正在加载LLM模型...
+2025-09-01 20:06:39 | INFO     | modules.llm:_load_model:55 - LLM模型加载成功
+2025-09-01 20:06:39 | INFO     | __main__:initialize:57 - 初始化TTS客户端...
+2025-09-01 20:06:39 | INFO     | modules.tts_client:_check_service_health:30 - TTS服务连接成功
+2025-09-01 20:06:39 | INFO     | __main__:initialize:66 - 初始化音频播放器...
+2025-09-01 20:06:39 | INFO     | __main__:_test_audio_devices:83 - 测试音频设备...
+2025-09-01 20:06:39 | INFO     | __main__:_test_audio_devices:86 - 测试麦克风...
+2025-09-01 20:06:39 | INFO     | modules.recording:test_microphone:333 - 开始测试麦克风，录音1.0秒...
+2025-09-01 20:06:40 | INFO     | modules.recording:test_microphone:349 - 麦克风测试完成 - 能量: 0.000000, 最大振幅: 0.001
+2025-09-01 20:06:40 | INFO     | modules.recording:test_microphone:355 - 麦克风工作正常
+2025-09-01 20:06:40 | INFO     | __main__:_test_audio_devices:90 - 测试扬声器...
+2025-09-01 20:06:40 | INFO     | modules.audio_player:test_speaker:249 - 开始测试扬声器，播放440.0Hz正弦波1.0秒...
+2025-09-01 20:06:40 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 1.00秒
+2025-09-01 20:06:41 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 20:06:41 | INFO     | modules.audio_player:test_speaker:259 - 扬声器测试完成
+2025-09-01 20:06:41 | INFO     | __main__:_test_audio_devices:94 - 音频设备测试通过
+2025-09-01 20:06:41 | INFO     | __main__:initialize:73 - 语音AI对话系统初始化完成
+2025-09-01 20:06:41 | INFO     | __main__:start_conversation:110 - 启动语音AI对话系统
+2025-09-01 20:06:41 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 0.45秒
+2025-09-01 20:06:41 | INFO     | modules.audio_player:_play_thread_func:183 - 音频播放完成
+2025-09-01 20:06:41 | INFO     | modules.tts_client:synthesize_speech:47 - 开始TTS合成: 嬛嬛在此，姐姐有何吩咐？...
+2025-09-01 20:06:42 | INFO     | modules.tts_client:synthesize_speech:79 - TTS合成完成: ./temp/tts_output_1756728402.wav
+2025-09-01 20:06:42 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756728402.wav
+2025-09-01 20:06:42 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756728402.wav, 采样率: 16000, 长度: 3.38秒
+2025-09-01 20:06:42 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 3.38秒
+2025-09-01 20:06:45 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 20:06:45 | INFO     | __main__:_conversation_loop:134 - === 第 1 轮对话 ===
+2025-09-01 20:06:45 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:06:45 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:07:16 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长30.0秒，停止录音
+2025-09-01 20:07:16 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:07:16 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：481280 -> 478720 采样点
+2025-09-01 20:07:16 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 29.92秒
+2025-09-01 20:07:16 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 2 个语音段落
+2025-09-01 20:07:16 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:07:16 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:07:16 | INFO     | __main__:_conversation_loop:134 - === 第 2 轮对话 ===
+2025-09-01 20:07:16 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:07:16 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:07:46 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长30.0秒，停止录音
+2025-09-01 20:07:46 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:07:46 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：481280 -> 360448 采样点
+2025-09-01 20:07:46 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 22.53秒
+2025-09-01 20:07:46 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:07:46 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:07:46 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:07:46 | INFO     | __main__:_conversation_loop:134 - === 第 3 轮对话 ===
+2025-09-01 20:07:46 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:07:46 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:08:16 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长30.0秒，停止录音
+2025-09-01 20:08:16 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:08:16 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 30.08秒
+2025-09-01 20:08:16 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:08:16 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 30.08秒
+2025-09-01 20:08:16 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:08:16 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:08:16 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:08:16 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 
+2025-09-01 20:08:16 | WARNING  | __main__:_conversation_loop:151 - 语音识别结果为空，跳过本轮对话
+2025-09-01 20:08:16 | INFO     | __main__:_conversation_loop:134 - === 第 4 轮对话 ===
+2025-09-01 20:08:16 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:08:16 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:08:46 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长30.0秒，停止录音
+2025-09-01 20:08:46 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:08:46 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 30.08秒
+2025-09-01 20:08:46 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:08:46 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:08:46 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:08:46 | INFO     | __main__:_conversation_loop:134 - === 第 5 轮对话 ===
+2025-09-01 20:08:46 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:08:46 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:09:16 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长30.0秒，停止录音
+2025-09-01 20:09:16 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:09:16 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 30.08秒
+2025-09-01 20:09:16 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:09:16 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:09:16 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:09:16 | INFO     | __main__:_conversation_loop:134 - === 第 6 轮对话 ===
+2025-09-01 20:09:16 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:09:16 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:09:47 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长30.0秒，停止录音
+2025-09-01 20:09:47 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:09:47 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：481280 -> 27648 采样点
+2025-09-01 20:09:47 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 1.73秒
+2025-09-01 20:09:47 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 2 个语音段落
+2025-09-01 20:09:47 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:09:47 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:09:47 | INFO     | __main__:_conversation_loop:134 - === 第 7 轮对话 ===
+2025-09-01 20:09:47 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:09:47 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:10:17 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长30.0秒，停止录音
+2025-09-01 20:10:17 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:10:17 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：481280 -> 477184 采样点
+2025-09-01 20:10:17 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 29.82秒
+2025-09-01 20:10:17 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 5 个语音段落
+2025-09-01 20:10:17 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:10:17 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:10:17 | INFO     | __main__:_conversation_loop:134 - === 第 8 轮对话 ===
+2025-09-01 20:10:17 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:10:17 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:10:47 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长30.0秒，停止录音
+2025-09-01 20:10:47 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:10:47 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 30.08秒
+2025-09-01 20:10:47 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:10:47 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:10:47 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:10:47 | INFO     | __main__:_conversation_loop:134 - === 第 9 轮对话 ===
+2025-09-01 20:10:47 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:10:47 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:10:55 | INFO     | __main__:_signal_handler:36 - 接收到退出信号，正在关闭系统...
+2025-09-01 20:10:55 | INFO     | __main__:stop:259 - 正在停止语音AI对话系统...
+2025-09-01 20:10:55 | INFO     | modules.recording:stop_recording:75 - 停止录音...
+2025-09-01 20:10:55 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:10:55 | INFO     | modules.recording:stop_recording:102 - 录音完成，时长: 7.62秒
+2025-09-01 20:10:55 | INFO     | modules.tts_client:synthesize_speech:47 - 开始TTS合成: 嬛嬛告退，姐姐保重。...
+2025-09-01 20:10:55 | INFO     | modules.tts_client:synthesize_speech:79 - TTS合成完成: ./temp/tts_output_1756728655.wav
+2025-09-01 20:10:55 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756728655.wav
+2025-09-01 20:10:55 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756728655.wav, 采样率: 16000, 长度: 3.42秒
+2025-09-01 20:10:55 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 3.42秒
+2025-09-01 20:10:59 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 20:10:59 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 0.10秒
+2025-09-01 20:10:59 | INFO     | __main__:stop:276 - 语音AI对话系统已停止
+2025-09-01 20:10:59 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:10:59 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 7.68秒
+2025-09-01 20:10:59 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:10:59 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:10:59 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:10:59 | INFO     | __main__:main:358 - 程序退出
+2025-09-01 20:12:07 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:12:10 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长3.0秒，停止录音
+2025-09-01 20:12:10 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:12:10 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 3.07秒
+2025-09-01 20:12:10 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/test_recording.wav
+2025-09-01 20:13:24 | INFO     | __main__:initialize:42 - 正在初始化语音AI对话系统...
+2025-09-01 20:13:24 | INFO     | __main__:initialize:45 - 初始化音频录制器...
+2025-09-01 20:13:24 | INFO     | __main__:initialize:49 - 初始化ASR处理器...
+2025-09-01 20:13:24 | INFO     | modules.asr:_load_model:23 - 正在加载ASR模型: iic/SenseVoiceSmall
+2025-09-01 20:13:28 | INFO     | modules.asr:_load_model:36 - ASR模型加载成功
+2025-09-01 20:13:28 | INFO     | __main__:initialize:53 - 初始化LLM处理器...
+2025-09-01 20:13:28 | INFO     | modules.llm:_load_model:23 - 正在加载LLM模型...
+2025-09-01 20:13:37 | INFO     | modules.llm:_load_model:55 - LLM模型加载成功
+2025-09-01 20:13:37 | INFO     | __main__:initialize:57 - 初始化TTS客户端...
+2025-09-01 20:13:37 | INFO     | modules.tts_client:_check_service_health:30 - TTS服务连接成功
+2025-09-01 20:13:37 | INFO     | __main__:initialize:66 - 初始化音频播放器...
+2025-09-01 20:13:37 | INFO     | __main__:_test_audio_devices:83 - 测试音频设备...
+2025-09-01 20:13:37 | INFO     | __main__:_test_audio_devices:86 - 测试麦克风...
+2025-09-01 20:13:37 | INFO     | modules.recording:test_microphone:333 - 开始测试麦克风，录音1.0秒...
+2025-09-01 20:13:38 | INFO     | modules.recording:test_microphone:349 - 麦克风测试完成 - 能量: 0.000001, 最大振幅: 0.004
+2025-09-01 20:13:38 | INFO     | modules.recording:test_microphone:355 - 麦克风工作正常
+2025-09-01 20:13:38 | INFO     | __main__:_test_audio_devices:90 - 测试扬声器...
+2025-09-01 20:13:38 | INFO     | modules.audio_player:test_speaker:249 - 开始测试扬声器，播放440.0Hz正弦波1.0秒...
+2025-09-01 20:13:38 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 1.00秒
+2025-09-01 20:13:39 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 20:13:39 | INFO     | modules.audio_player:test_speaker:259 - 扬声器测试完成
+2025-09-01 20:13:39 | INFO     | __main__:_test_audio_devices:94 - 音频设备测试通过
+2025-09-01 20:13:39 | INFO     | __main__:initialize:73 - 语音AI对话系统初始化完成
+2025-09-01 20:13:39 | INFO     | __main__:start_conversation:110 - 启动语音AI对话系统
+2025-09-01 20:13:39 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 0.45秒
+2025-09-01 20:13:39 | INFO     | modules.audio_player:_play_thread_func:183 - 音频播放完成
+2025-09-01 20:13:39 | INFO     | modules.tts_client:synthesize_speech:47 - 开始TTS合成: 嬛嬛在此，姐姐有何吩咐？...
+2025-09-01 20:13:40 | INFO     | modules.tts_client:synthesize_speech:79 - TTS合成完成: ./temp/tts_output_1756728820.wav
+2025-09-01 20:13:40 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756728820.wav
+2025-09-01 20:13:40 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756728820.wav, 采样率: 16000, 长度: 2.83秒
+2025-09-01 20:13:40 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 2.83秒
+2025-09-01 20:13:43 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 20:13:43 | INFO     | __main__:_conversation_loop:134 - === 第 1 轮对话 ===
+2025-09-01 20:13:43 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:13:43 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:13:48 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:13:48 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:13:48 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 70656 采样点
+2025-09-01 20:13:48 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 4.42秒
+2025-09-01 20:13:48 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 2 个语音段落
+2025-09-01 20:13:48 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:13:48 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:13:48 | INFO     | __main__:_conversation_loop:134 - === 第 2 轮对话 ===
+2025-09-01 20:13:48 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:13:48 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:13:53 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:13:53 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:13:53 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:13:53 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 3 个语音段落
+2025-09-01 20:13:53 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 5.06秒
+2025-09-01 20:13:53 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:13:53 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:13:53 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:13:53 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 请问你是谁
+2025-09-01 20:13:53 | INFO     | __main__:_conversation_loop:158 - 正在生成回复...
+2025-09-01 20:13:53 | INFO     | modules.llm:generate_response:67 - 用户输入: 请问你是谁
+2025-09-01 20:13:55 | INFO     | modules.llm:generate_response:78 - 模型回复: 嬛嬛是槿汐的妹妹，平日里只在宫中服侍，姐姐可要多多关照。
+2025-09-01 20:13:55 | INFO     | __main__:_conversation_loop:169 - 正在合成语音...
+2025-09-01 20:13:55 | INFO     | modules.tts_client:synthesize_speech:47 - 开始TTS合成: 嬛嬛是槿汐的妹妹，平日里只在宫中服侍，姐姐可要多多关照。...
+2025-09-01 20:13:56 | INFO     | modules.tts_client:synthesize_speech:79 - TTS合成完成: ./temp/tts_output_1756728836.wav
+2025-09-01 20:13:56 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756728836.wav
+2025-09-01 20:13:56 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756728836.wav, 采样率: 16000, 长度: 7.01秒
+2025-09-01 20:13:56 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 7.01秒
+2025-09-01 20:14:03 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 20:14:03 | INFO     | __main__:_conversation_loop:134 - === 第 3 轮对话 ===
+2025-09-01 20:14:03 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:14:03 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:14:09 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:14:09 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:14:09 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 77824 采样点
+2025-09-01 20:14:09 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 4.86秒
+2025-09-01 20:14:09 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 3 个语音段落
+2025-09-01 20:14:09 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:14:09 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:14:09 | INFO     | __main__:_conversation_loop:134 - === 第 4 轮对话 ===
+2025-09-01 20:14:09 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:14:09 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:14:14 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:14:14 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:14:14 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.12秒
+2025-09-01 20:14:14 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:14:14 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:14:14 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:14:14 | INFO     | __main__:_conversation_loop:134 - === 第 5 轮对话 ===
+2025-09-01 20:14:14 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:14:14 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:14:17 | INFO     | modules.recording:record_with_vad:260 - 检测到语音结束，停止录音
+2025-09-01 20:14:17 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:14:17 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：57344 -> 51200 采样点
+2025-09-01 20:14:17 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 3.20秒
+2025-09-01 20:14:17 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 3 个语音段落
+2025-09-01 20:14:17 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:14:17 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:14:17 | INFO     | __main__:_conversation_loop:134 - === 第 6 轮对话 ===
+2025-09-01 20:14:17 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:14:17 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:14:22 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:14:22 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:14:22 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 71168 采样点
+2025-09-01 20:14:22 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 4.45秒
+2025-09-01 20:14:22 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 2 个语音段落
+2025-09-01 20:14:22 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:14:22 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:14:22 | INFO     | __main__:_conversation_loop:134 - === 第 7 轮对话 ===
+2025-09-01 20:14:22 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:14:22 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:14:27 | INFO     | modules.recording:record_with_vad:260 - 检测到语音结束，停止录音
+2025-09-01 20:14:27 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:14:27 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：70656 -> 45056 采样点
+2025-09-01 20:14:27 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 2.82秒
+2025-09-01 20:14:27 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 3 个语音段落
+2025-09-01 20:14:27 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:14:27 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:14:27 | INFO     | __main__:_conversation_loop:134 - === 第 8 轮对话 ===
+2025-09-01 20:14:27 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:14:27 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:14:32 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:14:32 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:14:32 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:14:32 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:14:32 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:14:32 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:14:32 | INFO     | __main__:_conversation_loop:134 - === 第 9 轮对话 ===
+2025-09-01 20:14:32 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:14:32 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:14:34 | INFO     | modules.recording:record_with_vad:260 - 检测到语音结束，停止录音
+2025-09-01 20:14:34 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:14:34 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：38912 -> 24576 采样点
+2025-09-01 20:14:34 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 1.54秒
+2025-09-01 20:14:34 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:14:34 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:14:34 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:14:34 | INFO     | __main__:_conversation_loop:134 - === 第 10 轮对话 ===
+2025-09-01 20:14:34 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:14:34 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:14:39 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:14:39 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:14:39 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 21504 采样点
+2025-09-01 20:14:39 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 1.34秒
+2025-09-01 20:14:39 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:14:39 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:14:39 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:14:39 | INFO     | __main__:_conversation_loop:134 - === 第 11 轮对话 ===
+2025-09-01 20:14:39 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:14:39 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:14:44 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:14:44 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:14:44 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 42496 采样点
+2025-09-01 20:14:44 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 2.66秒
+2025-09-01 20:14:44 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 2 个语音段落
+2025-09-01 20:14:44 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 2.66秒
+2025-09-01 20:14:44 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:14:44 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:14:44 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:14:45 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 请问你是谁
+2025-09-01 20:14:45 | INFO     | __main__:_conversation_loop:158 - 正在生成回复...
+2025-09-01 20:14:45 | INFO     | modules.llm:generate_response:67 - 用户输入: 请问你是谁
+2025-09-01 20:14:46 | INFO     | modules.llm:generate_response:78 - 模型回复: 嬛嬛是浣碧的妹妹，平日里只在宫中服侍，姐姐可要多多关照。
+2025-09-01 20:14:46 | INFO     | __main__:_conversation_loop:169 - 正在合成语音...
+2025-09-01 20:14:46 | INFO     | modules.tts_client:synthesize_speech:47 - 开始TTS合成: 嬛嬛是浣碧的妹妹，平日里只在宫中服侍，姐姐可要多多关照。...
+2025-09-01 20:14:47 | INFO     | modules.tts_client:synthesize_speech:79 - TTS合成完成: ./temp/tts_output_1756728887.wav
+2025-09-01 20:14:47 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756728887.wav
+2025-09-01 20:14:47 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756728887.wav, 采样率: 16000, 长度: 5.20秒
+2025-09-01 20:14:47 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 5.20秒
+2025-09-01 20:14:52 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 20:14:52 | INFO     | __main__:_conversation_loop:134 - === 第 12 轮对话 ===
+2025-09-01 20:14:52 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:14:52 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:14:58 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:14:58 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:14:58 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：81920 -> 47616 采样点
+2025-09-01 20:14:58 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 2.98秒
+2025-09-01 20:14:58 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:14:58 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:14:58 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:14:58 | INFO     | __main__:_conversation_loop:134 - === 第 13 轮对话 ===
+2025-09-01 20:14:58 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:14:58 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:15:03 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:15:03 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:15:03 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：81920 -> 38912 采样点
+2025-09-01 20:15:03 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 2.43秒
+2025-09-01 20:15:03 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:15:03 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:15:03 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:15:03 | INFO     | __main__:_conversation_loop:134 - === 第 14 轮对话 ===
+2025-09-01 20:15:03 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:15:03 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:15:08 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:15:08 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:15:08 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:15:08 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:15:08 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:15:08 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:15:08 | INFO     | __main__:_conversation_loop:134 - === 第 15 轮对话 ===
+2025-09-01 20:15:08 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:15:08 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:15:13 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:15:13 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:15:13 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:15:13 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:15:13 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:15:13 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:15:13 | INFO     | __main__:_conversation_loop:134 - === 第 16 轮对话 ===
+2025-09-01 20:15:13 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:15:13 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:15:18 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:15:18 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:15:18 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：81920 -> 23040 采样点
+2025-09-01 20:15:18 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 1.44秒
+2025-09-01 20:15:18 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:15:18 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:15:18 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:15:18 | INFO     | __main__:_conversation_loop:134 - === 第 17 轮对话 ===
+2025-09-01 20:15:18 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:15:18 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:15:23 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:15:23 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:15:23 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 33280 采样点
+2025-09-01 20:15:23 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 2.08秒
+2025-09-01 20:15:23 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:15:23 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:15:23 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:15:23 | INFO     | __main__:_conversation_loop:134 - === 第 18 轮对话 ===
+2025-09-01 20:15:23 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:15:23 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:15:28 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:15:28 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:15:28 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：81920 -> 68608 采样点
+2025-09-01 20:15:28 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 4.29秒
+2025-09-01 20:15:28 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 4 个语音段落
+2025-09-01 20:15:28 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:15:28 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:15:28 | INFO     | __main__:_conversation_loop:134 - === 第 19 轮对话 ===
+2025-09-01 20:15:28 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:15:28 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:15:33 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:15:33 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:15:33 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 76800 采样点
+2025-09-01 20:15:33 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 4.80秒
+2025-09-01 20:15:33 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 5 个语音段落
+2025-09-01 20:15:33 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:15:33 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:15:33 | INFO     | __main__:_conversation_loop:134 - === 第 20 轮对话 ===
+2025-09-01 20:15:33 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:15:33 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:15:38 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:15:38 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:15:38 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.12秒
+2025-09-01 20:15:38 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:15:38 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:15:38 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:15:38 | INFO     | __main__:_conversation_loop:134 - === 第 21 轮对话 ===
+2025-09-01 20:15:38 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:15:38 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:15:44 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:15:44 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:15:44 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 76288 采样点
+2025-09-01 20:15:44 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 4.77秒
+2025-09-01 20:15:44 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 6 个语音段落
+2025-09-01 20:15:44 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:15:44 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:15:44 | INFO     | __main__:_conversation_loop:134 - === 第 22 轮对话 ===
+2025-09-01 20:15:44 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:15:44 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:15:49 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:15:49 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:15:49 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 78848 采样点
+2025-09-01 20:15:49 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 4.93秒
+2025-09-01 20:15:49 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 5 个语音段落
+2025-09-01 20:15:49 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:15:49 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:15:49 | INFO     | __main__:_conversation_loop:134 - === 第 23 轮对话 ===
+2025-09-01 20:15:49 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:15:49 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:15:54 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:15:54 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:15:54 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:15:54 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:15:54 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:15:54 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:15:54 | INFO     | __main__:_conversation_loop:134 - === 第 24 轮对话 ===
+2025-09-01 20:15:54 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:15:54 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:15:59 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:15:59 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:15:59 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:15:59 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 3 个语音段落
+2025-09-01 20:15:59 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:15:59 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:15:59 | INFO     | __main__:_conversation_loop:134 - === 第 25 轮对话 ===
+2025-09-01 20:15:59 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:15:59 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:16:04 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:16:04 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:16:04 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:16:04 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:16:04 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 5.06秒
+2025-09-01 20:16:04 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:16:04 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:16:04 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:16:04 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 
+2025-09-01 20:16:04 | WARNING  | __main__:_conversation_loop:151 - 语音识别结果为空，跳过本轮对话
+2025-09-01 20:16:04 | INFO     | __main__:_conversation_loop:134 - === 第 26 轮对话 ===
+2025-09-01 20:16:04 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:16:04 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:16:09 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:16:09 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:16:09 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.12秒
+2025-09-01 20:16:09 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:16:09 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:16:09 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:16:09 | INFO     | __main__:_conversation_loop:134 - === 第 27 轮对话 ===
+2025-09-01 20:16:09 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:16:09 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:16:14 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:16:14 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:16:14 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:16:14 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:16:14 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:16:14 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:16:14 | INFO     | __main__:_conversation_loop:134 - === 第 28 轮对话 ===
+2025-09-01 20:16:14 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:16:14 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:16:19 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:16:19 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:16:19 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.12秒
+2025-09-01 20:16:19 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:16:19 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:16:19 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:16:19 | INFO     | __main__:_conversation_loop:134 - === 第 29 轮对话 ===
+2025-09-01 20:16:19 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:16:19 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:16:24 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:16:24 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:16:24 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:16:24 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:16:24 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 5.06秒
+2025-09-01 20:16:24 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:16:24 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:16:24 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:16:24 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 
+2025-09-01 20:16:24 | WARNING  | __main__:_conversation_loop:151 - 语音识别结果为空，跳过本轮对话
+2025-09-01 20:16:24 | INFO     | __main__:_conversation_loop:134 - === 第 30 轮对话 ===
+2025-09-01 20:16:24 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:16:24 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:16:29 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:16:29 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:16:29 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.12秒
+2025-09-01 20:16:29 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:16:29 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:16:29 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:16:29 | INFO     | __main__:_conversation_loop:134 - === 第 31 轮对话 ===
+2025-09-01 20:16:29 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:16:29 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:16:34 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:16:34 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:16:34 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:16:34 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:16:34 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:16:34 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:16:34 | INFO     | __main__:_conversation_loop:134 - === 第 32 轮对话 ===
+2025-09-01 20:16:34 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:16:34 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:16:39 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:16:39 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:16:39 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:16:39 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:16:39 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:16:39 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:16:39 | INFO     | __main__:_conversation_loop:134 - === 第 33 轮对话 ===
+2025-09-01 20:16:39 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:16:39 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:16:45 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:16:45 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:16:45 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:16:45 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:16:45 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:16:45 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:16:45 | INFO     | __main__:_conversation_loop:134 - === 第 34 轮对话 ===
+2025-09-01 20:16:45 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:16:45 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:16:50 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:16:50 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:16:50 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.12秒
+2025-09-01 20:16:50 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:16:50 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 5.12秒
+2025-09-01 20:16:50 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:16:50 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:16:50 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:16:50 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 
+2025-09-01 20:16:50 | WARNING  | __main__:_conversation_loop:151 - 语音识别结果为空，跳过本轮对话
+2025-09-01 20:16:50 | INFO     | __main__:_conversation_loop:134 - === 第 35 轮对话 ===
+2025-09-01 20:16:50 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:16:50 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:16:55 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:16:55 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:16:55 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：81920 -> 81408 采样点
+2025-09-01 20:16:55 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.09秒
+2025-09-01 20:16:55 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:16:55 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:16:55 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:16:55 | INFO     | __main__:_conversation_loop:134 - === 第 36 轮对话 ===
+2025-09-01 20:16:55 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:16:55 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:17:00 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:17:00 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:17:00 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.12秒
+2025-09-01 20:17:00 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:17:00 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:17:00 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:17:00 | INFO     | __main__:_conversation_loop:134 - === 第 37 轮对话 ===
+2025-09-01 20:17:00 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:17:00 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:17:05 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:17:05 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:17:05 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:17:05 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:17:05 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 5.06秒
+2025-09-01 20:17:05 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:17:05 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:17:05 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:17:05 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 
+2025-09-01 20:17:05 | WARNING  | __main__:_conversation_loop:151 - 语音识别结果为空，跳过本轮对话
+2025-09-01 20:17:05 | INFO     | __main__:_conversation_loop:134 - === 第 38 轮对话 ===
+2025-09-01 20:17:05 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:17:05 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:17:10 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:17:10 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:17:10 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:17:10 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:17:10 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 5.06秒
+2025-09-01 20:17:10 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:17:10 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:17:10 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:17:10 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 
+2025-09-01 20:17:10 | WARNING  | __main__:_conversation_loop:151 - 语音识别结果为空，跳过本轮对话
+2025-09-01 20:17:10 | INFO     | __main__:_conversation_loop:134 - === 第 39 轮对话 ===
+2025-09-01 20:17:10 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:17:10 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:17:15 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:17:15 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:17:15 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:17:15 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:17:15 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 5.06秒
+2025-09-01 20:17:15 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:17:15 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:17:15 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:17:15 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 
+2025-09-01 20:17:15 | WARNING  | __main__:_conversation_loop:151 - 语音识别结果为空，跳过本轮对话
+2025-09-01 20:17:15 | INFO     | __main__:_conversation_loop:134 - === 第 40 轮对话 ===
+2025-09-01 20:17:15 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:17:15 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:17:20 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:17:20 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:17:20 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:17:20 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:17:20 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:17:20 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:17:20 | INFO     | __main__:_conversation_loop:134 - === 第 41 轮对话 ===
+2025-09-01 20:17:20 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:17:20 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:17:26 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:17:26 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:17:26 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:17:26 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:17:26 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 5.06秒
+2025-09-01 20:17:26 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:17:26 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:17:26 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:17:26 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 
+2025-09-01 20:17:26 | WARNING  | __main__:_conversation_loop:151 - 语音识别结果为空，跳过本轮对话
+2025-09-01 20:17:26 | INFO     | __main__:_conversation_loop:134 - === 第 42 轮对话 ===
+2025-09-01 20:17:26 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:17:26 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:17:31 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:17:31 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:17:31 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 44032 采样点
+2025-09-01 20:17:31 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 2.75秒
+2025-09-01 20:17:31 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:17:31 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 2.75秒
+2025-09-01 20:17:31 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:17:31 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：44032 -> 41472 采样点
+2025-09-01 20:17:31 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:17:31 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:17:31 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 你在干什么为什么听不
+2025-09-01 20:17:31 | INFO     | __main__:_conversation_loop:158 - 正在生成回复...
+2025-09-01 20:17:31 | INFO     | modules.llm:generate_response:67 - 用户输入: 你在干什么为什么听不
+2025-09-01 20:17:31 | INFO     | modules.llm:generate_response:78 - 模型回复: 嬛嬛一时无言，请稍等片刻。
+2025-09-01 20:17:31 | INFO     | __main__:_conversation_loop:169 - 正在合成语音...
+2025-09-01 20:17:31 | INFO     | modules.tts_client:synthesize_speech:47 - 开始TTS合成: 嬛嬛一时无言，请稍等片刻。...
+2025-09-01 20:17:32 | INFO     | modules.tts_client:synthesize_speech:79 - TTS合成完成: ./temp/tts_output_1756729052.wav
+2025-09-01 20:17:32 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756729052.wav
+2025-09-01 20:17:32 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756729052.wav, 采样率: 16000, 长度: 3.15秒
+2025-09-01 20:17:32 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 3.15秒
+2025-09-01 20:17:35 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 20:17:35 | INFO     | __main__:_conversation_loop:134 - === 第 43 轮对话 ===
+2025-09-01 20:17:35 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:17:35 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:17:40 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:17:40 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:17:40 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:17:40 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 9 个语音段落
+2025-09-01 20:17:40 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:17:40 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:17:40 | INFO     | __main__:_conversation_loop:134 - === 第 44 轮对话 ===
+2025-09-01 20:17:40 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:17:40 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:17:45 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:17:45 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:17:45 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 76800 采样点
+2025-09-01 20:17:45 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 4.80秒
+2025-09-01 20:17:45 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 6 个语音段落
+2025-09-01 20:17:45 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:17:45 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:17:45 | INFO     | __main__:_conversation_loop:134 - === 第 45 轮对话 ===
+2025-09-01 20:17:45 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:17:45 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:17:50 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:17:50 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:17:50 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:17:51 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:17:51 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:17:51 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:17:51 | INFO     | __main__:_conversation_loop:134 - === 第 46 轮对话 ===
+2025-09-01 20:17:51 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:17:51 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:17:56 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:17:56 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:17:56 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:17:56 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:17:56 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:17:56 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:17:56 | INFO     | __main__:_conversation_loop:134 - === 第 47 轮对话 ===
+2025-09-01 20:17:56 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:17:56 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:18:01 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:18:01 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:18:01 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:18:01 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:18:01 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 5.06秒
+2025-09-01 20:18:01 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:18:01 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:18:01 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:18:01 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 
+2025-09-01 20:18:01 | WARNING  | __main__:_conversation_loop:151 - 语音识别结果为空，跳过本轮对话
+2025-09-01 20:18:01 | INFO     | __main__:_conversation_loop:134 - === 第 48 轮对话 ===
+2025-09-01 20:18:01 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:18:01 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:18:06 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:18:06 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:18:06 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:18:06 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:18:06 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:18:06 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:18:06 | INFO     | __main__:_conversation_loop:134 - === 第 49 轮对话 ===
+2025-09-01 20:18:06 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:18:06 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:18:11 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:18:11 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:18:11 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.12秒
+2025-09-01 20:18:11 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:18:11 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:18:11 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:18:11 | INFO     | __main__:_conversation_loop:134 - === 第 50 轮对话 ===
+2025-09-01 20:18:11 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:18:11 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:18:16 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:18:16 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:18:16 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:18:16 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:18:16 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:18:16 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:18:16 | INFO     | __main__:_conversation_loop:134 - === 第 51 轮对话 ===
+2025-09-01 20:18:16 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:18:16 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:18:21 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:18:21 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:18:21 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:18:21 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:18:21 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:18:21 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:18:21 | INFO     | __main__:_conversation_loop:134 - === 第 52 轮对话 ===
+2025-09-01 20:18:21 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:18:21 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:18:26 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:18:26 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:18:26 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:18:26 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:18:26 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:18:26 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:18:26 | INFO     | __main__:_conversation_loop:134 - === 第 53 轮对话 ===
+2025-09-01 20:18:26 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:18:26 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:18:31 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:18:31 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:18:31 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.12秒
+2025-09-01 20:18:31 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:18:31 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:18:31 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:18:31 | INFO     | __main__:_conversation_loop:134 - === 第 54 轮对话 ===
+2025-09-01 20:18:31 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:18:31 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:18:36 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:18:36 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:18:36 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:18:36 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:18:36 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:18:36 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:18:36 | INFO     | __main__:_conversation_loop:134 - === 第 55 轮对话 ===
+2025-09-01 20:18:36 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:18:36 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:18:41 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:18:41 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:18:41 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.12秒
+2025-09-01 20:18:41 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:18:41 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:18:41 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:18:41 | INFO     | __main__:_conversation_loop:134 - === 第 56 轮对话 ===
+2025-09-01 20:18:41 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:18:41 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:18:46 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:18:46 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:18:46 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:18:46 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:18:46 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:18:46 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:18:46 | INFO     | __main__:_conversation_loop:134 - === 第 57 轮对话 ===
+2025-09-01 20:18:46 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:18:46 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:18:52 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:18:52 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:18:52 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.12秒
+2025-09-01 20:18:52 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:18:52 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:18:52 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:18:52 | INFO     | __main__:_conversation_loop:134 - === 第 58 轮对话 ===
+2025-09-01 20:18:52 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:18:52 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:18:57 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:18:57 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:18:57 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：81920 -> 41472 采样点
+2025-09-01 20:18:57 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 2.59秒
+2025-09-01 20:18:57 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 2 个语音段落
+2025-09-01 20:18:57 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 2.59秒
+2025-09-01 20:18:57 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:18:57 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:18:57 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:18:57 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 请问你是谁
+2025-09-01 20:18:57 | INFO     | __main__:_conversation_loop:158 - 正在生成回复...
+2025-09-01 20:18:57 | INFO     | modules.llm:generate_response:67 - 用户输入: 请问你是谁
+2025-09-01 20:18:58 | INFO     | modules.llm:generate_response:78 - 模型回复: 嬛嬛是眉庄的妹妹，平日里只在宫中服侍，姐姐可要多多关照。
+2025-09-01 20:18:58 | INFO     | __main__:_conversation_loop:169 - 正在合成语音...
+2025-09-01 20:18:58 | INFO     | modules.tts_client:synthesize_speech:47 - 开始TTS合成: 嬛嬛是眉庄的妹妹，平日里只在宫中服侍，姐姐可要多多关照。...
+2025-09-01 20:19:00 | INFO     | modules.tts_client:synthesize_speech:79 - TTS合成完成: ./temp/tts_output_1756729140.wav
+2025-09-01 20:19:00 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756729140.wav
+2025-09-01 20:19:00 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756729140.wav, 采样率: 16000, 长度: 7.70秒
+2025-09-01 20:19:00 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 7.70秒
+2025-09-01 20:19:07 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 20:19:08 | INFO     | __main__:_conversation_loop:134 - === 第 59 轮对话 ===
+2025-09-01 20:19:08 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:19:08 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:19:13 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:19:13 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:19:13 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 55808 采样点
+2025-09-01 20:19:13 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 3.49秒
+2025-09-01 20:19:13 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 4 个语音段落
+2025-09-01 20:19:13 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:19:13 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:19:13 | INFO     | __main__:_conversation_loop:134 - === 第 60 轮对话 ===
+2025-09-01 20:19:13 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:19:13 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:19:18 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:19:18 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:19:18 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 40448 采样点
+2025-09-01 20:19:18 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 2.53秒
+2025-09-01 20:19:18 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:19:18 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 2.53秒
+2025-09-01 20:19:18 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:19:18 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:19:18 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:19:18 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 你喜欢玩什么
+2025-09-01 20:19:18 | INFO     | __main__:_conversation_loop:158 - 正在生成回复...
+2025-09-01 20:19:18 | INFO     | modules.llm:generate_response:67 - 用户输入: 你喜欢玩什么
+2025-09-01 20:19:19 | INFO     | modules.llm:generate_response:78 - 模型回复: 嬛嬛喜欢在园子里看花，听风赏月。
+2025-09-01 20:19:19 | INFO     | __main__:_conversation_loop:169 - 正在合成语音...
+2025-09-01 20:19:19 | INFO     | modules.tts_client:synthesize_speech:47 - 开始TTS合成: 嬛嬛喜欢在园子里看花，听风赏月。...
+2025-09-01 20:19:20 | INFO     | modules.tts_client:synthesize_speech:79 - TTS合成完成: ./temp/tts_output_1756729160.wav
+2025-09-01 20:19:20 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756729160.wav
+2025-09-01 20:19:20 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756729160.wav, 采样率: 16000, 长度: 4.64秒
+2025-09-01 20:19:20 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 4.64秒
+2025-09-01 20:19:25 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 20:19:25 | INFO     | __main__:_conversation_loop:134 - === 第 61 轮对话 ===
+2025-09-01 20:19:25 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:19:25 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:19:30 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:19:30 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:19:30 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：81920 -> 45568 采样点
+2025-09-01 20:19:30 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 2.85秒
+2025-09-01 20:19:30 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:19:30 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 2.85秒
+2025-09-01 20:19:30 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:19:30 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：45568 -> 45056 采样点
+2025-09-01 20:19:30 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:19:30 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:19:30 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 那你的爱好真的挺好的
+2025-09-01 20:19:30 | INFO     | __main__:_conversation_loop:158 - 正在生成回复...
+2025-09-01 20:19:30 | INFO     | modules.llm:generate_response:67 - 用户输入: 那你的爱好真的挺好的
+2025-09-01 20:19:31 | INFO     | modules.llm:generate_response:78 - 模型回复: 姐姐夸得嬛嬛心里欢喜，只是嬛嬛最爱的还是听姐姐们说说话。
+2025-09-01 20:19:31 | INFO     | __main__:_conversation_loop:169 - 正在合成语音...
+2025-09-01 20:19:31 | INFO     | modules.tts_client:synthesize_speech:47 - 开始TTS合成: 姐姐夸得嬛嬛心里欢喜，只是嬛嬛最爱的还是听姐姐们说说话。...
+2025-09-01 20:19:33 | INFO     | modules.tts_client:synthesize_speech:79 - TTS合成完成: ./temp/tts_output_1756729173.wav
+2025-09-01 20:19:33 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756729173.wav
+2025-09-01 20:19:33 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756729173.wav, 采样率: 16000, 长度: 6.59秒
+2025-09-01 20:19:33 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 6.59秒
+2025-09-01 20:19:39 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 20:19:40 | INFO     | __main__:_conversation_loop:134 - === 第 62 轮对话 ===
+2025-09-01 20:19:40 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:19:40 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:19:45 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:19:45 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:19:45 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：81920 -> 59392 采样点
+2025-09-01 20:19:45 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 3.71秒
+2025-09-01 20:19:45 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 3 个语音段落
+2025-09-01 20:19:45 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:19:45 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:19:45 | INFO     | __main__:_conversation_loop:134 - === 第 63 轮对话 ===
+2025-09-01 20:19:45 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:19:45 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:19:50 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:19:50 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:19:50 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 66560 采样点
+2025-09-01 20:19:50 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 4.16秒
+2025-09-01 20:19:50 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 2 个语音段落
+2025-09-01 20:19:50 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:19:50 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:19:50 | INFO     | __main__:_conversation_loop:134 - === 第 64 轮对话 ===
+2025-09-01 20:19:50 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:19:50 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:19:55 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:19:55 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:19:55 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 60416 采样点
+2025-09-01 20:19:55 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 3.78秒
+2025-09-01 20:19:55 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 2 个语音段落
+2025-09-01 20:19:55 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 3.78秒
+2025-09-01 20:19:55 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:19:55 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：60416 -> 59392 采样点
+2025-09-01 20:19:55 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:19:55 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:19:55 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 那你喜欢打麻将吗
+2025-09-01 20:19:55 | INFO     | __main__:_conversation_loop:158 - 正在生成回复...
+2025-09-01 20:19:55 | INFO     | modules.llm:generate_response:67 - 用户输入: 那你喜欢打麻将吗
+2025-09-01 20:19:56 | INFO     | modules.llm:generate_response:78 - 模型回复: 嬛嬛喜欢听姐姐们打牌，只是嬛嬛不会。
+2025-09-01 20:19:56 | INFO     | __main__:_conversation_loop:169 - 正在合成语音...
+2025-09-01 20:19:56 | INFO     | modules.tts_client:synthesize_speech:47 - 开始TTS合成: 嬛嬛喜欢听姐姐们打牌，只是嬛嬛不会。...
+2025-09-01 20:19:57 | INFO     | modules.tts_client:synthesize_speech:79 - TTS合成完成: ./temp/tts_output_1756729197.wav
+2025-09-01 20:19:57 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756729197.wav
+2025-09-01 20:19:57 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756729197.wav, 采样率: 16000, 长度: 5.24秒
+2025-09-01 20:19:57 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 5.24秒
+2025-09-01 20:20:02 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 20:20:03 | INFO     | __main__:_conversation_loop:134 - === 第 65 轮对话 ===
+2025-09-01 20:20:03 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:20:03 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:20:08 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:20:08 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:20:08 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:20:08 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:20:08 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:20:08 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:20:08 | INFO     | __main__:_conversation_loop:134 - === 第 66 轮对话 ===
+2025-09-01 20:20:08 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:20:08 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:20:13 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:20:13 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:20:13 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:20:13 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:20:13 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:20:13 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:20:13 | INFO     | __main__:_conversation_loop:134 - === 第 67 轮对话 ===
+2025-09-01 20:20:13 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:20:13 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:20:18 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:20:18 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:20:18 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:20:18 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:20:18 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 5.06秒
+2025-09-01 20:20:18 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:20:18 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:20:18 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:20:18 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 
+2025-09-01 20:20:18 | WARNING  | __main__:_conversation_loop:151 - 语音识别结果为空，跳过本轮对话
+2025-09-01 20:20:18 | INFO     | __main__:_conversation_loop:134 - === 第 68 轮对话 ===
+2025-09-01 20:20:18 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:20:18 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:20:23 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:20:23 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:20:23 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.12秒
+2025-09-01 20:20:23 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:20:23 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:20:23 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:20:23 | INFO     | __main__:_conversation_loop:134 - === 第 69 轮对话 ===
+2025-09-01 20:20:23 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:20:23 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:20:28 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:20:28 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:20:28 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:20:28 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:20:28 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:20:28 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:20:28 | INFO     | __main__:_conversation_loop:134 - === 第 70 轮对话 ===
+2025-09-01 20:20:28 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:20:28 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:20:33 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:20:33 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:20:33 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.12秒
+2025-09-01 20:20:33 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:20:33 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:20:33 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:20:33 | INFO     | __main__:_conversation_loop:134 - === 第 71 轮对话 ===
+2025-09-01 20:20:33 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:20:33 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:20:38 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:20:38 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:20:38 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.12秒
+2025-09-01 20:20:38 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:20:38 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:20:38 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:20:38 | INFO     | __main__:_conversation_loop:134 - === 第 72 轮对话 ===
+2025-09-01 20:20:38 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:20:38 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:20:44 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:20:44 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:20:44 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:20:44 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:20:44 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 5.06秒
+2025-09-01 20:20:44 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:20:44 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:20:44 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:20:44 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 
+2025-09-01 20:20:44 | WARNING  | __main__:_conversation_loop:151 - 语音识别结果为空，跳过本轮对话
+2025-09-01 20:20:44 | INFO     | __main__:_conversation_loop:134 - === 第 73 轮对话 ===
+2025-09-01 20:20:44 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:20:44 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:20:49 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:20:49 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:20:49 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:20:49 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:20:49 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:20:49 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:20:49 | INFO     | __main__:_conversation_loop:134 - === 第 74 轮对话 ===
+2025-09-01 20:20:49 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:20:49 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:20:54 | INFO     | __main__:_signal_handler:36 - 接收到退出信号，正在关闭系统...
+2025-09-01 20:20:54 | INFO     | __main__:stop:259 - 正在停止语音AI对话系统...
+2025-09-01 20:20:54 | INFO     | modules.recording:stop_recording:75 - 停止录音...
+2025-09-01 20:20:54 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:20:54 | INFO     | modules.recording:stop_recording:102 - 录音完成，时长: 4.80秒
+2025-09-01 20:20:54 | INFO     | modules.tts_client:synthesize_speech:47 - 开始TTS合成: 嬛嬛告退，姐姐保重。...
+2025-09-01 20:20:54 | INFO     | modules.tts_client:synthesize_speech:79 - TTS合成完成: ./temp/tts_output_1756729254.wav
+2025-09-01 20:20:54 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756729254.wav
+2025-09-01 20:20:54 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756729254.wav, 采样率: 16000, 长度: 2.64秒
+2025-09-01 20:20:54 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 2.64秒
+2025-09-01 20:20:57 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 20:20:57 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 0.10秒
+2025-09-01 20:20:57 | INFO     | __main__:stop:276 - 语音AI对话系统已停止
+2025-09-01 20:20:57 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:20:57 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 4.86秒
+2025-09-01 20:20:57 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:20:57 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:20:57 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:20:57 | INFO     | __main__:main:358 - 程序退出
+2025-09-01 20:21:09 | INFO     | __main__:initialize:42 - 正在初始化语音AI对话系统...
+2025-09-01 20:21:09 | INFO     | __main__:initialize:45 - 初始化音频录制器...
+2025-09-01 20:21:09 | INFO     | __main__:initialize:49 - 初始化ASR处理器...
+2025-09-01 20:21:09 | INFO     | modules.asr:_load_model:23 - 正在加载ASR模型: iic/SenseVoiceSmall
+2025-09-01 20:21:14 | INFO     | modules.asr:_load_model:36 - ASR模型加载成功
+2025-09-01 20:21:14 | INFO     | __main__:initialize:53 - 初始化LLM处理器...
+2025-09-01 20:21:14 | INFO     | modules.llm:_load_model:23 - 正在加载LLM模型...
+2025-09-01 20:21:23 | INFO     | modules.llm:_load_model:55 - LLM模型加载成功
+2025-09-01 20:21:23 | INFO     | __main__:initialize:57 - 初始化TTS客户端...
+2025-09-01 20:21:23 | INFO     | modules.tts_client:_check_service_health:30 - TTS服务连接成功
+2025-09-01 20:21:23 | INFO     | __main__:initialize:66 - 初始化音频播放器...
+2025-09-01 20:21:23 | INFO     | __main__:_test_audio_devices:83 - 测试音频设备...
+2025-09-01 20:21:23 | INFO     | __main__:_test_audio_devices:86 - 测试麦克风...
+2025-09-01 20:21:23 | INFO     | modules.recording:test_microphone:333 - 开始测试麦克风，录音1.0秒...
+2025-09-01 20:21:24 | INFO     | modules.recording:test_microphone:349 - 麦克风测试完成 - 能量: 0.000000, 最大振幅: 0.001
+2025-09-01 20:21:24 | WARNING  | modules.recording:test_microphone:358 - 麦克风可能没有声音输入
+2025-09-01 20:21:24 | INFO     | __main__:_test_audio_devices:90 - 测试扬声器...
+2025-09-01 20:21:24 | INFO     | modules.audio_player:test_speaker:249 - 开始测试扬声器，播放440.0Hz正弦波1.0秒...
+2025-09-01 20:21:24 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 1.00秒
+2025-09-01 20:21:25 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 20:21:25 | INFO     | modules.audio_player:test_speaker:259 - 扬声器测试完成
+2025-09-01 20:21:25 | WARNING  | __main__:_test_audio_devices:97 - 音频设备测试部分失败 - 麦克风: False, 扬声器: True
+2025-09-01 20:21:25 | WARNING  | __main__:initialize:71 - 音频设备测试失败，但系统将继续运行
+2025-09-01 20:21:25 | INFO     | __main__:initialize:73 - 语音AI对话系统初始化完成
+2025-09-01 20:21:25 | INFO     | __main__:start_conversation:110 - 启动语音AI对话系统
+2025-09-01 20:21:25 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 0.45秒
+2025-09-01 20:21:25 | INFO     | modules.audio_player:_play_thread_func:183 - 音频播放完成
+2025-09-01 20:21:26 | INFO     | modules.tts_client:synthesize_speech:47 - 开始TTS合成: 嬛嬛在此，姐姐有何吩咐？...
+2025-09-01 20:21:26 | INFO     | modules.tts_client:synthesize_speech:79 - TTS合成完成: ./temp/tts_output_1756729286.wav
+2025-09-01 20:21:26 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756729286.wav
+2025-09-01 20:21:26 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756729286.wav, 采样率: 16000, 长度: 2.59秒
+2025-09-01 20:21:26 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 2.59秒
+2025-09-01 20:21:29 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 20:21:29 | INFO     | __main__:_conversation_loop:134 - === 第 1 轮对话 ===
+2025-09-01 20:21:29 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:21:29 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:21:34 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:21:34 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:21:34 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:21:34 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:21:34 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 5.06秒
+2025-09-01 20:21:34 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:21:34 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:21:34 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:21:34 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 我想让你跟我一起出去玩
+2025-09-01 20:21:34 | INFO     | __main__:_conversation_loop:158 - 正在生成回复...
+2025-09-01 20:21:34 | INFO     | modules.llm:generate_response:67 - 用户输入: 我想让你跟我一起出去玩
+2025-09-01 20:21:36 | INFO     | modules.llm:generate_response:78 - 模型回复: 嬛嬛今日刚与姐姐们打完牌，又见了天光，不如陪姐姐去赏花如何？
+2025-09-01 20:21:36 | INFO     | __main__:_conversation_loop:169 - 正在合成语音...
+2025-09-01 20:21:36 | INFO     | modules.tts_client:synthesize_speech:47 - 开始TTS合成: 嬛嬛今日刚与姐姐们打完牌，又见了天光，不如陪姐姐去赏花如何？...
+2025-09-01 20:21:37 | INFO     | modules.tts_client:synthesize_speech:79 - TTS合成完成: ./temp/tts_output_1756729297.wav
+2025-09-01 20:21:37 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756729297.wav
+2025-09-01 20:21:37 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756729297.wav, 采样率: 16000, 长度: 6.17秒
+2025-09-01 20:21:37 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 6.17秒
+2025-09-01 20:21:43 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 20:21:43 | INFO     | __main__:_conversation_loop:134 - === 第 2 轮对话 ===
+2025-09-01 20:21:43 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:21:43 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:21:49 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:21:49 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:21:49 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：81920 -> 65024 采样点
+2025-09-01 20:21:49 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 4.06秒
+2025-09-01 20:21:49 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 2 个语音段落
+2025-09-01 20:21:49 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 4.06秒
+2025-09-01 20:21:49 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:21:49 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：65024 -> 64512 采样点
+2025-09-01 20:21:49 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:21:49 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:21:49 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 可以可以我们去哪里看花呢
+2025-09-01 20:21:49 | INFO     | __main__:_conversation_loop:158 - 正在生成回复...
+2025-09-01 20:21:49 | INFO     | modules.llm:generate_response:67 - 用户输入: 可以可以我们去哪里看花呢
+2025-09-01 20:21:50 | INFO     | modules.llm:generate_response:78 - 模型回复: 不如去后山，那里的牡丹开得正好，姐姐若不嫌弃，嬛嬛可陪姐姐赏上一整天。
+2025-09-01 20:21:50 | INFO     | __main__:_conversation_loop:169 - 正在合成语音...
+2025-09-01 20:21:50 | INFO     | modules.tts_client:synthesize_speech:47 - 开始TTS合成: 不如去后山，那里的牡丹开得正好，姐姐若不嫌弃，嬛嬛可陪姐姐赏上一整天。...
+2025-09-01 20:21:52 | INFO     | modules.tts_client:synthesize_speech:79 - TTS合成完成: ./temp/tts_output_1756729312.wav
+2025-09-01 20:21:52 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756729312.wav
+2025-09-01 20:21:52 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756729312.wav, 采样率: 16000, 长度: 10.17秒
+2025-09-01 20:21:52 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 10.17秒
+2025-09-01 20:22:02 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 20:22:03 | INFO     | __main__:_conversation_loop:134 - === 第 3 轮对话 ===
+2025-09-01 20:22:03 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:22:03 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:22:08 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:22:08 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:22:08 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 72192 采样点
+2025-09-01 20:22:08 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 4.51秒
+2025-09-01 20:22:08 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 2 个语音段落
+2025-09-01 20:22:08 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 4.51秒
+2025-09-01 20:22:08 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:22:08 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：72192 -> 68096 采样点
+2025-09-01 20:22:08 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:22:08 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:22:08 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 这个主意确实不错你喜欢什么花
+2025-09-01 20:22:08 | INFO     | __main__:_conversation_loop:158 - 正在生成回复...
+2025-09-01 20:22:08 | INFO     | modules.llm:generate_response:67 - 用户输入: 这个主意确实不错你喜欢什么花
+2025-09-01 20:22:09 | INFO     | modules.llm:generate_response:78 - 模型回复: 嬛嬛喜欢牡丹，可那花儿开得富贵，不如姐姐喜欢什么？
+2025-09-01 20:22:09 | INFO     | __main__:_conversation_loop:169 - 正在合成语音...
+2025-09-01 20:22:09 | INFO     | modules.tts_client:synthesize_speech:47 - 开始TTS合成: 嬛嬛喜欢牡丹，可那花儿开得富贵，不如姐姐喜欢什么？...
+2025-09-01 20:22:10 | INFO     | modules.tts_client:synthesize_speech:79 - TTS合成完成: ./temp/tts_output_1756729330.wav
+2025-09-01 20:22:10 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756729330.wav
+2025-09-01 20:22:10 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756729330.wav, 采样率: 16000, 长度: 5.89秒
+2025-09-01 20:22:10 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 5.89秒
+2025-09-01 20:22:16 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 20:22:16 | INFO     | __main__:_conversation_loop:134 - === 第 4 轮对话 ===
+2025-09-01 20:22:16 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:22:16 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:22:21 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:22:21 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:22:21 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 59904 采样点
+2025-09-01 20:22:21 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 3.74秒
+2025-09-01 20:22:21 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 3 个语音段落
+2025-09-01 20:22:21 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 3.74秒
+2025-09-01 20:22:21 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:22:21 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：59904 -> 58880 采样点
+2025-09-01 20:22:21 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:22:21 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:22:22 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 阮喜欢玫瑰
+2025-09-01 20:22:22 | INFO     | __main__:_conversation_loop:158 - 正在生成回复...
+2025-09-01 20:22:22 | INFO     | modules.llm:generate_response:67 - 用户输入: 阮喜欢玫瑰
+2025-09-01 20:22:23 | INFO     | modules.llm:generate_response:78 - 模型回复: 玫瑰开得热烈，倒与姐姐的性子一般无二，嬛嬛便陪姐姐赏上一整天吧。
+2025-09-01 20:22:23 | INFO     | __main__:_conversation_loop:169 - 正在合成语音...
+2025-09-01 20:22:23 | INFO     | modules.tts_client:synthesize_speech:47 - 开始TTS合成: 玫瑰开得热烈，倒与姐姐的性子一般无二，嬛嬛便陪姐姐赏上一整天吧。...
+2025-09-01 20:22:25 | INFO     | modules.tts_client:synthesize_speech:79 - TTS合成完成: ./temp/tts_output_1756729345.wav
+2025-09-01 20:22:25 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756729345.wav
+2025-09-01 20:22:25 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756729345.wav, 采样率: 16000, 长度: 9.28秒
+2025-09-01 20:22:25 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 9.28秒
+2025-09-01 20:22:34 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 20:22:34 | INFO     | __main__:_conversation_loop:134 - === 第 5 轮对话 ===
+2025-09-01 20:22:34 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:22:34 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:22:40 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:22:40 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:22:40 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 70656 采样点
+2025-09-01 20:22:40 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 4.42秒
+2025-09-01 20:22:40 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:22:40 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 4.42秒
+2025-09-01 20:22:40 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:22:40 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：70656 -> 68608 采样点
+2025-09-01 20:22:40 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:22:40 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:22:40 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: No.
+2025-09-01 20:22:40 | INFO     | __main__:_conversation_loop:158 - 正在生成回复...
+2025-09-01 20:22:40 | INFO     | modules.llm:generate_response:67 - 用户输入: No.
+2025-09-01 20:22:40 | INFO     | modules.llm:generate_response:78 - 模型回复: 嬛嬛方才失言，只恐惊扰了姐姐的兴致。
+2025-09-01 20:22:40 | INFO     | __main__:_conversation_loop:169 - 正在合成语音...
+2025-09-01 20:22:40 | INFO     | modules.tts_client:synthesize_speech:47 - 开始TTS合成: 嬛嬛方才失言，只恐惊扰了姐姐的兴致。...
+2025-09-01 20:22:42 | INFO     | modules.tts_client:synthesize_speech:79 - TTS合成完成: ./temp/tts_output_1756729362.wav
+2025-09-01 20:22:42 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756729362.wav
+2025-09-01 20:22:42 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756729362.wav, 采样率: 16000, 长度: 5.89秒
+2025-09-01 20:22:42 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 5.89秒
+2025-09-01 20:22:48 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 20:22:48 | INFO     | __main__:_conversation_loop:134 - === 第 6 轮对话 ===
+2025-09-01 20:22:48 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:22:48 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:22:53 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:22:53 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:22:53 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 69120 采样点
+2025-09-01 20:22:53 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 4.32秒
+2025-09-01 20:22:53 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 2 个语音段落
+2025-09-01 20:22:53 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 4.32秒
+2025-09-01 20:22:53 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:22:53 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:22:53 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:22:53 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 那我们一起去打麻将吧
+2025-09-01 20:22:53 | INFO     | __main__:_conversation_loop:158 - 正在生成回复...
+2025-09-01 20:22:53 | INFO     | modules.llm:generate_response:67 - 用户输入: 那我们一起去打麻将吧
+2025-09-01 20:22:54 | INFO     | modules.llm:generate_response:78 - 模型回复: 嬛嬛今日与姐姐们打牌正尽兴，不如陪姐姐去赏花如何？
+2025-09-01 20:22:54 | INFO     | __main__:_conversation_loop:169 - 正在合成语音...
+2025-09-01 20:22:54 | INFO     | modules.tts_client:synthesize_speech:47 - 开始TTS合成: 嬛嬛今日与姐姐们打牌正尽兴，不如陪姐姐去赏花如何？...
+2025-09-01 20:22:55 | INFO     | modules.tts_client:synthesize_speech:79 - TTS合成完成: ./temp/tts_output_1756729375.wav
+2025-09-01 20:22:55 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756729375.wav
+2025-09-01 20:22:55 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756729375.wav, 采样率: 16000, 长度: 5.01秒
+2025-09-01 20:22:55 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 5.01秒
+2025-09-01 20:23:00 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 20:23:01 | INFO     | __main__:_conversation_loop:134 - === 第 7 轮对话 ===
+2025-09-01 20:23:01 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:23:01 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:23:06 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:23:06 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:23:06 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 77824 采样点
+2025-09-01 20:23:06 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 4.86秒
+2025-09-01 20:23:06 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 3 个语音段落
+2025-09-01 20:23:06 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 4.86秒
+2025-09-01 20:23:06 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:23:06 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：77824 -> 77312 采样点
+2025-09-01 20:23:06 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:23:06 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:23:06 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 我说要去打麻将
+2025-09-01 20:23:06 | INFO     | __main__:_conversation_loop:158 - 正在生成回复...
+2025-09-01 20:23:06 | INFO     | modules.llm:generate_response:67 - 用户输入: 我说要去打麻将
+2025-09-01 20:23:07 | INFO     | modules.llm:generate_response:78 - 模型回复: 嬛嬛方才失言，只恐惊扰了姐姐的兴致。
+2025-09-01 20:23:07 | INFO     | __main__:_conversation_loop:169 - 正在合成语音...
+2025-09-01 20:23:07 | INFO     | modules.tts_client:synthesize_speech:47 - 开始TTS合成: 嬛嬛方才失言，只恐惊扰了姐姐的兴致。...
+2025-09-01 20:23:08 | INFO     | modules.tts_client:synthesize_speech:79 - TTS合成完成: ./temp/tts_output_1756729388.wav
+2025-09-01 20:23:08 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756729388.wav
+2025-09-01 20:23:08 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756729388.wav, 采样率: 16000, 长度: 4.03秒
+2025-09-01 20:23:08 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 4.03秒
+2025-09-01 20:23:12 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 20:23:12 | INFO     | __main__:_conversation_loop:134 - === 第 8 轮对话 ===
+2025-09-01 20:23:12 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:23:12 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:23:17 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:23:17 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:23:17 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:23:17 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 2 个语音段落
+2025-09-01 20:23:17 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:23:17 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:23:17 | INFO     | __main__:_conversation_loop:134 - === 第 9 轮对话 ===
+2025-09-01 20:23:17 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:23:17 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:23:20 | INFO     | __main__:_signal_handler:36 - 接收到退出信号，正在关闭系统...
+2025-09-01 20:23:20 | INFO     | __main__:stop:259 - 正在停止语音AI对话系统...
+2025-09-01 20:23:20 | INFO     | modules.recording:stop_recording:75 - 停止录音...
+2025-09-01 20:23:20 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:23:20 | INFO     | modules.recording:stop_recording:102 - 录音完成，时长: 2.82秒
+2025-09-01 20:23:20 | INFO     | modules.tts_client:synthesize_speech:47 - 开始TTS合成: 嬛嬛告退，姐姐保重。...
+2025-09-01 20:23:21 | INFO     | modules.tts_client:synthesize_speech:79 - TTS合成完成: ./temp/tts_output_1756729401.wav
+2025-09-01 20:23:21 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756729401.wav
+2025-09-01 20:23:21 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756729401.wav, 采样率: 16000, 长度: 2.92秒
+2025-09-01 20:23:21 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 2.92秒
+2025-09-01 20:23:24 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 20:23:24 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 0.10秒
+2025-09-01 20:23:24 | INFO     | __main__:stop:276 - 语音AI对话系统已停止
+2025-09-01 20:23:24 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:23:24 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 2.88秒
+2025-09-01 20:23:24 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:23:24 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 2.88秒
+2025-09-01 20:23:24 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:23:24 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:23:24 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:23:24 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 
+2025-09-01 20:23:24 | WARNING  | __main__:_conversation_loop:151 - 语音识别结果为空，跳过本轮对话
+2025-09-01 20:23:24 | INFO     | __main__:main:358 - 程序退出
+2025-09-01 20:50:55 | INFO     | __main__:initialize:42 - 正在初始化语音AI对话系统...
+2025-09-01 20:50:55 | INFO     | __main__:initialize:45 - 初始化音频录制器...
+2025-09-01 20:50:55 | INFO     | __main__:initialize:49 - 初始化ASR处理器...
+2025-09-01 20:50:55 | INFO     | modules.asr:_load_model:23 - 正在加载ASR模型: iic/SenseVoiceSmall
+2025-09-01 20:50:59 | INFO     | modules.asr:_load_model:36 - ASR模型加载成功
+2025-09-01 20:50:59 | INFO     | __main__:initialize:53 - 初始化LLM处理器...
+2025-09-01 20:50:59 | INFO     | modules.llm:_load_model:23 - 正在加载LLM模型...
+2025-09-01 20:51:08 | INFO     | modules.llm:_load_model:55 - LLM模型加载成功
+2025-09-01 20:51:08 | INFO     | __main__:initialize:57 - 初始化TTS客户端...
+2025-09-01 20:51:08 | INFO     | modules.tts_client:_check_service_health:30 - TTS服务连接成功
+2025-09-01 20:51:08 | INFO     | __main__:initialize:66 - 初始化音频播放器...
+2025-09-01 20:51:08 | INFO     | __main__:_test_audio_devices:83 - 测试音频设备...
+2025-09-01 20:51:08 | INFO     | __main__:_test_audio_devices:86 - 测试麦克风...
+2025-09-01 20:51:08 | INFO     | modules.recording:test_microphone:333 - 开始测试麦克风，录音1.0秒...
+2025-09-01 20:51:09 | INFO     | modules.recording:test_microphone:349 - 麦克风测试完成 - 能量: 0.000000, 最大振幅: 0.002
+2025-09-01 20:51:09 | INFO     | modules.recording:test_microphone:355 - 麦克风工作正常
+2025-09-01 20:51:09 | INFO     | __main__:_test_audio_devices:90 - 测试扬声器...
+2025-09-01 20:51:09 | INFO     | modules.audio_player:test_speaker:249 - 开始测试扬声器，播放440.0Hz正弦波1.0秒...
+2025-09-01 20:51:09 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 1.00秒
+2025-09-01 20:51:10 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 20:51:10 | INFO     | modules.audio_player:test_speaker:259 - 扬声器测试完成
+2025-09-01 20:51:10 | INFO     | __main__:_test_audio_devices:94 - 音频设备测试通过
+2025-09-01 20:51:10 | INFO     | __main__:initialize:73 - 语音AI对话系统初始化完成
+2025-09-01 20:51:10 | INFO     | __main__:start_conversation:110 - 启动语音AI对话系统
+2025-09-01 20:51:10 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 0.45秒
+2025-09-01 20:51:10 | INFO     | modules.audio_player:_play_thread_func:183 - 音频播放完成
+2025-09-01 20:51:10 | INFO     | modules.tts_client:synthesize_speech_with_reference:104 - 开始TTS克隆合成: 嬛嬛在此，姐姐有何吩咐？...
+2025-09-01 20:51:10 | ERROR    | modules.tts_client:synthesize_speech_with_reference:117 - TTS克隆合成请求失败: 500
+2025-09-01 20:51:10 | ERROR    | __main__:_speak:250 - 语音合成失败
+2025-09-01 20:51:10 | INFO     | __main__:_conversation_loop:134 - === 第 1 轮对话 ===
+2025-09-01 20:51:10 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:51:10 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:51:15 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:51:15 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:51:15 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:51:15 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 7 个语音段落
+2025-09-01 20:51:15 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:51:15 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:51:15 | INFO     | __main__:_conversation_loop:134 - === 第 2 轮对话 ===
+2025-09-01 20:51:15 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:51:15 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:51:20 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:51:20 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:51:20 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:51:20 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:51:20 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 5.06秒
+2025-09-01 20:51:20 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:51:20 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:51:20 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:51:21 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 
+2025-09-01 20:51:21 | WARNING  | __main__:_conversation_loop:151 - 语音识别结果为空，跳过本轮对话
+2025-09-01 20:51:21 | INFO     | __main__:_conversation_loop:134 - === 第 3 轮对话 ===
+2025-09-01 20:51:21 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:51:21 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:51:26 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:51:26 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:51:26 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:51:26 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:51:26 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 5.06秒
+2025-09-01 20:51:26 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:51:26 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:51:26 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:51:26 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 
+2025-09-01 20:51:26 | WARNING  | __main__:_conversation_loop:151 - 语音识别结果为空，跳过本轮对话
+2025-09-01 20:51:26 | INFO     | __main__:_conversation_loop:134 - === 第 4 轮对话 ===
+2025-09-01 20:51:26 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:51:26 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:51:28 | INFO     | __main__:_signal_handler:36 - 接收到退出信号，正在关闭系统...
+2025-09-01 20:51:28 | INFO     | __main__:stop:261 - 正在停止语音AI对话系统...
+2025-09-01 20:51:28 | INFO     | modules.recording:stop_recording:75 - 停止录音...
+2025-09-01 20:51:28 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:51:28 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：39936 -> 39424 采样点
+2025-09-01 20:51:28 | INFO     | modules.recording:stop_recording:102 - 录音完成，时长: 2.46秒
+2025-09-01 20:51:28 | INFO     | modules.tts_client:synthesize_speech_with_reference:104 - 开始TTS克隆合成: 嬛嬛告退，姐姐保重。...
+2025-09-01 20:51:28 | ERROR    | modules.tts_client:synthesize_speech_with_reference:117 - TTS克隆合成请求失败: 500
+2025-09-01 20:51:28 | ERROR    | __main__:_speak:250 - 语音合成失败
+2025-09-01 20:51:29 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 0.10秒
+2025-09-01 20:51:29 | INFO     | __main__:stop:278 - 语音AI对话系统已停止
+2025-09-01 20:51:29 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:51:29 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：40960 -> 40448 采样点
+2025-09-01 20:51:29 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 2.53秒
+2025-09-01 20:51:29 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 2 个语音段落
+2025-09-01 20:51:29 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 2.53秒
+2025-09-01 20:51:29 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:51:29 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：40448 -> 39936 采样点
+2025-09-01 20:51:29 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:51:29 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:51:29 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 
+2025-09-01 20:51:29 | WARNING  | __main__:_conversation_loop:151 - 语音识别结果为空，跳过本轮对话
+2025-09-01 20:51:29 | INFO     | __main__:main:360 - 程序退出
+2025-09-01 20:52:57 | INFO     | __main__:initialize:42 - 正在初始化语音AI对话系统...
+2025-09-01 20:52:57 | INFO     | __main__:initialize:45 - 初始化音频录制器...
+2025-09-01 20:52:57 | INFO     | __main__:initialize:49 - 初始化ASR处理器...
+2025-09-01 20:52:57 | INFO     | modules.asr:_load_model:23 - 正在加载ASR模型: iic/SenseVoiceSmall
+2025-09-01 20:53:01 | INFO     | modules.asr:_load_model:36 - ASR模型加载成功
+2025-09-01 20:53:01 | INFO     | __main__:initialize:53 - 初始化LLM处理器...
+2025-09-01 20:53:01 | INFO     | modules.llm:_load_model:23 - 正在加载LLM模型...
+2025-09-01 20:53:11 | INFO     | modules.llm:_load_model:55 - LLM模型加载成功
+2025-09-01 20:53:11 | INFO     | __main__:initialize:57 - 初始化TTS客户端...
+2025-09-01 20:53:11 | INFO     | modules.tts_client:_check_service_health:30 - TTS服务连接成功
+2025-09-01 20:53:11 | INFO     | __main__:initialize:66 - 初始化音频播放器...
+2025-09-01 20:53:11 | INFO     | __main__:_test_audio_devices:83 - 测试音频设备...
+2025-09-01 20:53:11 | INFO     | __main__:_test_audio_devices:86 - 测试麦克风...
+2025-09-01 20:53:11 | INFO     | modules.recording:test_microphone:333 - 开始测试麦克风，录音1.0秒...
+2025-09-01 20:53:12 | INFO     | modules.recording:test_microphone:349 - 麦克风测试完成 - 能量: 0.000000, 最大振幅: 0.001
+2025-09-01 20:53:12 | WARNING  | modules.recording:test_microphone:358 - 麦克风可能没有声音输入
+2025-09-01 20:53:12 | INFO     | __main__:_test_audio_devices:90 - 测试扬声器...
+2025-09-01 20:53:12 | INFO     | modules.audio_player:test_speaker:249 - 开始测试扬声器，播放440.0Hz正弦波1.0秒...
+2025-09-01 20:53:12 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 1.00秒
+2025-09-01 20:53:13 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 20:53:13 | INFO     | modules.audio_player:test_speaker:259 - 扬声器测试完成
+2025-09-01 20:53:13 | WARNING  | __main__:_test_audio_devices:97 - 音频设备测试部分失败 - 麦克风: False, 扬声器: True
+2025-09-01 20:53:13 | WARNING  | __main__:initialize:71 - 音频设备测试失败，但系统将继续运行
+2025-09-01 20:53:13 | INFO     | __main__:initialize:73 - 语音AI对话系统初始化完成
+2025-09-01 20:53:13 | INFO     | __main__:start_conversation:110 - 启动语音AI对话系统
+2025-09-01 20:53:13 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 0.45秒
+2025-09-01 20:53:13 | INFO     | modules.audio_player:_play_thread_func:183 - 音频播放完成
+2025-09-01 20:53:13 | ERROR    | modules.tts_client:synthesize_speech_with_reference:101 - 参考音频文件不存在: ../dataset/audio/huanhuan.wav
+2025-09-01 20:53:13 | ERROR    | __main__:_speak:250 - 语音合成失败
+2025-09-01 20:53:13 | INFO     | __main__:_conversation_loop:134 - === 第 1 轮对话 ===
+2025-09-01 20:53:13 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:53:13 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:53:19 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:53:19 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:53:19 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.12秒
+2025-09-01 20:53:19 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:53:19 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:53:19 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:53:19 | INFO     | __main__:_conversation_loop:134 - === 第 2 轮对话 ===
+2025-09-01 20:53:19 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:53:19 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:53:24 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:53:24 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:53:24 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:53:24 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:53:24 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 5.06秒
+2025-09-01 20:53:24 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:53:24 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:53:24 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:53:24 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 
+2025-09-01 20:53:24 | WARNING  | __main__:_conversation_loop:151 - 语音识别结果为空，跳过本轮对话
+2025-09-01 20:53:24 | INFO     | __main__:_conversation_loop:134 - === 第 3 轮对话 ===
+2025-09-01 20:53:24 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:53:24 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:53:25 | INFO     | __main__:_signal_handler:36 - 接收到退出信号，正在关闭系统...
+2025-09-01 20:53:25 | INFO     | __main__:stop:261 - 正在停止语音AI对话系统...
+2025-09-01 20:53:25 | INFO     | modules.recording:stop_recording:75 - 停止录音...
+2025-09-01 20:53:25 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:53:25 | INFO     | modules.recording:stop_recording:102 - 录音完成，时长: 0.90秒
+2025-09-01 20:53:25 | ERROR    | modules.tts_client:synthesize_speech_with_reference:101 - 参考音频文件不存在: ../dataset/audio/huanhuan.wav
+2025-09-01 20:53:25 | ERROR    | __main__:_speak:250 - 语音合成失败
+2025-09-01 20:53:25 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 0.10秒
+2025-09-01 20:53:25 | INFO     | __main__:stop:278 - 语音AI对话系统已停止
+2025-09-01 20:53:25 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:53:25 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 0.96秒
+2025-09-01 20:53:25 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:53:25 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 0.96秒
+2025-09-01 20:53:25 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:53:25 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:53:25 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:53:25 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 
+2025-09-01 20:53:25 | WARNING  | __main__:_conversation_loop:151 - 语音识别结果为空，跳过本轮对话
+2025-09-01 20:53:25 | INFO     | __main__:main:360 - 程序退出
+2025-09-01 20:54:59 | INFO     | __main__:initialize:42 - 正在初始化语音AI对话系统...
+2025-09-01 20:54:59 | INFO     | __main__:initialize:45 - 初始化音频录制器...
+2025-09-01 20:54:59 | INFO     | __main__:initialize:49 - 初始化ASR处理器...
+2025-09-01 20:54:59 | INFO     | modules.asr:_load_model:23 - 正在加载ASR模型: iic/SenseVoiceSmall
+2025-09-01 20:55:04 | INFO     | modules.asr:_load_model:36 - ASR模型加载成功
+2025-09-01 20:55:04 | INFO     | __main__:initialize:53 - 初始化LLM处理器...
+2025-09-01 20:55:04 | INFO     | modules.llm:_load_model:23 - 正在加载LLM模型...
+2025-09-01 20:55:12 | INFO     | modules.llm:_load_model:55 - LLM模型加载成功
+2025-09-01 20:55:12 | INFO     | __main__:initialize:57 - 初始化TTS客户端...
+2025-09-01 20:55:12 | INFO     | modules.tts_client:_check_service_health:30 - TTS服务连接成功
+2025-09-01 20:55:12 | INFO     | __main__:initialize:66 - 初始化音频播放器...
+2025-09-01 20:55:12 | INFO     | __main__:_test_audio_devices:83 - 测试音频设备...
+2025-09-01 20:55:12 | INFO     | __main__:_test_audio_devices:86 - 测试麦克风...
+2025-09-01 20:55:12 | INFO     | modules.recording:test_microphone:333 - 开始测试麦克风，录音1.0秒...
+2025-09-01 20:55:13 | INFO     | modules.recording:test_microphone:349 - 麦克风测试完成 - 能量: 0.000000, 最大振幅: 0.001
+2025-09-01 20:55:13 | INFO     | modules.recording:test_microphone:355 - 麦克风工作正常
+2025-09-01 20:55:13 | INFO     | __main__:_test_audio_devices:90 - 测试扬声器...
+2025-09-01 20:55:13 | INFO     | modules.audio_player:test_speaker:249 - 开始测试扬声器，播放440.0Hz正弦波1.0秒...
+2025-09-01 20:55:13 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 1.00秒
+2025-09-01 20:55:14 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 20:55:14 | INFO     | modules.audio_player:test_speaker:259 - 扬声器测试完成
+2025-09-01 20:55:14 | INFO     | __main__:_test_audio_devices:94 - 音频设备测试通过
+2025-09-01 20:55:14 | INFO     | __main__:initialize:73 - 语音AI对话系统初始化完成
+2025-09-01 20:55:14 | INFO     | __main__:start_conversation:110 - 启动语音AI对话系统
+2025-09-01 20:55:14 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 0.45秒
+2025-09-01 20:55:15 | INFO     | modules.audio_player:_play_thread_func:183 - 音频播放完成
+2025-09-01 20:55:15 | INFO     | modules.tts_client:synthesize_speech_with_reference:104 - 开始TTS克隆合成: 嬛嬛在此，姐姐有何吩咐？...
+2025-09-01 20:55:15 | INFO     | modules.tts_client:synthesize_speech_with_reference:137 - TTS克隆合成完成: ./temp/tts_output_1756731315.wav
+2025-09-01 20:55:15 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756731315.wav
+2025-09-01 20:55:16 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756731315.wav, 采样率: 16000, 长度: 3.10秒
+2025-09-01 20:55:16 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 3.10秒
+2025-09-01 20:55:19 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 20:55:19 | INFO     | __main__:_conversation_loop:134 - === 第 1 轮对话 ===
+2025-09-01 20:55:19 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:55:19 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:55:24 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:55:24 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:55:24 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 68608 采样点
+2025-09-01 20:55:24 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 4.29秒
+2025-09-01 20:55:24 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 4 个语音段落
+2025-09-01 20:55:24 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 4.29秒
+2025-09-01 20:55:24 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:55:24 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:55:24 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:55:24 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 你在说什么
+2025-09-01 20:55:24 | INFO     | __main__:_conversation_loop:158 - 正在生成回复...
+2025-09-01 20:55:24 | INFO     | modules.llm:generate_response:67 - 用户输入: 你在说什么
+2025-09-01 20:55:25 | INFO     | modules.llm:generate_response:78 - 模型回复: 嬛嬛不过是随手摸牌，哪里说得上什么技艺，倒是姐姐才真真是眼明手快。
+2025-09-01 20:55:25 | INFO     | __main__:_conversation_loop:169 - 正在合成语音...
+2025-09-01 20:55:25 | INFO     | modules.tts_client:synthesize_speech_with_reference:104 - 开始TTS克隆合成: 嬛嬛不过是随手摸牌，哪里说得上什么技艺，倒是姐姐才真真是眼明手快。...
+2025-09-01 20:55:27 | INFO     | modules.tts_client:synthesize_speech_with_reference:137 - TTS克隆合成完成: ./temp/tts_output_1756731327.wav
+2025-09-01 20:55:27 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756731327.wav
+2025-09-01 20:55:27 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756731327.wav, 采样率: 16000, 长度: 6.64秒
+2025-09-01 20:55:27 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 6.64秒
+2025-09-01 20:55:33 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 20:55:34 | INFO     | __main__:_conversation_loop:134 - === 第 2 轮对话 ===
+2025-09-01 20:55:34 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:55:34 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:55:39 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:55:39 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:55:39 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:55:39 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:55:39 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 5.06秒
+2025-09-01 20:55:39 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:55:39 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:55:39 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:55:39 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 
+2025-09-01 20:55:39 | WARNING  | __main__:_conversation_loop:151 - 语音识别结果为空，跳过本轮对话
+2025-09-01 20:55:39 | INFO     | __main__:_conversation_loop:134 - === 第 3 轮对话 ===
+2025-09-01 20:55:39 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:55:39 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:55:44 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:55:44 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:55:44 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 79872 采样点
+2025-09-01 20:55:44 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 4.99秒
+2025-09-01 20:55:44 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 4 个语音段落
+2025-09-01 20:55:44 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:55:44 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:55:44 | INFO     | __main__:_conversation_loop:134 - === 第 4 轮对话 ===
+2025-09-01 20:55:44 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:55:44 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:55:49 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:55:49 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:55:49 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.12秒
+2025-09-01 20:55:49 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:55:49 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 5.12秒
+2025-09-01 20:55:49 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:55:49 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:55:49 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:55:49 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 
+2025-09-01 20:55:49 | WARNING  | __main__:_conversation_loop:151 - 语音识别结果为空，跳过本轮对话
+2025-09-01 20:55:49 | INFO     | __main__:_conversation_loop:134 - === 第 5 轮对话 ===
+2025-09-01 20:55:49 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:55:49 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:55:54 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:55:54 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:55:54 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 61440 采样点
+2025-09-01 20:55:54 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 3.84秒
+2025-09-01 20:55:54 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 2 个语音段落
+2025-09-01 20:55:54 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 20:55:54 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 20:55:54 | INFO     | __main__:_conversation_loop:134 - === 第 6 轮对话 ===
+2025-09-01 20:55:54 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:55:54 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:55:59 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:55:59 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:55:59 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:55:59 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:55:59 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 5.06秒
+2025-09-01 20:55:59 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:55:59 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:55:59 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:55:59 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 
+2025-09-01 20:55:59 | WARNING  | __main__:_conversation_loop:151 - 语音识别结果为空，跳过本轮对话
+2025-09-01 20:55:59 | INFO     | __main__:_conversation_loop:134 - === 第 7 轮对话 ===
+2025-09-01 20:55:59 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:55:59 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:56:04 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:56:04 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:56:04 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:56:04 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:56:04 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 5.06秒
+2025-09-01 20:56:04 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:56:04 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:56:04 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:56:04 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 
+2025-09-01 20:56:04 | WARNING  | __main__:_conversation_loop:151 - 语音识别结果为空，跳过本轮对话
+2025-09-01 20:56:04 | INFO     | __main__:_conversation_loop:134 - === 第 8 轮对话 ===
+2025-09-01 20:56:04 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:56:04 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:56:09 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:56:09 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:56:10 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:56:10 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:56:10 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 5.06秒
+2025-09-01 20:56:10 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:56:10 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:56:10 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:56:10 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 
+2025-09-01 20:56:10 | WARNING  | __main__:_conversation_loop:151 - 语音识别结果为空，跳过本轮对话
+2025-09-01 20:56:10 | INFO     | __main__:_conversation_loop:134 - === 第 9 轮对话 ===
+2025-09-01 20:56:10 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:56:10 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:56:15 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 20:56:15 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:56:15 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 20:56:15 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:56:15 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 5.06秒
+2025-09-01 20:56:15 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:56:15 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:56:15 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:56:15 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 
+2025-09-01 20:56:15 | WARNING  | __main__:_conversation_loop:151 - 语音识别结果为空，跳过本轮对话
+2025-09-01 20:56:15 | INFO     | __main__:_conversation_loop:134 - === 第 10 轮对话 ===
+2025-09-01 20:56:15 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 20:56:15 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 20:56:15 | INFO     | __main__:_signal_handler:36 - 接收到退出信号，正在关闭系统...
+2025-09-01 20:56:15 | INFO     | __main__:stop:261 - 正在停止语音AI对话系统...
+2025-09-01 20:56:15 | INFO     | modules.recording:stop_recording:75 - 停止录音...
+2025-09-01 20:56:15 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:56:15 | INFO     | modules.recording:stop_recording:102 - 录音完成，时长: 0.45秒
+2025-09-01 20:56:15 | INFO     | modules.tts_client:synthesize_speech_with_reference:104 - 开始TTS克隆合成: 嬛嬛告退，姐姐保重。...
+2025-09-01 20:56:16 | INFO     | modules.tts_client:synthesize_speech_with_reference:137 - TTS克隆合成完成: ./temp/tts_output_1756731376.wav
+2025-09-01 20:56:16 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756731376.wav
+2025-09-01 20:56:16 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756731376.wav, 采样率: 16000, 长度: 3.48秒
+2025-09-01 20:56:16 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 3.48秒
+2025-09-01 20:56:19 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 20:56:20 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 0.10秒
+2025-09-01 20:56:20 | INFO     | __main__:stop:278 - 语音AI对话系统已停止
+2025-09-01 20:56:20 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 20:56:20 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 0.51秒
+2025-09-01 20:56:20 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 20:56:20 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 0.51秒
+2025-09-01 20:56:20 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 20:56:20 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 20:56:20 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 20:56:20 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 
+2025-09-01 20:56:20 | WARNING  | __main__:_conversation_loop:151 - 语音识别结果为空，跳过本轮对话
+2025-09-01 20:56:20 | INFO     | __main__:main:360 - 程序退出
+2025-09-01 21:03:29 | INFO     | __main__:initialize:42 - 正在初始化语音AI对话系统...
+2025-09-01 21:03:29 | INFO     | __main__:initialize:45 - 初始化音频录制器...
+2025-09-01 21:03:29 | INFO     | __main__:initialize:49 - 初始化ASR处理器...
+2025-09-01 21:03:29 | INFO     | modules.asr:_load_model:23 - 正在加载ASR模型: iic/SenseVoiceSmall
+2025-09-01 21:03:34 | INFO     | modules.asr:_load_model:36 - ASR模型加载成功
+2025-09-01 21:03:34 | INFO     | __main__:initialize:53 - 初始化LLM处理器...
+2025-09-01 21:03:34 | INFO     | modules.llm:_load_model:23 - 正在加载LLM模型...
+2025-09-01 21:03:44 | INFO     | modules.llm:_load_model:55 - LLM模型加载成功
+2025-09-01 21:03:44 | INFO     | __main__:initialize:57 - 初始化TTS客户端...
+2025-09-01 21:03:44 | INFO     | modules.tts_client:_check_service_health:30 - TTS服务连接成功
+2025-09-01 21:03:44 | INFO     | __main__:initialize:66 - 初始化音频播放器...
+2025-09-01 21:03:44 | INFO     | __main__:_test_audio_devices:83 - 测试音频设备...
+2025-09-01 21:03:44 | INFO     | __main__:_test_audio_devices:86 - 测试麦克风...
+2025-09-01 21:03:44 | INFO     | modules.recording:test_microphone:333 - 开始测试麦克风，录音1.0秒...
+2025-09-01 21:03:45 | INFO     | modules.recording:test_microphone:349 - 麦克风测试完成 - 能量: 0.000000, 最大振幅: 0.001
+2025-09-01 21:03:45 | WARNING  | modules.recording:test_microphone:358 - 麦克风可能没有声音输入
+2025-09-01 21:03:45 | INFO     | __main__:_test_audio_devices:90 - 测试扬声器...
+2025-09-01 21:03:45 | INFO     | modules.audio_player:test_speaker:249 - 开始测试扬声器，播放440.0Hz正弦波1.0秒...
+2025-09-01 21:03:45 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 1.00秒
+2025-09-01 21:03:46 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 21:03:46 | INFO     | modules.audio_player:test_speaker:259 - 扬声器测试完成
+2025-09-01 21:03:46 | WARNING  | __main__:_test_audio_devices:97 - 音频设备测试部分失败 - 麦克风: False, 扬声器: True
+2025-09-01 21:03:46 | WARNING  | __main__:initialize:71 - 音频设备测试失败，但系统将继续运行
+2025-09-01 21:03:46 | INFO     | __main__:initialize:73 - 语音AI对话系统初始化完成
+2025-09-01 21:03:46 | INFO     | __main__:start_conversation:110 - 启动语音AI对话系统
+2025-09-01 21:03:46 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 0.45秒
+2025-09-01 21:03:46 | INFO     | modules.audio_player:_play_thread_func:183 - 音频播放完成
+2025-09-01 21:03:46 | INFO     | modules.tts_client:synthesize_speech_with_reference:104 - 开始TTS克隆合成: 嬛嬛在此，姐姐有何吩咐？...
+2025-09-01 21:03:47 | INFO     | modules.tts_client:synthesize_speech_with_reference:137 - TTS克隆合成完成: ./temp/tts_output_1756731827.wav
+2025-09-01 21:03:47 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756731827.wav
+2025-09-01 21:03:47 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756731827.wav, 采样率: 16000, 长度: 3.24秒
+2025-09-01 21:03:47 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 3.24秒
+2025-09-01 21:03:51 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 21:03:51 | INFO     | __main__:_conversation_loop:134 - === 第 1 轮对话 ===
+2025-09-01 21:03:51 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 21:03:51 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 21:03:56 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 21:03:56 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 21:03:56 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 74752 采样点
+2025-09-01 21:03:56 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 4.67秒
+2025-09-01 21:03:56 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 3 个语音段落
+2025-09-01 21:03:56 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 4.67秒
+2025-09-01 21:03:56 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 21:03:56 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：74752 -> 73728 采样点
+2025-09-01 21:03:56 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 21:03:56 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 21:03:56 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 我只是来看望一下你
+2025-09-01 21:03:56 | INFO     | __main__:_conversation_loop:158 - 正在生成回复...
+2025-09-01 21:03:56 | INFO     | modules.llm:generate_response:67 - 用户输入: 我只是来看望一下你
+2025-09-01 21:03:57 | INFO     | modules.llm:generate_response:78 - 模型回复: 嬛嬛不过是独坐听雨，姐姐何必如此费心。
+2025-09-01 21:03:57 | INFO     | __main__:_conversation_loop:169 - 正在合成语音...
+2025-09-01 21:03:57 | INFO     | modules.tts_client:synthesize_speech_with_reference:104 - 开始TTS克隆合成: 嬛嬛不过是独坐听雨，姐姐何必如此费心。...
+2025-09-01 21:03:58 | INFO     | modules.tts_client:synthesize_speech_with_reference:137 - TTS克隆合成完成: ./temp/tts_output_1756731838.wav
+2025-09-01 21:03:58 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756731838.wav
+2025-09-01 21:03:58 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756731838.wav, 采样率: 16000, 长度: 4.92秒
+2025-09-01 21:03:58 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 4.92秒
+2025-09-01 21:04:03 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 21:04:03 | INFO     | __main__:_conversation_loop:134 - === 第 2 轮对话 ===
+2025-09-01 21:04:03 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 21:04:03 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 21:04:08 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 21:04:08 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 21:04:08 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 77824 采样点
+2025-09-01 21:04:08 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 4.86秒
+2025-09-01 21:04:08 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 7 个语音段落
+2025-09-01 21:04:08 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 4.86秒
+2025-09-01 21:04:08 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 21:04:08 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 21:04:08 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 21:04:08 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 有点意思
+2025-09-01 21:04:08 | INFO     | __main__:_conversation_loop:158 - 正在生成回复...
+2025-09-01 21:04:08 | INFO     | modules.llm:generate_response:67 - 用户输入: 有点意思
+2025-09-01 21:04:09 | INFO     | modules.llm:generate_response:78 - 模型回复: 嬛嬛不过是独坐听雨，姐姐何必如此费心。
+2025-09-01 21:04:09 | INFO     | __main__:_conversation_loop:169 - 正在合成语音...
+2025-09-01 21:04:09 | INFO     | modules.tts_client:synthesize_speech_with_reference:104 - 开始TTS克隆合成: 嬛嬛不过是独坐听雨，姐姐何必如此费心。...
+2025-09-01 21:04:10 | INFO     | modules.tts_client:synthesize_speech_with_reference:137 - TTS克隆合成完成: ./temp/tts_output_1756731850.wav
+2025-09-01 21:04:10 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756731850.wav
+2025-09-01 21:04:10 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756731850.wav, 采样率: 16000, 长度: 5.43秒
+2025-09-01 21:04:10 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 5.43秒
+2025-09-01 21:04:16 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 21:04:16 | INFO     | __main__:_conversation_loop:134 - === 第 3 轮对话 ===
+2025-09-01 21:04:16 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 21:04:16 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 21:04:21 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 21:04:21 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 21:04:21 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.06秒
+2025-09-01 21:04:21 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 5 个语音段落
+2025-09-01 21:04:21 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 5.06秒
+2025-09-01 21:04:21 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 21:04:21 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 21:04:21 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 21:04:21 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 你说话磕磕巴巴的
+2025-09-01 21:04:21 | INFO     | __main__:_conversation_loop:158 - 正在生成回复...
+2025-09-01 21:04:21 | INFO     | modules.llm:generate_response:67 - 用户输入: 你说话磕磕巴巴的
+2025-09-01 21:04:22 | INFO     | modules.llm:generate_response:78 - 模型回复: 嬛嬛只是心绪纷乱，一时口齿不清罢了。
+2025-09-01 21:04:22 | INFO     | __main__:_conversation_loop:169 - 正在合成语音...
+2025-09-01 21:04:22 | INFO     | modules.tts_client:synthesize_speech_with_reference:104 - 开始TTS克隆合成: 嬛嬛只是心绪纷乱，一时口齿不清罢了。...
+2025-09-01 21:04:23 | INFO     | modules.tts_client:synthesize_speech_with_reference:137 - TTS克隆合成完成: ./temp/tts_output_1756731863.wav
+2025-09-01 21:04:23 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756731863.wav
+2025-09-01 21:04:23 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756731863.wav, 采样率: 16000, 长度: 5.15秒
+2025-09-01 21:04:23 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 5.15秒
+2025-09-01 21:04:28 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 21:04:29 | INFO     | __main__:_conversation_loop:134 - === 第 4 轮对话 ===
+2025-09-01 21:04:29 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 21:04:29 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 21:04:34 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 21:04:34 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 21:04:34 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 78336 采样点
+2025-09-01 21:04:34 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 4.90秒
+2025-09-01 21:04:34 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 21:04:34 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 4.90秒
+2025-09-01 21:04:34 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 21:04:34 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：78336 -> 74240 采样点
+2025-09-01 21:04:34 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 21:04:34 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 21:04:34 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 我们去打麻将好不好
+2025-09-01 21:04:34 | INFO     | __main__:_conversation_loop:158 - 正在生成回复...
+2025-09-01 21:04:34 | INFO     | modules.llm:generate_response:67 - 用户输入: 我们去打麻将好不好
+2025-09-01 21:04:35 | INFO     | modules.llm:generate_response:78 - 模型回复: 嬛嬛只是心绪纷乱，一时口齿不清罢了。
+2025-09-01 21:04:35 | INFO     | __main__:_conversation_loop:169 - 正在合成语音...
+2025-09-01 21:04:35 | INFO     | modules.tts_client:synthesize_speech_with_reference:104 - 开始TTS克隆合成: 嬛嬛只是心绪纷乱，一时口齿不清罢了。...
+2025-09-01 21:04:35 | INFO     | modules.tts_client:synthesize_speech_with_reference:137 - TTS克隆合成完成: ./temp/tts_output_1756731875.wav
+2025-09-01 21:04:35 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756731875.wav
+2025-09-01 21:04:35 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756731875.wav, 采样率: 16000, 长度: 4.54秒
+2025-09-01 21:04:35 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 4.54秒
+2025-09-01 21:04:40 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 21:04:40 | INFO     | __main__:_conversation_loop:134 - === 第 5 轮对话 ===
+2025-09-01 21:04:40 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 21:04:40 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 21:04:43 | INFO     | __main__:_signal_handler:36 - 接收到退出信号，正在关闭系统...
+2025-09-01 21:04:43 | INFO     | __main__:stop:261 - 正在停止语音AI对话系统...
+2025-09-01 21:04:43 | INFO     | modules.recording:stop_recording:75 - 停止录音...
+2025-09-01 21:04:43 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 21:04:43 | INFO     | modules.recording:stop_recording:102 - 录音完成，时长: 2.88秒
+2025-09-01 21:04:43 | INFO     | modules.tts_client:synthesize_speech_with_reference:104 - 开始TTS克隆合成: 嬛嬛告退，姐姐保重。...
+2025-09-01 21:04:44 | INFO     | modules.tts_client:synthesize_speech_with_reference:137 - TTS克隆合成完成: ./temp/tts_output_1756731884.wav
+2025-09-01 21:04:44 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756731884.wav
+2025-09-01 21:04:44 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756731884.wav, 采样率: 16000, 长度: 3.01秒
+2025-09-01 21:04:44 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 3.01秒
+2025-09-01 21:04:47 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 21:04:47 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 0.10秒
+2025-09-01 21:04:47 | INFO     | __main__:stop:278 - 语音AI对话系统已停止
+2025-09-01 21:04:47 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 21:04:47 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 2.94秒
+2025-09-01 21:04:47 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 21:04:47 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 2.94秒
+2025-09-01 21:04:47 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 21:04:47 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 21:04:47 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 21:04:47 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 
+2025-09-01 21:04:47 | WARNING  | __main__:_conversation_loop:151 - 语音识别结果为空，跳过本轮对话
+2025-09-01 21:04:47 | INFO     | __main__:main:360 - 程序退出
+2025-09-01 21:08:24 | INFO     | __main__:initialize:42 - 正在初始化语音AI对话系统...
+2025-09-01 21:08:24 | INFO     | __main__:initialize:45 - 初始化音频录制器...
+2025-09-01 21:08:24 | INFO     | __main__:initialize:49 - 初始化ASR处理器...
+2025-09-01 21:08:24 | INFO     | modules.asr:_load_model:23 - 正在加载ASR模型: iic/SenseVoiceSmall
+2025-09-01 21:08:28 | INFO     | modules.asr:_load_model:36 - ASR模型加载成功
+2025-09-01 21:08:28 | INFO     | __main__:initialize:53 - 初始化LLM处理器...
+2025-09-01 21:08:28 | INFO     | modules.llm:_load_model:23 - 正在加载LLM模型...
+2025-09-01 21:08:37 | INFO     | modules.llm:_load_model:55 - LLM模型加载成功
+2025-09-01 21:08:37 | INFO     | __main__:initialize:57 - 初始化TTS客户端...
+2025-09-01 21:08:37 | INFO     | modules.tts_client:_check_service_health:30 - TTS服务连接成功
+2025-09-01 21:08:37 | INFO     | __main__:initialize:66 - 初始化音频播放器...
+2025-09-01 21:08:37 | INFO     | __main__:_test_audio_devices:83 - 测试音频设备...
+2025-09-01 21:08:37 | INFO     | __main__:_test_audio_devices:86 - 测试麦克风...
+2025-09-01 21:08:37 | INFO     | modules.recording:test_microphone:333 - 开始测试麦克风，录音1.0秒...
+2025-09-01 21:08:38 | INFO     | modules.recording:test_microphone:349 - 麦克风测试完成 - 能量: 0.000000, 最大振幅: 0.001
+2025-09-01 21:08:38 | WARNING  | modules.recording:test_microphone:358 - 麦克风可能没有声音输入
+2025-09-01 21:08:38 | INFO     | __main__:_test_audio_devices:90 - 测试扬声器...
+2025-09-01 21:08:38 | INFO     | modules.audio_player:test_speaker:249 - 开始测试扬声器，播放440.0Hz正弦波1.0秒...
+2025-09-01 21:08:38 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 1.00秒
+2025-09-01 21:08:39 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 21:08:39 | INFO     | modules.audio_player:test_speaker:259 - 扬声器测试完成
+2025-09-01 21:08:39 | WARNING  | __main__:_test_audio_devices:97 - 音频设备测试部分失败 - 麦克风: False, 扬声器: True
+2025-09-01 21:08:39 | WARNING  | __main__:initialize:71 - 音频设备测试失败，但系统将继续运行
+2025-09-01 21:08:39 | INFO     | __main__:initialize:73 - 语音AI对话系统初始化完成
+2025-09-01 21:08:39 | INFO     | __main__:start_conversation:110 - 启动语音AI对话系统
+2025-09-01 21:08:39 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 0.45秒
+2025-09-01 21:08:40 | INFO     | modules.audio_player:_play_thread_func:183 - 音频播放完成
+2025-09-01 21:08:40 | INFO     | modules.tts_client:synthesize_speech_with_reference:104 - 开始TTS克隆合成: 嬛嬛在此，姐姐有何吩咐？...
+2025-09-01 21:08:41 | INFO     | modules.tts_client:synthesize_speech_with_reference:137 - TTS克隆合成完成: ./temp/tts_output_1756732121.wav
+2025-09-01 21:08:41 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756732121.wav
+2025-09-01 21:08:41 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756732121.wav, 采样率: 16000, 长度: 3.52秒
+2025-09-01 21:08:41 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 3.52秒
+2025-09-01 21:08:44 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 21:08:44 | INFO     | __main__:_conversation_loop:134 - === 第 1 轮对话 ===
+2025-09-01 21:08:44 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 21:08:44 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 21:08:49 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 21:08:49 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 21:08:49 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 77312 采样点
+2025-09-01 21:08:49 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 4.83秒
+2025-09-01 21:08:49 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 5 个语音段落
+2025-09-01 21:08:49 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 4.83秒
+2025-09-01 21:08:49 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 21:08:49 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：77312 -> 76800 采样点
+2025-09-01 21:08:49 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 21:08:49 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 21:08:50 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 我们一起去打麻将吧
+2025-09-01 21:08:50 | INFO     | __main__:_conversation_loop:158 - 正在生成回复...
+2025-09-01 21:08:50 | INFO     | modules.llm:generate_response:67 - 用户输入: 我们一起去打麻将吧
+2025-09-01 21:08:51 | INFO     | modules.llm:generate_response:78 - 模型回复: 嬛嬛刚学完新曲子，正好陪姐姐们去学学。
+2025-09-01 21:08:51 | INFO     | __main__:_conversation_loop:169 - 正在合成语音...
+2025-09-01 21:08:51 | INFO     | modules.tts_client:synthesize_speech_with_reference:104 - 开始TTS克隆合成: 嬛嬛刚学完新曲子，正好陪姐姐们去学学。...
+2025-09-01 21:08:52 | INFO     | modules.tts_client:synthesize_speech_with_reference:137 - TTS克隆合成完成: ./temp/tts_output_1756732132.wav
+2025-09-01 21:08:52 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756732132.wav
+2025-09-01 21:08:52 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756732132.wav, 采样率: 16000, 长度: 5.01秒
+2025-09-01 21:08:52 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 5.01秒
+2025-09-01 21:08:57 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 21:08:57 | INFO     | __main__:_conversation_loop:134 - === 第 2 轮对话 ===
+2025-09-01 21:08:57 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 21:08:57 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 21:09:02 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 21:09:02 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 21:09:02 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 58880 采样点
+2025-09-01 21:09:02 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 3.68秒
+2025-09-01 21:09:02 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 3 个语音段落
+2025-09-01 21:09:02 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 3.68秒
+2025-09-01 21:09:02 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 21:09:02 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：58880 -> 58368 采样点
+2025-09-01 21:09:02 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 21:09:02 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 21:09:02 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 我说的是打麻将
+2025-09-01 21:09:02 | INFO     | __main__:_conversation_loop:158 - 正在生成回复...
+2025-09-01 21:09:02 | INFO     | modules.llm:generate_response:67 - 用户输入: 我说的是打麻将
+2025-09-01 21:09:03 | INFO     | modules.llm:generate_response:78 - 模型回复: 嬛嬛打牌向来不拘一格，不过是凑趣罢了。
+2025-09-01 21:09:03 | INFO     | __main__:_conversation_loop:169 - 正在合成语音...
+2025-09-01 21:09:03 | INFO     | modules.tts_client:synthesize_speech_with_reference:104 - 开始TTS克隆合成: 嬛嬛打牌向来不拘一格，不过是凑趣罢了。...
+2025-09-01 21:09:04 | INFO     | modules.tts_client:synthesize_speech_with_reference:137 - TTS克隆合成完成: ./temp/tts_output_1756732144.wav
+2025-09-01 21:09:04 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756732144.wav
+2025-09-01 21:09:04 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756732144.wav, 采样率: 16000, 长度: 4.22秒
+2025-09-01 21:09:04 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 4.22秒
+2025-09-01 21:09:08 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 21:09:09 | INFO     | __main__:_conversation_loop:134 - === 第 3 轮对话 ===
+2025-09-01 21:09:09 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 21:09:09 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 21:09:14 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 21:09:14 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 21:09:14 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 80384 采样点
+2025-09-01 21:09:14 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 5.02秒
+2025-09-01 21:09:14 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 6 个语音段落
+2025-09-01 21:09:14 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 5.02秒
+2025-09-01 21:09:14 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 21:09:14 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80384 -> 79872 采样点
+2025-09-01 21:09:14 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 21:09:14 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 21:09:14 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 你今天的手气确实不错
+2025-09-01 21:09:14 | INFO     | __main__:_conversation_loop:158 - 正在生成回复...
+2025-09-01 21:09:14 | INFO     | modules.llm:generate_response:67 - 用户输入: 你今天的手气确实不错
+2025-09-01 21:09:15 | INFO     | modules.llm:generate_response:78 - 模型回复: 风过无痕，花落无声，嬛嬛不过顺水推舟罢了。
+2025-09-01 21:09:15 | INFO     | __main__:_conversation_loop:169 - 正在合成语音...
+2025-09-01 21:09:15 | INFO     | modules.tts_client:synthesize_speech_with_reference:104 - 开始TTS克隆合成: 风过无痕，花落无声，嬛嬛不过顺水推舟罢了。...
+2025-09-01 21:09:16 | INFO     | modules.tts_client:synthesize_speech_with_reference:137 - TTS克隆合成完成: ./temp/tts_output_1756732156.wav
+2025-09-01 21:09:16 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756732156.wav
+2025-09-01 21:09:16 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756732156.wav, 采样率: 16000, 长度: 4.82秒
+2025-09-01 21:09:16 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 4.82秒
+2025-09-01 21:09:20 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 21:09:21 | INFO     | __main__:_conversation_loop:134 - === 第 4 轮对话 ===
+2025-09-01 21:09:21 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 21:09:21 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 21:09:26 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 21:09:26 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 21:09:26 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 56832 采样点
+2025-09-01 21:09:26 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 3.55秒
+2025-09-01 21:09:26 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 3 个语音段落
+2025-09-01 21:09:26 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 3.55秒
+2025-09-01 21:09:26 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 21:09:26 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：56832 -> 55808 采样点
+2025-09-01 21:09:26 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 21:09:26 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 21:09:26 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 有点意思你还挺谦虚的
+2025-09-01 21:09:26 | INFO     | __main__:_conversation_loop:158 - 正在生成回复...
+2025-09-01 21:09:26 | INFO     | modules.llm:generate_response:67 - 用户输入: 有点意思你还挺谦虚的
+2025-09-01 21:09:27 | INFO     | modules.llm:generate_response:78 - 模型回复: 嬛嬛不过是些粗浅的手法，姐姐一眼便看得清，嬛嬛不敢当。
+2025-09-01 21:09:27 | INFO     | __main__:_conversation_loop:169 - 正在合成语音...
+2025-09-01 21:09:27 | INFO     | modules.tts_client:synthesize_speech_with_reference:104 - 开始TTS克隆合成: 嬛嬛不过是些粗浅的手法，姐姐一眼便看得清，嬛嬛不敢当。...
+2025-09-01 21:09:28 | INFO     | modules.tts_client:synthesize_speech_with_reference:137 - TTS克隆合成完成: ./temp/tts_output_1756732168.wav
+2025-09-01 21:09:28 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756732168.wav
+2025-09-01 21:09:28 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756732168.wav, 采样率: 16000, 长度: 5.94秒
+2025-09-01 21:09:28 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 5.94秒
+2025-09-01 21:09:34 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 21:09:35 | INFO     | __main__:_conversation_loop:134 - === 第 5 轮对话 ===
+2025-09-01 21:09:35 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 21:09:35 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 21:09:40 | INFO     | modules.recording:record_with_vad:250 - 达到最大录音时长5.0秒，停止录音
+2025-09-01 21:09:40 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 21:09:40 | INFO     | utils.audio_utils:trim_silence:120 - 去除静音：80896 -> 72192 采样点
+2025-09-01 21:09:40 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 4.51秒
+2025-09-01 21:09:40 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 3 个语音段落
+2025-09-01 21:09:40 | WARNING  | __main__:_record_audio:200 - 录音中未检测到语音
+2025-09-01 21:09:40 | WARNING  | __main__:_conversation_loop:142 - 录音失败，跳过本轮对话
+2025-09-01 21:09:40 | INFO     | __main__:_conversation_loop:134 - === 第 6 轮对话 ===
+2025-09-01 21:09:40 | INFO     | __main__:_conversation_loop:137 - 等待用户说话...
+2025-09-01 21:09:40 | INFO     | modules.recording:record_with_vad:203 - 开始VAD录音...
+2025-09-01 21:09:40 | INFO     | __main__:_signal_handler:36 - 接收到退出信号，正在关闭系统...
+2025-09-01 21:09:40 | INFO     | __main__:stop:261 - 正在停止语音AI对话系统...
+2025-09-01 21:09:40 | INFO     | modules.recording:stop_recording:75 - 停止录音...
+2025-09-01 21:09:40 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 21:09:40 | INFO     | modules.recording:stop_recording:102 - 录音完成，时长: 0.19秒
+2025-09-01 21:09:40 | INFO     | modules.tts_client:synthesize_speech_with_reference:104 - 开始TTS克隆合成: 嬛嬛告退，姐姐保重。...
+2025-09-01 21:09:41 | INFO     | modules.tts_client:synthesize_speech_with_reference:137 - TTS克隆合成完成: ./temp/tts_output_1756732181.wav
+2025-09-01 21:09:41 | INFO     | modules.audio_player:play_audio_file:37 - 开始播放音频文件: ./temp/tts_output_1756732181.wav
+2025-09-01 21:09:41 | INFO     | utils.audio_utils:load_audio:23 - 成功加载音频文件: ./temp/tts_output_1756732181.wav, 采样率: 16000, 长度: 3.76秒
+2025-09-01 21:09:41 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 3.76秒
+2025-09-01 21:09:44 | INFO     | modules.audio_player:_play_blocking:132 - 音频播放完成
+2025-09-01 21:09:45 | INFO     | modules.audio_player:play_audio_array:69 - 开始播放音频，时长: 0.10秒
+2025-09-01 21:09:45 | INFO     | __main__:stop:278 - 语音AI对话系统已停止
+2025-09-01 21:09:45 | INFO     | utils.audio_utils:convert_to_mono:176 - 音频转换为单声道
+2025-09-01 21:09:45 | INFO     | modules.recording:record_with_vad:279 - VAD录音完成，时长: 0.26秒
+2025-09-01 21:09:45 | INFO     | utils.audio_utils:detect_speech_segments:165 - 检测到 1 个语音段落
+2025-09-01 21:09:45 | INFO     | __main__:_record_audio:195 - 录音成功，时长: 0.26秒
+2025-09-01 21:09:45 | INFO     | __main__:_conversation_loop:146 - 正在识别语音...
+2025-09-01 21:09:45 | INFO     | utils.audio_utils:save_audio:50 - 成功保存音频文件: ./temp/temp_audio.wav
+2025-09-01 21:09:45 | INFO     | modules.asr:transcribe_audio_file:48 - 开始转录音频文件: ./temp/temp_audio.wav
+2025-09-01 21:09:45 | INFO     | modules.asr:transcribe_audio_file:73 - 转录完成，结果: 
+2025-09-01 21:09:45 | WARNING  | __main__:_conversation_loop:151 - 语音识别结果为空，跳过本轮对话
+2025-09-01 21:09:45 | INFO     | __main__:main:360 - 程序退出
+2025-09-01 21:22:35 | INFO     | __main__:initialize:42 - 正在初始化语音AI对话系统...
+2025-09-01 21:22:35 | INFO     | __main__:initialize:45 - 初始化音频录制器...
+2025-09-01 21:22:35 | INFO     | __main__:initialize:49 - 初始化ASR处理器...
+2025-09-01 21:22:35 | INFO     | modules.asr:_load_model:23 - 正在加载ASR模型: iic/SenseVoiceSmall
+2025-09-01 21:23:35 | INFO     | modules.asr:_load_model:36 - ASR模型加载成功
+2025-09-01 21:23:35 | INFO     | __main__:initialize:53 - 初始化LLM处理器...
+2025-09-01 21:23:35 | INFO     | modules.llm:_load_model:23 - 正在加载LLM模型...

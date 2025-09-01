@@ -9,7 +9,8 @@ import time
 import numpy as np
 from config.config import config
 from utils.logger import voice_logger
-from modules import AudioRecorder, ASRProcessor, LLMProcessor, TTSProcessor, AudioPlayer
+from modules import AudioRecorder, ASRProcessor, LLMProcessor, AudioPlayer
+from modules.tts_client import TTSClient
 
 
 def test_audio_devices():
@@ -153,16 +154,39 @@ def test_llm():
         return False
 
 
-def test_tts():
-    """测试语音合成"""
+def test_tts_client():
+    """测试TTS客户端"""
     print("\n" + "=" * 50)
-    print("测试语音合成功能")
+    print("测试TTS客户端功能")
     print("=" * 50)
 
     try:
-        # 初始化TTS
-        print("🔄 初始化TTS模型...")
-        tts = TTSProcessor()
+        # 初始化TTS客户端
+        print("🔄 连接TTS服务...")
+        tts_client = TTSClient()
+
+        # 检查服务可用性
+        print("🔍 检查TTS服务状态...")
+        if not tts_client.is_service_available():
+            print("❌ TTS服务不可用，请确保TTS服务已启动")
+            print("💡 启动TTS服务命令:")
+            print("   conda activate tts_service")
+            print("   cd tts_service")
+            print("   python start_tts_service.py")
+            return False
+
+        print("✅ TTS服务连接成功")
+
+        # 获取模型信息
+        print("\n📋 获取TTS模型信息...")
+        model_info = tts_client.get_model_info()
+        if model_info:
+            print(f"   模型名称: {model_info.get('model_name', 'N/A')}")
+            print(f"   语言: {model_info.get('language', 'N/A')}")
+            print(f"   设备: {model_info.get('device', 'N/A')}")
+            print(f"   采样率: {model_info.get('sample_rate', 'N/A')}Hz")
+        else:
+            print("⚠️ 无法获取模型信息")
 
         # 测试文本
         test_texts = [
@@ -176,32 +200,61 @@ def test_tts():
         for i, text in enumerate(test_texts, 1):
             print(f"\n🎵 合成文本 {i}: {text}")
 
+            # 预处理文本
+            processed_text = tts_client.preprocess_text(text)
+            print(f"   预处理后: {processed_text}")
+
             # 合成语音
-            audio_file = tts.synthesize_speech(text)
+            print("   正在合成语音...")
+            audio_file = tts_client.synthesize_speech(processed_text)
 
             if audio_file and os.path.exists(audio_file):
-                print(f"✅ 语音合成成功")
+                print(f"   ✅ 语音合成成功: {audio_file}")
 
                 # 播放语音
-                print("🔊 播放语音...")
+                print("   🔊 播放语音...")
                 success = player.play_audio_file(audio_file, blocking=True)
-                print(f"播放结果: {'✅ 成功' if success else '❌ 失败'}")
+                print(f"   播放结果: {'✅ 成功' if success else '❌ 失败'}")
             else:
-                print("❌ 语音合成失败")
+                print("   ❌ 语音合成失败")
 
             time.sleep(0.5)
+
+        # # 测试异步合成
+        # print(f"\n🔄 测试异步语音合成...")
+        # async_text = "这是异步语音合成测试"
+        # task_id = tts_client.synthesize_speech_async(async_text)
+
+        # if task_id:
+        #     print(f"   ✅ 异步任务创建成功: {task_id}")
+
+        #     # 等待任务完成
+        #     print("   ⏳ 等待任务完成...")
+        #     result_file = tts_client.wait_for_task_completion(task_id, timeout=30)
+
+        #     if result_file and os.path.exists(result_file):
+        #         print(f"   ✅ 异步合成完成: {result_file}")
+
+        #         # 播放异步合成的音频
+        #         print("   🔊 播放异步合成的语音...")
+        #         success = player.play_audio_file(result_file, blocking=True)
+        #         print(f"   播放结果: {'✅ 成功' if success else '❌ 失败'}")
+        #     else:
+        #         print("   ❌ 异步合成失败或超时")
+        # else:
+        #     print("   ❌ 异步任务创建失败")
 
         return True
 
     except Exception as e:
-        print(f"❌ TTS测试失败: {e}")
+        print(f"❌ TTS客户端测试失败: {e}")
         return False
 
 
 def test_end_to_end():
-    """端到端测试"""
+    """端到端测试（使用新的TTS客户端架构）"""
     print("\n" + "=" * 50)
-    print("端到端测试")
+    print("端到端测试 - 新架构")
     print("=" * 50)
 
     try:
@@ -211,8 +264,17 @@ def test_end_to_end():
         recorder = AudioRecorder()
         asr = ASRProcessor()
         llm = LLMProcessor()
-        tts = TTSProcessor()
+        tts_client = TTSClient()
         player = AudioPlayer()
+
+        # 检查TTS服务可用性
+        if not tts_client.is_service_available():
+            print("❌ TTS服务不可用，无法进行端到端测试")
+            print("💡 请先启动TTS服务:")
+            print("   conda activate tts_service")
+            print("   cd tts_service")
+            print("   python start_tts_service.py")
+            return False
 
         print("✅ 所有模块初始化完成")
 
@@ -245,14 +307,15 @@ def test_end_to_end():
 
         print(f"✅ 生成回复: {response}")
 
-        # 4. 语音合成
-        print("🎵 正在合成语音...")
-        audio_file = tts.synthesize_speech(response)
+        # 4. 语音合成（使用TTS客户端）
+        print("🎵 正在通过TTS API合成语音...")
+        processed_text = tts_client.preprocess_text(response)
+        audio_file = tts_client.synthesize_speech(processed_text)
         if not audio_file or not os.path.exists(audio_file):
-            print("❌ 语音合成失败")
+            print("❌ TTS API语音合成失败")
             return False
 
-        print("✅ 语音合成完成")
+        print("✅ TTS API语音合成完成")
 
         # 5. 播放语音
         print("🔊 播放回复...")
@@ -261,7 +324,7 @@ def test_end_to_end():
             print("❌ 语音播放失败")
             return False
 
-        print("✅ 端到端测试完成")
+        print("✅ 端到端测试完成 - 新架构运行正常")
         return True
 
     except Exception as e:
@@ -271,7 +334,7 @@ def test_end_to_end():
 
 def main():
     """主测试函数"""
-    print("🧪 语音AI系统模块测试")
+    print("🧪 语音AI系统模块测试 - 双环境架构")
     print("=" * 60)
 
     # 测试结果
@@ -280,8 +343,11 @@ def main():
     # # 1. 测试音频设备
     # results["audio_devices"] = test_audio_devices()
 
-    # # 2. 测试录音
-    # results["recording"] = test_recording()[0]
+    # 2. 测试录音
+    recording_result = test_recording()
+    results["recording"] = (
+        recording_result[0] if isinstance(recording_result, tuple) else recording_result
+    )
 
     # # 3. 测试ASR
     # results["asr"] = test_asr()
@@ -289,8 +355,8 @@ def main():
     # # 4. 测试LLM
     # results["llm"] = test_llm()
 
-    # 5. 测试TTS
-    results["tts"] = test_tts()
+    # # 5. 测试TTS客户端
+    # results["tts_client"] = test_tts_client()
 
     # # 6. 端到端测试
     # if all(results.values()):
@@ -315,7 +381,15 @@ def main():
         print("\n💡 提示:")
         print("- 请检查模型文件是否正确下载")
         print("- 确认音频设备工作正常")
+        print(
+            "- 确保TTS服务已启动 (conda activate tts_service && cd tts_service && python start_tts_service.py)"
+        )
         print("- 查看日志文件获取详细错误信息")
+
+    print("\n🔧 新架构说明:")
+    print("- TTS现在作为独立服务运行，需要先启动TTS服务")
+    print("- 主程序通过HTTP API调用TTS服务")
+    print("- 这解决了XTTS与LLM的依赖冲突问题")
 
 
 if __name__ == "__main__":

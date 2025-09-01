@@ -10,7 +10,8 @@ import sys
 from typing import Optional
 from config.config import config
 from utils.logger import voice_logger
-from modules import AudioRecorder, ASRProcessor, LLMProcessor, TTSProcessor, AudioPlayer
+from modules import AudioRecorder, ASRProcessor, LLMProcessor, AudioPlayer
+from modules.tts_client import TTSClient
 
 
 class VoiceAISystem:
@@ -52,9 +53,14 @@ class VoiceAISystem:
             voice_logger.info("初始化LLM处理器...")
             self.llm = LLMProcessor()
 
-            # 初始化TTS处理器
-            voice_logger.info("初始化TTS处理器...")
-            self.tts = TTSProcessor()
+            # 初始化TTS客户端
+            voice_logger.info("初始化TTS客户端...")
+            try:
+                self.tts = TTSClient()
+            except Exception as e:
+                voice_logger.warning(f"TTS服务连接失败: {e}")
+                voice_logger.warning("TTS功能将不可用，请确保TTS服务已启动")
+                self.tts = None
 
             # 初始化音频播放器
             voice_logger.info("初始化音频播放器...")
@@ -181,7 +187,7 @@ class VoiceAISystem:
         """录制音频"""
         try:
             # 使用VAD录音，自动检测语音开始和结束
-            audio = self.recorder.record_with_vad(min_duration=1.0, max_duration=30.0)
+            audio = self.recorder.record_with_vad(min_duration=1.0, max_duration=5.0)
 
             if audio is not None and len(audio) > 0:
                 # 检查是否包含语音
@@ -225,11 +231,17 @@ class VoiceAISystem:
             if not text.strip():
                 return False
 
+            if not self.tts:
+                voice_logger.warning("TTS服务不可用，跳过语音合成")
+                return False
+
             # 预处理文本
             processed_text = self.tts.preprocess_text(text)
 
             # 合成语音
-            audio_file = self.tts.synthesize_speech(processed_text)
+            audio_file = self.tts.synthesize_speech_with_reference(
+                processed_text, config.model.tts_reference_audio
+            )
 
             if audio_file and self.player:
                 # 播放语音

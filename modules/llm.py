@@ -72,8 +72,8 @@ class LLMProcessor:
             # 生成回复
             response = self._generate_with_model(messages)
 
-            # 更新对话历史
-            self._update_conversation_history(user_input, response)
+            # # 更新对话历史
+            # self._update_conversation_history(user_input, response)
 
             voice_logger.info(f"模型回复: {response}")
             return response

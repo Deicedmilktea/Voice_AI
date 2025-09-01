@@ -23,6 +23,8 @@ class ModelConfig:
     tts_model: str = "tts_models/multilingual/multi-dataset/xtts_v2"
     tts_language: str = "zh-cn"
     tts_speaker: str = "zh_speaker_0"
+    tts_reference_audio: str = "/home/reeve/Voice_AI/dataset/audio/huanhuan.wav"
+    # tts_reference_audio: str = "../dataset/audio/huanhuan.wav"
 
 
 @dataclass

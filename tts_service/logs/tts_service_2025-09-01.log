@@ -1,0 +1,248 @@
+2025-09-01 18:56:09 | INFO     | app:startup_event:71 - 正在启动TTS服务...
+2025-09-01 18:56:09 | INFO     | tts_processor:_load_model:35 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-09-01 18:56:18 | INFO     | tts_processor:_load_model:54 - TTS模型加载成功
+2025-09-01 18:56:18 | INFO     | app:startup_event:73 - TTS服务启动成功
+2025-09-01 19:03:49 | INFO     | app:shutdown_event:84 - 正在关闭TTS服务...
+2025-09-01 19:03:49 | INFO     | app:shutdown_event:87 - TTS服务已关闭
+2025-09-01 19:03:58 | INFO     | app:startup_event:71 - 正在启动TTS服务...
+2025-09-01 19:03:58 | INFO     | tts_processor:_load_model:35 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-09-01 19:04:06 | INFO     | tts_processor:_load_model:54 - TTS模型加载成功
+2025-09-01 19:04:06 | INFO     | app:startup_event:73 - TTS服务启动成功
+2025-09-01 19:05:19 | INFO     | app:shutdown_event:84 - 正在关闭TTS服务...
+2025-09-01 19:05:19 | INFO     | app:shutdown_event:87 - TTS服务已关闭
+2025-09-01 19:05:26 | INFO     | app:startup_event:71 - 正在启动TTS服务...
+2025-09-01 19:05:26 | INFO     | tts_processor:_load_model:36 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-09-01 19:05:33 | INFO     | tts_processor:_load_model:55 - TTS模型加载成功
+2025-09-01 19:05:33 | INFO     | app:startup_event:73 - TTS服务启动成功
+2025-09-01 19:06:52 | WARNING  | tts_processor:get_available_speakers:172 - 无法获取说话人列表
+2025-09-01 19:06:52 | WARNING  | tts_processor:get_available_speakers:172 - 无法获取说话人列表
+2025-09-01 19:06:52 | WARNING  | tts_processor:get_available_speakers:172 - 无法获取说话人列表
+2025-09-01 19:06:52 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛在此，姐姐有何吩咐？...
+2025-09-01 19:06:52 | INFO     | tts_processor:synthesize_speech:68 - 开始合成语音，文本: 嬛嬛在此，姐姐有何吩咐？
+2025-09-01 19:06:53 | INFO     | tts_processor:synthesize_speech:86 - 语音合成完成，输出文件: ../temp/8602480a-3bd4-4224-a7a3-73d7d0f60cec.wav
+2025-09-01 19:06:53 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 1.02秒
+2025-09-01 19:06:53 | DEBUG    | app:cleanup_old_files:102 - 清理过期文件: ../temp/test_recording.wav
+2025-09-01 19:06:53 | DEBUG    | app:cleanup_old_files:102 - 清理过期文件: ../temp/tts_output.wav
+2025-09-01 19:06:56 | INFO     | app:synthesize_speech:134 - 开始合成语音: 今日天气甚好，正是踏青的好时节。...
+2025-09-01 19:06:56 | INFO     | tts_processor:synthesize_speech:68 - 开始合成语音，文本: 今日天气甚好，正是踏青的好时节。
+2025-09-01 19:06:57 | INFO     | tts_processor:synthesize_speech:86 - 语音合成完成，输出文件: ../temp/d2ef5ba5-7aea-4986-9f7d-145d3513fbf3.wav
+2025-09-01 19:06:57 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 0.68秒
+2025-09-01 19:07:01 | INFO     | app:synthesize_speech:134 - 开始合成语音: 谢谢姐姐的关心，嬛嬛心中甚是感激。...
+2025-09-01 19:07:01 | INFO     | tts_processor:synthesize_speech:68 - 开始合成语音，文本: 谢谢姐姐的关心，嬛嬛心中甚是感激。
+2025-09-01 19:07:02 | INFO     | tts_processor:synthesize_speech:86 - 语音合成完成，输出文件: ../temp/9a5b6d52-a0a2-42f2-86f4-d1fc47048767.wav
+2025-09-01 19:07:02 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 0.85秒
+2025-09-01 19:07:07 | INFO     | app:synthesize_speech_async:224 - 异步TTS任务已创建: 62f2ee08-9c9b-4f50-ab97-e9f43de27c23
+2025-09-01 19:07:07 | INFO     | tts_processor:synthesize_speech:68 - 开始合成语音，文本: 这是异步语音合成测试
+2025-09-01 19:07:08 | INFO     | tts_processor:synthesize_speech:86 - 语音合成完成，输出文件: ../temp/62f2ee08-9c9b-4f50-ab97-e9f43de27c23.wav
+2025-09-01 19:07:08 | INFO     | app:process_tts_async:271 - 异步TTS任务完成: 62f2ee08-9c9b-4f50-ab97-e9f43de27c23
+2025-09-01 19:23:34 | WARNING  | tts_processor:get_available_speakers:172 - 无法获取说话人列表
+2025-09-01 19:23:34 | WARNING  | tts_processor:get_available_speakers:172 - 无法获取说话人列表
+2025-09-01 19:23:34 | WARNING  | tts_processor:get_available_speakers:172 - 无法获取说话人列表
+2025-09-01 19:23:34 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛在此，姐姐有何吩咐？...
+2025-09-01 19:23:34 | INFO     | tts_processor:synthesize_speech:68 - 开始合成语音，文本: 嬛嬛在此，姐姐有何吩咐？
+2025-09-01 19:23:34 | INFO     | tts_processor:synthesize_speech:86 - 语音合成完成，输出文件: ../temp/33fc595f-8a29-4bae-ab89-59f95fb42931.wav
+2025-09-01 19:23:34 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 0.61秒
+2025-09-01 19:23:38 | INFO     | app:synthesize_speech:134 - 开始合成语音: 今日天气甚好，正是踏青的好时节。...
+2025-09-01 19:23:38 | INFO     | tts_processor:synthesize_speech:68 - 开始合成语音，文本: 今日天气甚好，正是踏青的好时节。
+2025-09-01 19:23:39 | INFO     | tts_processor:synthesize_speech:86 - 语音合成完成，输出文件: ../temp/11b83d41-2b1f-4f0c-92e6-ba711fafeac6.wav
+2025-09-01 19:23:39 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 0.64秒
+2025-09-01 19:23:43 | INFO     | app:synthesize_speech:134 - 开始合成语音: 谢谢姐姐的关心，嬛嬛心中甚是感激。...
+2025-09-01 19:23:43 | INFO     | tts_processor:synthesize_speech:68 - 开始合成语音，文本: 谢谢姐姐的关心，嬛嬛心中甚是感激。
+2025-09-01 19:23:44 | INFO     | tts_processor:synthesize_speech:86 - 语音合成完成，输出文件: ../temp/178b2840-1dc9-45e9-860c-b23b5b91d413.wav
+2025-09-01 19:23:44 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 0.84秒
+2025-09-01 19:23:49 | INFO     | app:synthesize_speech_async:224 - 异步TTS任务已创建: 5325c09c-40fa-4a77-bf18-1610ab9d5667
+2025-09-01 19:23:49 | INFO     | tts_processor:synthesize_speech:68 - 开始合成语音，文本: 这是异步语音合成测试
+2025-09-01 19:23:49 | INFO     | tts_processor:synthesize_speech:86 - 语音合成完成，输出文件: ../temp/5325c09c-40fa-4a77-bf18-1610ab9d5667.wav
+2025-09-01 19:23:49 | INFO     | app:process_tts_async:271 - 异步TTS任务完成: 5325c09c-40fa-4a77-bf18-1610ab9d5667
+2025-09-01 20:06:39 | WARNING  | tts_processor:get_available_speakers:172 - 无法获取说话人列表
+2025-09-01 20:06:41 | WARNING  | tts_processor:get_available_speakers:172 - 无法获取说话人列表
+2025-09-01 20:06:41 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛在此，姐姐有何吩咐？...
+2025-09-01 20:06:41 | INFO     | tts_processor:synthesize_speech:68 - 开始合成语音，文本: 嬛嬛在此，姐姐有何吩咐？
+2025-09-01 20:06:42 | INFO     | tts_processor:synthesize_speech:86 - 语音合成完成，输出文件: ../temp/e87bbe78-45dc-4ab5-8d6e-ae32e42a28b7.wav
+2025-09-01 20:06:42 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 0.79秒
+2025-09-01 20:10:55 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛告退，姐姐保重。...
+2025-09-01 20:10:55 | INFO     | tts_processor:synthesize_speech:68 - 开始合成语音，文本: 嬛嬛告退，姐姐保重。
+2025-09-01 20:10:55 | INFO     | tts_processor:synthesize_speech:86 - 语音合成完成，输出文件: ../temp/f95d497d-5750-41cb-8abe-218f0cd49201.wav
+2025-09-01 20:10:55 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 0.68秒
+2025-09-01 20:13:37 | WARNING  | tts_processor:get_available_speakers:172 - 无法获取说话人列表
+2025-09-01 20:13:39 | WARNING  | tts_processor:get_available_speakers:172 - 无法获取说话人列表
+2025-09-01 20:13:39 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛在此，姐姐有何吩咐？...
+2025-09-01 20:13:39 | INFO     | tts_processor:synthesize_speech:68 - 开始合成语音，文本: 嬛嬛在此，姐姐有何吩咐？
+2025-09-01 20:13:40 | INFO     | tts_processor:synthesize_speech:86 - 语音合成完成，输出文件: ../temp/3521857c-4378-421b-ae4a-9eabb425f84f.wav
+2025-09-01 20:13:40 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 0.66秒
+2025-09-01 20:13:55 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛是槿汐的妹妹，平日里只在宫中服侍，姐姐可要多多关照。...
+2025-09-01 20:13:55 | INFO     | tts_processor:synthesize_speech:68 - 开始合成语音，文本: 嬛嬛是槿汐的妹妹，平日里只在宫中服侍，姐姐可要多多关照。
+2025-09-01 20:13:56 | INFO     | tts_processor:synthesize_speech:86 - 语音合成完成，输出文件: ../temp/28f0f2ef-919c-48b0-9664-dee0cdb5f53c.wav
+2025-09-01 20:13:56 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 1.42秒
+2025-09-01 20:14:46 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛是浣碧的妹妹，平日里只在宫中服侍，姐姐可要多多关照。...
+2025-09-01 20:14:46 | INFO     | tts_processor:synthesize_speech:68 - 开始合成语音，文本: 嬛嬛是浣碧的妹妹，平日里只在宫中服侍，姐姐可要多多关照。
+2025-09-01 20:14:47 | INFO     | tts_processor:synthesize_speech:86 - 语音合成完成，输出文件: ../temp/77dcbb86-b653-4b11-a3b7-0ed8d93cec1d.wav
+2025-09-01 20:14:47 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 1.03秒
+2025-09-01 20:17:31 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛一时无言，请稍等片刻。...
+2025-09-01 20:17:31 | INFO     | tts_processor:synthesize_speech:68 - 开始合成语音，文本: 嬛嬛一时无言，请稍等片刻。
+2025-09-01 20:17:32 | INFO     | tts_processor:synthesize_speech:86 - 语音合成完成，输出文件: ../temp/3061cfa0-b627-45db-937f-85854cb50eb4.wav
+2025-09-01 20:17:32 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 0.59秒
+2025-09-01 20:18:58 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛是眉庄的妹妹，平日里只在宫中服侍，姐姐可要多多关照。...
+2025-09-01 20:18:58 | INFO     | tts_processor:synthesize_speech:68 - 开始合成语音，文本: 嬛嬛是眉庄的妹妹，平日里只在宫中服侍，姐姐可要多多关照。
+2025-09-01 20:19:00 | INFO     | tts_processor:synthesize_speech:86 - 语音合成完成，输出文件: ../temp/17a69b6f-93ef-415f-a861-4fb38b0da1fc.wav
+2025-09-01 20:19:00 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 1.66秒
+2025-09-01 20:19:19 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛喜欢在园子里看花，听风赏月。...
+2025-09-01 20:19:19 | INFO     | tts_processor:synthesize_speech:68 - 开始合成语音，文本: 嬛嬛喜欢在园子里看花，听风赏月。
+2025-09-01 20:19:20 | INFO     | tts_processor:synthesize_speech:86 - 语音合成完成，输出文件: ../temp/02033046-bda0-43b4-8a60-7b2c87232867.wav
+2025-09-01 20:19:20 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 0.92秒
+2025-09-01 20:19:31 | INFO     | app:synthesize_speech:134 - 开始合成语音: 姐姐夸得嬛嬛心里欢喜，只是嬛嬛最爱的还是听姐姐们说说话。...
+2025-09-01 20:19:31 | INFO     | tts_processor:synthesize_speech:68 - 开始合成语音，文本: 姐姐夸得嬛嬛心里欢喜，只是嬛嬛最爱的还是听姐姐们说说话。
+2025-09-01 20:19:33 | INFO     | tts_processor:synthesize_speech:86 - 语音合成完成，输出文件: ../temp/cff8562c-e064-4791-aee0-4867ddfae3f9.wav
+2025-09-01 20:19:33 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 1.35秒
+2025-09-01 20:19:56 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛喜欢听姐姐们打牌，只是嬛嬛不会。...
+2025-09-01 20:19:56 | INFO     | tts_processor:synthesize_speech:68 - 开始合成语音，文本: 嬛嬛喜欢听姐姐们打牌，只是嬛嬛不会。
+2025-09-01 20:19:57 | INFO     | tts_processor:synthesize_speech:86 - 语音合成完成，输出文件: ../temp/d3759f2a-b53e-4899-a19e-e48e418aacde.wav
+2025-09-01 20:19:57 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 1.05秒
+2025-09-01 20:20:54 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛告退，姐姐保重。...
+2025-09-01 20:20:54 | INFO     | tts_processor:synthesize_speech:68 - 开始合成语音，文本: 嬛嬛告退，姐姐保重。
+2025-09-01 20:20:54 | INFO     | tts_processor:synthesize_speech:86 - 语音合成完成，输出文件: ../temp/3477f7a2-c142-4622-bb7f-25cae3725d80.wav
+2025-09-01 20:20:54 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 0.52秒
+2025-09-01 20:21:23 | WARNING  | tts_processor:get_available_speakers:172 - 无法获取说话人列表
+2025-09-01 20:21:25 | WARNING  | tts_processor:get_available_speakers:172 - 无法获取说话人列表
+2025-09-01 20:21:26 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛在此，姐姐有何吩咐？...
+2025-09-01 20:21:26 | INFO     | tts_processor:synthesize_speech:68 - 开始合成语音，文本: 嬛嬛在此，姐姐有何吩咐？
+2025-09-01 20:21:26 | INFO     | tts_processor:synthesize_speech:86 - 语音合成完成，输出文件: ../temp/c7858391-d5dc-49fe-9e42-b429d8de01f1.wav
+2025-09-01 20:21:26 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 0.61秒
+2025-09-01 20:21:36 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛今日刚与姐姐们打完牌，又见了天光，不如陪姐姐去赏花如何？...
+2025-09-01 20:21:36 | INFO     | tts_processor:synthesize_speech:68 - 开始合成语音，文本: 嬛嬛今日刚与姐姐们打完牌，又见了天光，不如陪姐姐去赏花如何？
+2025-09-01 20:21:37 | INFO     | tts_processor:synthesize_speech:86 - 语音合成完成，输出文件: ../temp/0f4d7c5e-4c7c-4d3a-a19b-641a8381c81c.wav
+2025-09-01 20:21:37 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 1.26秒
+2025-09-01 20:21:50 | INFO     | app:synthesize_speech:134 - 开始合成语音: 不如去后山，那里的牡丹开得正好，姐姐若不嫌弃，嬛嬛可陪姐姐赏上一整天。...
+2025-09-01 20:21:50 | INFO     | tts_processor:synthesize_speech:68 - 开始合成语音，文本: 不如去后山，那里的牡丹开得正好，姐姐若不嫌弃，嬛嬛可陪姐姐赏上一整天。
+2025-09-01 20:21:52 | INFO     | tts_processor:synthesize_speech:86 - 语音合成完成，输出文件: ../temp/fce7e36c-b9db-4319-af25-499ffbdf81af.wav
+2025-09-01 20:21:52 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 2.15秒
+2025-09-01 20:22:09 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛喜欢牡丹，可那花儿开得富贵，不如姐姐喜欢什么？...
+2025-09-01 20:22:09 | INFO     | tts_processor:synthesize_speech:68 - 开始合成语音，文本: 嬛嬛喜欢牡丹，可那花儿开得富贵，不如姐姐喜欢什么？
+2025-09-01 20:22:10 | INFO     | tts_processor:synthesize_speech:86 - 语音合成完成，输出文件: ../temp/bf22f365-dd03-4fc1-99ed-ee7de841933b.wav
+2025-09-01 20:22:10 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 1.20秒
+2025-09-01 20:22:23 | INFO     | app:synthesize_speech:134 - 开始合成语音: 玫瑰开得热烈，倒与姐姐的性子一般无二，嬛嬛便陪姐姐赏上一整天吧。...
+2025-09-01 20:22:23 | INFO     | tts_processor:synthesize_speech:68 - 开始合成语音，文本: 玫瑰开得热烈，倒与姐姐的性子一般无二，嬛嬛便陪姐姐赏上一整天吧。
+2025-09-01 20:22:25 | INFO     | tts_processor:synthesize_speech:86 - 语音合成完成，输出文件: ../temp/1831f772-feb8-4d23-b133-b7d0b3f62036.wav
+2025-09-01 20:22:25 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 1.93秒
+2025-09-01 20:22:40 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛方才失言，只恐惊扰了姐姐的兴致。...
+2025-09-01 20:22:40 | INFO     | tts_processor:synthesize_speech:68 - 开始合成语音，文本: 嬛嬛方才失言，只恐惊扰了姐姐的兴致。
+2025-09-01 20:22:42 | INFO     | tts_processor:synthesize_speech:86 - 语音合成完成，输出文件: ../temp/0c4b189d-aac9-4170-a115-d3e4ea950503.wav
+2025-09-01 20:22:42 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 1.18秒
+2025-09-01 20:22:54 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛今日与姐姐们打牌正尽兴，不如陪姐姐去赏花如何？...
+2025-09-01 20:22:54 | INFO     | tts_processor:synthesize_speech:68 - 开始合成语音，文本: 嬛嬛今日与姐姐们打牌正尽兴，不如陪姐姐去赏花如何？
+2025-09-01 20:22:55 | INFO     | tts_processor:synthesize_speech:86 - 语音合成完成，输出文件: ../temp/fccd4802-6811-4bfc-b55a-309ea47cc9c8.wav
+2025-09-01 20:22:55 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 1.02秒
+2025-09-01 20:23:07 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛方才失言，只恐惊扰了姐姐的兴致。...
+2025-09-01 20:23:07 | INFO     | tts_processor:synthesize_speech:68 - 开始合成语音，文本: 嬛嬛方才失言，只恐惊扰了姐姐的兴致。
+2025-09-01 20:23:08 | INFO     | tts_processor:synthesize_speech:86 - 语音合成完成，输出文件: ../temp/093373e7-6eb9-4a65-b0ad-f7e9cfbdfb0d.wav
+2025-09-01 20:23:08 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 0.78秒
+2025-09-01 20:23:20 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛告退，姐姐保重。...
+2025-09-01 20:23:20 | INFO     | tts_processor:synthesize_speech:68 - 开始合成语音，文本: 嬛嬛告退，姐姐保重。
+2025-09-01 20:23:21 | INFO     | tts_processor:synthesize_speech:86 - 语音合成完成，输出文件: ../temp/0254fafd-28d1-413d-b1aa-8a67c1819925.wav
+2025-09-01 20:23:21 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 0.57秒
+2025-09-01 20:51:08 | WARNING  | tts_processor:get_available_speakers:172 - 无法获取说话人列表
+2025-09-01 20:51:10 | WARNING  | tts_processor:get_available_speakers:172 - 无法获取说话人列表
+2025-09-01 20:51:10 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛在此，姐姐有何吩咐？...
+2025-09-01 20:51:10 | ERROR    | tts_processor:synthesize_speech_with_reference:103 - 参考音频文件不存在: ./dataset/audio/huanhuan.wav
+2025-09-01 20:51:28 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛告退，姐姐保重。...
+2025-09-01 20:51:28 | ERROR    | tts_processor:synthesize_speech_with_reference:103 - 参考音频文件不存在: ./dataset/audio/huanhuan.wav
+2025-09-01 20:53:11 | WARNING  | tts_processor:get_available_speakers:172 - 无法获取说话人列表
+2025-09-01 20:53:13 | WARNING  | tts_processor:get_available_speakers:172 - 无法获取说话人列表
+2025-09-01 20:55:12 | WARNING  | tts_processor:get_available_speakers:172 - 无法获取说话人列表
+2025-09-01 20:55:14 | WARNING  | tts_processor:get_available_speakers:172 - 无法获取说话人列表
+2025-09-01 20:55:15 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛在此，姐姐有何吩咐？...
+2025-09-01 20:55:15 | INFO     | tts_processor:synthesize_speech_with_reference:106 - 开始使用参考音频合成语音，文本: 嬛嬛在此，姐姐有何吩咐？
+2025-09-01 20:55:15 | INFO     | tts_processor:synthesize_speech_with_reference:126 - 语音克隆合成完成，输出文件: ../temp/6fb22ecd-6bc9-4bbf-b4e1-5f5ad482b6d8.wav
+2025-09-01 20:55:15 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 0.73秒
+2025-09-01 20:55:25 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛不过是随手摸牌，哪里说得上什么技艺，倒是姐姐才真真是眼明手快。...
+2025-09-01 20:55:25 | INFO     | tts_processor:synthesize_speech_with_reference:106 - 开始使用参考音频合成语音，文本: 嬛嬛不过是随手摸牌，哪里说得上什么技艺，倒是姐姐才真真是眼明手快。
+2025-09-01 20:55:27 | INFO     | tts_processor:synthesize_speech_with_reference:126 - 语音克隆合成完成，输出文件: ../temp/9ba6ffb6-a53c-4a34-89ab-603633d88264.wav
+2025-09-01 20:55:27 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 1.35秒
+2025-09-01 20:56:15 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛告退，姐姐保重。...
+2025-09-01 20:56:15 | INFO     | tts_processor:synthesize_speech_with_reference:106 - 开始使用参考音频合成语音，文本: 嬛嬛告退，姐姐保重。
+2025-09-01 20:56:16 | INFO     | tts_processor:synthesize_speech_with_reference:126 - 语音克隆合成完成，输出文件: ../temp/567d8bec-5e6f-45f7-ab63-f6eee809368c.wav
+2025-09-01 20:56:16 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 0.65秒
+2025-09-01 21:01:36 | INFO     | app:shutdown_event:84 - 正在关闭TTS服务...
+2025-09-01 21:01:36 | INFO     | app:shutdown_event:87 - TTS服务已关闭
+2025-09-01 21:01:45 | INFO     | app:startup_event:71 - 正在启动TTS服务...
+2025-09-01 21:01:45 | INFO     | tts_processor:_load_model:36 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-09-01 21:02:56 | INFO     | tts_processor:_load_model:55 - TTS模型加载成功
+2025-09-01 21:02:56 | INFO     | app:startup_event:73 - TTS服务启动成功
+2025-09-01 21:03:44 | WARNING  | tts_processor:get_available_speakers:172 - 无法获取说话人列表
+2025-09-01 21:03:46 | WARNING  | tts_processor:get_available_speakers:172 - 无法获取说话人列表
+2025-09-01 21:03:46 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛在此，姐姐有何吩咐？...
+2025-09-01 21:03:46 | INFO     | tts_processor:synthesize_speech_with_reference:106 - 开始使用参考音频合成语音，文本: 嬛嬛在此，姐姐有何吩咐？
+2025-09-01 21:03:47 | INFO     | tts_processor:synthesize_speech_with_reference:126 - 语音克隆合成完成，输出文件: ../temp/fbefff71-102c-4a03-ab83-25690fdb0b98.wav
+2025-09-01 21:03:47 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 1.17秒
+2025-09-01 21:03:47 | DEBUG    | app:cleanup_old_files:102 - 清理过期文件: ../temp/tts_output_1756731327.wav
+2025-09-01 21:03:47 | DEBUG    | app:cleanup_old_files:102 - 清理过期文件: ../temp/tts_output_1756731376.wav
+2025-09-01 21:03:47 | DEBUG    | app:cleanup_old_files:102 - 清理过期文件: ../temp/567d8bec-5e6f-45f7-ab63-f6eee809368c.wav
+2025-09-01 21:03:47 | DEBUG    | app:cleanup_old_files:102 - 清理过期文件: ../temp/6fb22ecd-6bc9-4bbf-b4e1-5f5ad482b6d8.wav
+2025-09-01 21:03:47 | DEBUG    | app:cleanup_old_files:102 - 清理过期文件: ../temp/tts_output_1756731315.wav
+2025-09-01 21:03:47 | DEBUG    | app:cleanup_old_files:102 - 清理过期文件: ../temp/9ba6ffb6-a53c-4a34-89ab-603633d88264.wav
+2025-09-01 21:03:57 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛不过是独坐听雨，姐姐何必如此费心。...
+2025-09-01 21:03:57 | INFO     | tts_processor:synthesize_speech_with_reference:106 - 开始使用参考音频合成语音，文本: 嬛嬛不过是独坐听雨，姐姐何必如此费心。
+2025-09-01 21:03:58 | INFO     | tts_processor:synthesize_speech_with_reference:126 - 语音克隆合成完成，输出文件: ../temp/04298c77-8ec5-43fd-a1a1-0d830dda861e.wav
+2025-09-01 21:03:58 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 0.95秒
+2025-09-01 21:04:09 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛不过是独坐听雨，姐姐何必如此费心。...
+2025-09-01 21:04:09 | INFO     | tts_processor:synthesize_speech_with_reference:106 - 开始使用参考音频合成语音，文本: 嬛嬛不过是独坐听雨，姐姐何必如此费心。
+2025-09-01 21:04:10 | INFO     | tts_processor:synthesize_speech_with_reference:126 - 语音克隆合成完成，输出文件: ../temp/52014b8e-a996-49ee-b9ab-ccd588b043c3.wav
+2025-09-01 21:04:10 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 1.06秒
+2025-09-01 21:04:22 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛只是心绪纷乱，一时口齿不清罢了。...
+2025-09-01 21:04:22 | INFO     | tts_processor:synthesize_speech_with_reference:106 - 开始使用参考音频合成语音，文本: 嬛嬛只是心绪纷乱，一时口齿不清罢了。
+2025-09-01 21:04:23 | INFO     | tts_processor:synthesize_speech_with_reference:126 - 语音克隆合成完成，输出文件: ../temp/924c6fb6-3255-4818-a731-499da169baff.wav
+2025-09-01 21:04:23 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 0.99秒
+2025-09-01 21:04:35 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛只是心绪纷乱，一时口齿不清罢了。...
+2025-09-01 21:04:35 | INFO     | tts_processor:synthesize_speech_with_reference:106 - 开始使用参考音频合成语音，文本: 嬛嬛只是心绪纷乱，一时口齿不清罢了。
+2025-09-01 21:04:35 | INFO     | tts_processor:synthesize_speech_with_reference:126 - 语音克隆合成完成，输出文件: ../temp/0338fedb-1b99-4d80-bf28-9030d26fb501.wav
+2025-09-01 21:04:35 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 0.87秒
+2025-09-01 21:04:43 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛告退，姐姐保重。...
+2025-09-01 21:04:43 | INFO     | tts_processor:synthesize_speech_with_reference:106 - 开始使用参考音频合成语音，文本: 嬛嬛告退，姐姐保重。
+2025-09-01 21:04:44 | INFO     | tts_processor:synthesize_speech_with_reference:126 - 语音克隆合成完成，输出文件: ../temp/703808ad-a416-45c8-83cb-7db6c5daa754.wav
+2025-09-01 21:04:44 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 0.53秒
+2025-09-01 21:08:37 | WARNING  | tts_processor:get_available_speakers:172 - 无法获取说话人列表
+2025-09-01 21:08:39 | WARNING  | tts_processor:get_available_speakers:172 - 无法获取说话人列表
+2025-09-01 21:08:40 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛在此，姐姐有何吩咐？...
+2025-09-01 21:08:40 | INFO     | tts_processor:synthesize_speech_with_reference:106 - 开始使用参考音频合成语音，文本: 嬛嬛在此，姐姐有何吩咐？
+2025-09-01 21:08:41 | INFO     | tts_processor:synthesize_speech_with_reference:126 - 语音克隆合成完成，输出文件: ../temp/c0b73de5-2890-41d0-b913-7bbe3cd26731.wav
+2025-09-01 21:08:41 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 0.78秒
+2025-09-01 21:08:41 | DEBUG    | app:cleanup_old_files:102 - 清理过期文件: ../temp/703808ad-a416-45c8-83cb-7db6c5daa754.wav
+2025-09-01 21:08:41 | DEBUG    | app:cleanup_old_files:102 - 清理过期文件: ../temp/fbefff71-102c-4a03-ab83-25690fdb0b98.wav
+2025-09-01 21:08:41 | DEBUG    | app:cleanup_old_files:102 - 清理过期文件: ../temp/0338fedb-1b99-4d80-bf28-9030d26fb501.wav
+2025-09-01 21:08:41 | DEBUG    | app:cleanup_old_files:102 - 清理过期文件: ../temp/tts_output_1756731838.wav
+2025-09-01 21:08:41 | DEBUG    | app:cleanup_old_files:102 - 清理过期文件: ../temp/04298c77-8ec5-43fd-a1a1-0d830dda861e.wav
+2025-09-01 21:08:41 | DEBUG    | app:cleanup_old_files:102 - 清理过期文件: ../temp/924c6fb6-3255-4818-a731-499da169baff.wav
+2025-09-01 21:08:41 | DEBUG    | app:cleanup_old_files:102 - 清理过期文件: ../temp/tts_output_1756731863.wav
+2025-09-01 21:08:41 | DEBUG    | app:cleanup_old_files:102 - 清理过期文件: ../temp/tts_output_1756731884.wav
+2025-09-01 21:08:41 | DEBUG    | app:cleanup_old_files:102 - 清理过期文件: ../temp/tts_output_1756731827.wav
+2025-09-01 21:08:41 | DEBUG    | app:cleanup_old_files:102 - 清理过期文件: ../temp/tts_output_1756731875.wav
+2025-09-01 21:08:41 | DEBUG    | app:cleanup_old_files:102 - 清理过期文件: ../temp/52014b8e-a996-49ee-b9ab-ccd588b043c3.wav
+2025-09-01 21:08:41 | DEBUG    | app:cleanup_old_files:102 - 清理过期文件: ../temp/tts_output_1756731850.wav
+2025-09-01 21:08:51 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛刚学完新曲子，正好陪姐姐们去学学。...
+2025-09-01 21:08:51 | INFO     | tts_processor:synthesize_speech_with_reference:106 - 开始使用参考音频合成语音，文本: 嬛嬛刚学完新曲子，正好陪姐姐们去学学。
+2025-09-01 21:08:52 | INFO     | tts_processor:synthesize_speech_with_reference:126 - 语音克隆合成完成，输出文件: ../temp/ec8f37cc-da35-42e1-8d9f-b00245445310.wav
+2025-09-01 21:08:52 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 0.96秒
+2025-09-01 21:09:03 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛打牌向来不拘一格，不过是凑趣罢了。...
+2025-09-01 21:09:03 | INFO     | tts_processor:synthesize_speech_with_reference:106 - 开始使用参考音频合成语音，文本: 嬛嬛打牌向来不拘一格，不过是凑趣罢了。
+2025-09-01 21:09:04 | INFO     | tts_processor:synthesize_speech_with_reference:126 - 语音克隆合成完成，输出文件: ../temp/e7934942-1edd-4863-8b3a-48260b813c70.wav
+2025-09-01 21:09:04 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 0.80秒
+2025-09-01 21:09:15 | INFO     | app:synthesize_speech:134 - 开始合成语音: 风过无痕，花落无声，嬛嬛不过顺水推舟罢了。...
+2025-09-01 21:09:15 | INFO     | tts_processor:synthesize_speech_with_reference:106 - 开始使用参考音频合成语音，文本: 风过无痕，花落无声，嬛嬛不过顺水推舟罢了。
+2025-09-01 21:09:16 | INFO     | tts_processor:synthesize_speech_with_reference:126 - 语音克隆合成完成，输出文件: ../temp/17c1bae1-9485-4f40-a51e-f9b7f78f2ae7.wav
+2025-09-01 21:09:16 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 0.93秒
+2025-09-01 21:09:27 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛不过是些粗浅的手法，姐姐一眼便看得清，嬛嬛不敢当。...
+2025-09-01 21:09:27 | INFO     | tts_processor:synthesize_speech_with_reference:106 - 开始使用参考音频合成语音，文本: 嬛嬛不过是些粗浅的手法，姐姐一眼便看得清，嬛嬛不敢当。
+2025-09-01 21:09:28 | INFO     | tts_processor:synthesize_speech_with_reference:126 - 语音克隆合成完成，输出文件: ../temp/02bd1e61-259e-49ce-b5ce-d4dc1c9f127c.wav
+2025-09-01 21:09:28 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 1.18秒
+2025-09-01 21:09:40 | INFO     | app:synthesize_speech:134 - 开始合成语音: 嬛嬛告退，姐姐保重。...
+2025-09-01 21:09:40 | INFO     | tts_processor:synthesize_speech_with_reference:106 - 开始使用参考音频合成语音，文本: 嬛嬛告退，姐姐保重。
+2025-09-01 21:09:41 | INFO     | tts_processor:synthesize_speech_with_reference:126 - 语音克隆合成完成，输出文件: ../temp/4c3083d2-bf39-4f6c-8013-21cab6f6b7b9.wav
+2025-09-01 21:09:41 | INFO     | app:synthesize_speech:178 - 语音合成完成，耗时: 0.70秒
+2025-09-01 21:09:41 | DEBUG    | app:cleanup_old_files:102 - 清理过期文件: ../temp/tts_output_1756732121.wav
+2025-09-01 21:09:41 | DEBUG    | app:cleanup_old_files:102 - 清理过期文件: ../temp/c0b73de5-2890-41d0-b913-7bbe3cd26731.wav
+2025-09-01 21:19:59 | INFO     | app:shutdown_event:84 - 正在关闭TTS服务...
+2025-09-01 21:19:59 | INFO     | app:shutdown_event:87 - TTS服务已关闭
+2025-09-01 21:20:59 | INFO     | app:startup_event:71 - 正在启动TTS服务...
+2025-09-01 21:20:59 | INFO     | tts_processor:_load_model:36 - 正在加载TTS模型: tts_models/multilingual/multi-dataset/xtts_v2
+2025-09-01 21:22:09 | INFO     | tts_processor:_load_model:55 - TTS模型加载成功
+2025-09-01 21:22:09 | INFO     | app:startup_event:73 - TTS服务启动成功

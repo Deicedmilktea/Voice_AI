@@ -30,7 +30,7 @@ class ASRProcessor:
                 vad_model="fsmn-vad",
                 vad_kwargs={"max_single_segment_time": 30000},
                 device=config.get_device(),
-                disable_update=True
+                disable_update=True,
             )
 
             voice_logger.info("ASR模型加载成功")
@@ -150,7 +150,7 @@ class ASRProcessor:
 
         return text.strip()
 
-    def is_speech_detected(self, audio: np.ndarray, threshold: float = 0.01) -> bool:
+    def is_speech_detected(self, audio: np.ndarray, threshold: float = 0.002) -> bool:
         """检测音频中是否包含语音"""
         try:
             # 计算音频能量
